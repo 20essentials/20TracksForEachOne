@@ -85,22 +85,25 @@ const bands = [
   ['ELO', `${path}/electric-light-orchestra/`],
   ['Enrique Iglesias', `${path}/enrique-iglesias-ost/`],
   ['Elton John', `${path}/elton-john-ost/`],
+  ['Erasure', `${path}/erasure-ost/`],
   ['Edd Sheeran', `${path}/edd-sheeran-ost/`],
   ['Eva Ayllón', `${path}/eva-ayllon-ost/`],
   ['Enigma', `${path}/enigma-ost/`],
   ['El Último De La Fila', `${path}/el-ultimo-de-la-fila-ost/`],
+  ['Earth Wind and Fire', `${path}/earth-wind-and-fire/`],
 
   /* ======================= F ======================= */
-  ['Fkj', `${path}/fkj/`],
   ['Frágil', `${path}/fragil/`],
-  ["Fool's Garden", `${path}/fools-garden/`],
+  ['Flow', `${path}/flow-ost/`],
   ['FleetWood Mac', `${path}/fleetwood/`],
+  ['Fantom 87', `${path}/fantom-87-ost/`],
   ['French Montana', `${path}/french-montana-ost/`],
   ['Final Fantasy VII', `${path}/final-fantasy-7/`],
   ['Fatboy Slim', `${path}/fatboy-slim-ost/`],
-  ['Fantom 87', `${path}/fantom-87-ost/`],
+  ['Fkj', `${path}/fkj/`],
   ['Fuego', `${path}/fuego-ost/`],
   ['Free Fire', `${path}/free-fire/`],
+  ["Fool's Garden", `${path}/fools-garden/`],
 
   /* ======================= G ======================= */
   ['Glude', `${path}/glude/`],
