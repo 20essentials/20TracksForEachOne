@@ -115,19 +115,22 @@ const bands = [
   ['Gesaffelstein', `${path}/gesaffelstein/`],
   ['Galantis', `${path}/galantis-ost/`],
   ['Glass Animals', `${path}/glass-animals-ost/`],
+  [`Guns N' Roses`, `${path}/guns-n-roses-ost/`],
 
   /* ======================= H ======================= */
   ['Hippie Sabotage', `${path}/hippie-sabotage/`],
+  ['Hibou', `${path}/hibou-ost/`],
+  ['Harry Styles', `${path}/harry-styles-ost/`],
   ['Hoodie Forester', `${path}/hoodie-forester/`],
   ['Hiroyuki Sawano', `${path}/hiroyuki-sawano/`],
   ['Hardwell', `${path}/hardwell-ost/`],
-  ['Hibou', `${path}/hibou-ost/`],
   ['Him', `${path}/him/`],
   ['Hans Zimmer', `${path}/hans-zimmer/`],
   ['Hozier', `${path}/hozier/`],
-  ['Harry Styles', `${path}/harry-styles-ost/`],
   ['Hot Chip', `${path}/hot-chip/`],
   ['How To Train Your Dragon', `${path}/how-to-train-your-dragon/`],
+  ['Home', `${path}/home/`],
+  ['Hikaru Utada', `${path}/hikaru-utada-ost/`],
 
   /* ======================= I ======================= */
   ['Indochine', `${path}/indochine/`],
