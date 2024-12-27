@@ -148,6 +148,7 @@ const bands = [
   ['John Newman', `${path}/john-newman/`],
   ['Joan Jett And The Blackhearts', `${path}/joan-jett-and-the-blackhearts/`],
   ['Jefferson Tadeo', `${path}/jefferson-tadeo/`],
+  ['Journey', `${path}/journey-ost/`],
 
   /* ======================= K ======================= */
   ['Kanye West', `${path}/kanye-west-ost`],
@@ -157,6 +158,7 @@ const bands = [
   ['Kings of Leon', `${path}/kings-of--leon/`],
   ['Kasabian', `${path}/kasabian-ost/`],
   ['Katy Perry', `${path}/katy-perry/`],
+  ['Kana-Boon', `${path}/kana-boon-ost/`],
 
   /* ======================= L ======================= */
   ['Los Prisioneros', `${path}/los-prisioneros/`],
@@ -215,6 +217,7 @@ const bands = [
   ['Piano Deuss', `${path}/piano-deuss/`],
   ['Pet Shop Boys', `${path}/pet-shop-boys/`],
   ['Pimpinela', `${path}/pimpinela/`],
+  ['Pixies', `${path}/pixies-ost/`],
   ['Penguin Research', `${path}/penguin-research/`],
 
   /* ======================= Q ======================= */
@@ -1067,18 +1070,14 @@ d.addEventListener('click', e => {
     return;
   }
   if (e.target.classList.contains('btn-get-one-array')) {
-    // Remueve la clase 'btn-backup-active' de todos los elementos activos
     [...$$('.container-backup-centrado .btn-backup-active')].forEach(el =>
       el.classList.remove('btn-backup-active')
     );
-    // Activa el botón actual
     e.target.classList.add('btn-backup-active');
 
-    // Obtén el textarea asociado
     let textareaHermana = e.target.nextElementSibling?.firstElementChild;
     if (!textareaHermana) return;
 
-    // Obtén el valor del textarea o establece un mensaje si no hay listas en localStorage
     let valor = textareaHermana.value || '';
     let listNameCards = JSON.parse(
       localStorage.getItem('listname-cards') || '""'
@@ -1090,12 +1089,10 @@ d.addEventListener('click', e => {
       return;
     }
 
-    // Divide el valor en una lista de nombres de listas
     let arrayPlaylist = valor.split(',').map(el => el.trim());
     const textareOuput = document.getElementById('textarea-output');
     const valorIndentacion = Number(textareOuput.dataset.indentation) || 0;
 
-    // Caso de un solo nombre de lista
     if (arrayPlaylist.length === 1) {
       textareOuput.value = listNameCards[arrayPlaylist[0]]
         ? `"${arrayPlaylist[0]}": ${JSON.stringify(
@@ -1107,7 +1104,6 @@ d.addEventListener('click', e => {
       return;
     }
 
-    // Caso de múltiples nombres de listas
     textareOuput.value = arrayPlaylist
       .map(
         name =>
@@ -1120,18 +1116,14 @@ d.addEventListener('click', e => {
       .join('');
   }
   if (e.target.classList.contains('btn-get-many-arrays')) {
-    // Remueve la clase 'btn-backup-active' de todos los elementos activos
     [...$$('.container-backup-centrado .btn-backup-active')].forEach(el =>
       el.classList.remove('btn-backup-active')
     );
-    // Activa el botón actual
     e.target.classList.add('btn-backup-active');
 
-    // Obtén el textarea asociado
     let textareaHermana = e.target.nextElementSibling?.firstElementChild;
     if (!textareaHermana) return;
 
-    // Obtén el valor del textarea o establece un mensaje si no hay listas en localStorage
     let valor = textareaHermana.value || '';
     let listNameCards = JSON.parse(
       localStorage.getItem('listname-cards') || '""'
@@ -1143,12 +1135,10 @@ d.addEventListener('click', e => {
       return;
     }
 
-    // Divide el valor en una lista de nombres de listas
     let arrayPlaylist = valor.split(',').map(el => el.trim());
     const textareOuput = document.getElementById('textarea-output-2');
     const valorIndentacion = Number(textareOuput.dataset.indentation) || 0;
 
-    // Caso de un solo nombre de lista
     if (arrayPlaylist.length === 1) {
       textareOuput.value = listNameCards[arrayPlaylist[0]]
         ? `"${arrayPlaylist[0]}": ${JSON.stringify(
@@ -1160,7 +1150,6 @@ d.addEventListener('click', e => {
       return;
     }
 
-    // Caso de múltiples nombres de listas
     textareOuput.value = arrayPlaylist
       .map(
         name =>
@@ -1282,8 +1271,7 @@ $inputPlaylist.addEventListener('input', e => {
   ).textContent = e.target.value.length;
 
   if (e.target.value.length === 0) {
-    e.target.classList.remove('valid');
-    e.target.classList.remove('invalid');
+    e.target.classList.remove('valid', 'invalid');
     return;
   }
 
@@ -1304,8 +1292,7 @@ $inputPlaylist2.addEventListener('input', e => {
     $inputPlaylist2.value.length;
 
   if (e.target.value.length === 0) {
-    e.target.classList.remove('valid');
-    e.target.classList.remove('invalid');
+    e.target.classList.remove('valid', 'invalid');
     return;
   }
 
