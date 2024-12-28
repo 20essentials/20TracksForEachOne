@@ -352,12 +352,9 @@ let d = document,
   $borrar = d.querySelector('.borrar'),
   $ = el => document.querySelector(el),
   $$ = el => document.querySelectorAll(el);
-let $inputPlaylist = document.querySelector(
-  '.playlist-container-form .playlist-input'
-);
-let $inputPlaylist2 = document.querySelector(
-  '.playlist-container-form-2 .playlist-input'
-);
+
+let $inputPlaylist = $('.playlist-container-form .playlist-input');
+let $inputPlaylist2 = $('.playlist-container-form-2 .playlist-input');
 let regExP = /^(?![\s0-9\-_])[\w\s\-]{1,20}(?<![\s\-])$/;
 
 console.group('Reference');
@@ -450,6 +447,7 @@ function autocomplete(inpt, elArray) {
       currentFocus++;
       addActive(x);
     } else if (e.key === 'ArrowUp') {
+      e.preventDefault();
       currentFocus--;
       addActive(x);
     } else if (e.key === 'Enter') {
@@ -479,7 +477,7 @@ function autocomplete(inpt, elArray) {
   }
 
   function closeAllLists(elm) {
-    let $autocompletes = document.querySelectorAll('.autocomplete-items');
+    let $autocompletes = $$('.autocomplete-items');
 
     for (let i = 0; i < $autocompletes.length; i++) {
       if (elm !== $autocompletes[i] && elm !== inpt) {
@@ -529,7 +527,7 @@ const $centrar = $('.centrar');
 let amount = 100;
 
 function rain() {
-  let pantalla = document.querySelector('.html-scheme'),
+  let pantalla = $('.html-scheme'),
     i = 0;
 
   while (i < amount && amount <= 109) {
@@ -577,7 +575,7 @@ d.addEventListener('input', e => {
 
 /* ======================= RANDOM LOADERS  ======================= */
 let $elementerCentrar = $('.centrar');
-const LOADER_CLASSNAME = ['cube', 'pyramid', 'star', 'tetraPyramid'];
+const LOADER_CLASSNAME = ['cube', 'pyramid', 'star', 'tetraPyramid', 'multiFaces', 'triangPre', 'rombo3d', 'sticks8', 'sixlaps', 'tuplas', 'vasilisco','pentagonal', 'hexagonal', 'octagonal', 'pid', 'frutr', 'sphere', 'pentaIn', 'prismSquare', 'trom', 'miniPent', 'pyramiDuplex'];
 
 const LOADER_HTML = {
   pyramid: `<div class="pyramid-loader">
@@ -683,6 +681,594 @@ const LOADER_HTML = {
         <div class="side left"></div>
         <div class="side bottom"></div>
       </aside>
+    </div>`,
+  multiFaces: `<article class="container-multi">
+    <div class="lado" style="--d:1"></div>
+    <div class="lado" style="--d:2"></div>
+    <div class="lado" style="--d:3"></div>
+    <div class="lado" style="--d:4"></div>
+    <div class="lado" style="--d:5"></div>
+    <div class="lado" style="--d:6"></div>
+    <div class="lado" style="--d:7"></div>
+    <div class="lado" style="--d:8"></div>
+    <div class="lado" style="--d:9"></div>
+    <div class="lado" style="--d:10"></div>
+    <div class="lado" style="--d:11"></div>
+    <div class="lado" style="--d:12"></div>
+    <div class="lado" style="--d:13"></div>
+    <div class="lado" style="--d:14"></div>
+    <div class="lado" style="--d:15"></div>
+    <div class="lado" style="--d:16"></div>
+    <div class="lado" style="--d:17"></div>
+    <div class="lado" style="--d:18"></div>
+    <div class="lado" style="--d:19"></div>
+    <div class="lado" style="--d:20"></div>
+    <div class="lado" style="--d:21"></div>
+    <div class="lado" style="--d:22"></div>
+    <div class="lado" style="--d:23"></div>
+    <div class="lado" style="--d:24"></div>
+    <div class="lado" style="--d:25"></div>
+    <div class="lado" style="--d:26"></div>
+    <div class="lado" style="--d:27"></div>
+    <div class="lado" style="--d:28"></div>
+    <div class="lado" style="--d:29"></div>
+    <div class="lado" style="--d:30"></div>
+    <div class="lado" style="--d:31"></div>
+    <div class="lado" style="--d:32"></div>
+    <div class="lado" style="--d:33"></div>
+    <div class="lado" style="--d:34"></div>
+    <div class="lado" style="--d:35"></div>
+    <div class="lado" style="--d:36"></div>
+    <div class="lado" style="--d:37"></div>
+    <div class="lado" style="--d:38"></div>
+    <div class="lado" style="--d:39"></div>
+    <div class="lado" style="--d:40"></div>
+    <div class="lado" style="--d:41"></div>
+    <div class="lado" style="--d:42"></div>
+    <div class="lado" style="--d:43"></div>
+    <div class="lado" style="--d:44"></div>
+    <div class="lado" style="--d:45"></div>
+  </article>`,
+  triangPre: `<aside class="container-pretriang">
+    <main class="container-cube">
+      <div class="side front"></div>
+      <div class="side top"></div>
+      <div class="side bottom"></div>
+      <div class="side behind"></div>
+      <div class="side left"></div>
+      <div class="side right"></div>
+    </main>
+  </aside>`,
+  rombo3d: ` <footer class="container-rombo">
+    <div class="container-octa">
+      <div class="side base"></div>
+
+      <div class="side front"></div>
+      <div class="side back"></div>
+      <div class="side right"></div>
+      <div class="side left"></div>
+
+      <div class="side side-btn front-bottom"></div>
+      <div class="side side-btn back-bottom"></div>
+      <div class="side side-btn right-bottom"></div>
+      <div class="side side-btn left-bottom"></div>
+    </div>
+  </footer>`,
+  sticks8: ` <article class="container-8-sticks">
+    <aside class="block first-block">
+      <section class="rectangle rectangle-1">
+        <div class="side"></div>
+        <div class="side"></div>
+        <div class="side"></div>
+        <div class="side"></div>  
+      </section>
+      <section class="rectangle rectangle-2">
+        <div class="side"></div>
+        <div class="side"></div>
+        <div class="side"></div>
+        <div class="side"></div>  
+      </section>
+      <section class="rectangle rectangle-3">
+        <div class="side"></div>
+        <div class="side"></div>
+        <div class="side"></div>
+        <div class="side"></div>  
+      </section>
+      <section class="rectangle rectangle-4">
+        <div class="side"></div>
+        <div class="side"></div>
+        <div class="side"></div>
+        <div class="side"></div>  
+      </section>
+    </aside>
+    <aside class="block second-block">
+      <section class="rectangle rectangle-1">
+        <div class="side"></div>
+        <div class="side"></div>
+        <div class="side"></div>
+        <div class="side"></div>  
+      </section>
+      <section class="rectangle rectangle-2">
+        <div class="side"></div>
+        <div class="side"></div>
+        <div class="side"></div>
+        <div class="side"></div>  
+      </section>
+      <section class="rectangle rectangle-3">
+        <div class="side"></div>
+        <div class="side"></div>
+        <div class="side"></div>
+        <div class="side"></div>  
+      </section>
+      <section class="rectangle rectangle-4">
+        <div class="side"></div>
+        <div class="side"></div>
+        <div class="side"></div>
+        <div class="side"></div>  
+      </section>
+    </aside>
+    <aside class="block third-block">
+      <section class="rectangle rectangle-1">
+        <div class="side"></div>
+        <div class="side"></div>
+        <div class="side"></div>
+        <div class="side"></div>  
+      </section>
+      <section class="rectangle rectangle-2">
+        <div class="side"></div>
+        <div class="side"></div>
+        <div class="side"></div>
+        <div class="side"></div>  
+      </section>
+      <section class="rectangle rectangle-3">
+        <div class="side"></div>
+        <div class="side"></div>
+        <div class="side"></div>
+        <div class="side"></div>  
+      </section>
+      <section class="rectangle rectangle-4">
+        <div class="side"></div>
+        <div class="side"></div>
+        <div class="side"></div>
+        <div class="side"></div>  
+      </section>
+    </aside>
+  </article>`,
+  sixlaps: `<section class="container-six-laps">
+      <aside class="block first-block">
+        <section class="rectangle rectangle-1">
+          <div class="side"></div>
+          <div class="side"></div>
+          <div class="side"></div>
+          <div class="side"></div>
+        </section>
+        <section class="rectangle rectangle-2">
+          <div class="side"></div>
+          <div class="side"></div>
+          <div class="side"></div>
+          <div class="side"></div>
+        </section>
+        <section class="rectangle rectangle-3">
+          <div class="side"></div>
+          <div class="side"></div>
+          <div class="side"></div>
+          <div class="side"></div>
+        </section>
+        <section class="rectangle rectangle-4">
+          <div class="side"></div>
+          <div class="side"></div>
+          <div class="side"></div>
+          <div class="side"></div>
+        </section>
+      </aside>
+      <aside class="block second-block">
+        <section class="rectangle rectangle-1">
+          <div class="side"></div>
+          <div class="side"></div>
+          <div class="side"></div>
+          <div class="side"></div>
+        </section>
+        <section class="rectangle rectangle-2">
+          <div class="side"></div>
+          <div class="side"></div>
+          <div class="side"></div>
+          <div class="side"></div>
+        </section>
+        <section class="rectangle rectangle-3">
+          <div class="side"></div>
+          <div class="side"></div>
+          <div class="side"></div>
+          <div class="side"></div>
+        </section>
+        <section class="rectangle rectangle-4">
+          <div class="side"></div>
+          <div class="side"></div>
+          <div class="side"></div>
+          <div class="side"></div>
+        </section>
+      </aside>
+      <aside class="block third-block">
+        <section class="rectangle rectangle-1">
+          <div class="side"></div>
+          <div class="side"></div>
+          <div class="side"></div>
+          <div class="side"></div>
+        </section>
+        <section class="rectangle rectangle-2">
+          <div class="side"></div>
+          <div class="side"></div>
+          <div class="side"></div>
+          <div class="side"></div>
+        </section>
+        <section class="rectangle rectangle-3">
+          <div class="side"></div>
+          <div class="side"></div>
+          <div class="side"></div>
+          <div class="side"></div>
+        </section>
+        <section class="rectangle rectangle-4">
+          <div class="side"></div>
+          <div class="side"></div>
+          <div class="side"></div>
+          <div class="side"></div>
+        </section>
+      </aside>
+      <aside class="block fourth-block">
+        <section class="rectangle rectangle-1">
+          <div class="side"></div>
+          <div class="side"></div>
+          <div class="side"></div>
+          <div class="side"></div>
+        </section>
+        <section class="rectangle rectangle-2">
+          <div class="side"></div>
+          <div class="side"></div>
+          <div class="side"></div>
+          <div class="side"></div>
+        </section>
+        <section class="rectangle rectangle-3">
+          <div class="side"></div>
+          <div class="side"></div>
+          <div class="side"></div>
+          <div class="side"></div>
+        </section>
+        <section class="rectangle rectangle-4">
+          <div class="side"></div>
+          <div class="side"></div>
+          <div class="side"></div>
+          <div class="side"></div>
+        </section>
+      </aside>
+      <aside class="block fifth-block">
+        <section class="rectangle rectangle-1">
+          <div class="side"></div>
+          <div class="side"></div>
+          <div class="side"></div>
+          <div class="side"></div>
+        </section>
+        <section class="rectangle rectangle-2">
+          <div class="side"></div>
+          <div class="side"></div>
+          <div class="side"></div>
+          <div class="side"></div>
+        </section>
+        <section class="rectangle rectangle-3">
+          <div class="side"></div>
+          <div class="side"></div>
+          <div class="side"></div>
+          <div class="side"></div>
+        </section>
+        <section class="rectangle rectangle-4">
+          <div class="side"></div>
+          <div class="side"></div>
+          <div class="side"></div>
+          <div class="side"></div>
+        </section>
+      </aside>
+      <aside class="block sixth-block">
+        <section class="rectangle rectangle-1">
+          <div class="side"></div>
+          <div class="side"></div>
+          <div class="side"></div>
+          <div class="side"></div>
+        </section>
+        <section class="rectangle rectangle-2">
+          <div class="side"></div>
+          <div class="side"></div>
+          <div class="side"></div>
+          <div class="side"></div>
+        </section>
+        <section class="rectangle rectangle-3">
+          <div class="side"></div>
+          <div class="side"></div>
+          <div class="side"></div>
+          <div class="side"></div>
+        </section>
+        <section class="rectangle rectangle-4">
+          <div class="side"></div>
+          <div class="side"></div>
+          <div class="side"></div>
+          <div class="side"></div>
+        </section>
+      </aside>
+    </section>`,
+  tuplas: `  <aside class="container-tuplas">
+      <aside class="triangle triangle-top">
+        <div class="side front"></div>
+        <div class="side behind"></div>
+        <div class="side right"></div>
+        <div class="side left"></div>
+        <div class="side bottom"></div>
+      </aside>
+      <aside class="cube">
+        <div class="side front"></div>
+        <div class="side behind"></div>
+        <div class="side right"></div>
+        <div class="side left"></div>
+        <div class="side top"></div>
+        <div class="side bottom"></div>
+      </aside>
+      <aside class="triangle triangle-bottom">
+        <div class="side front"></div>
+        <div class="side behind"></div>
+        <div class="side right"></div>
+        <div class="side left"></div>
+        <div class="side bottom"></div>
+      </aside>
+      <aside class="triangle triangle-left">
+        <div class="side front"></div>
+        <div class="side behind"></div>
+        <div class="side right"></div>
+        <div class="side left"></div>
+        <div class="side bottom"></div>
+      </aside>
+      <aside class="triangle triangle-right">
+        <div class="side front"></div>
+        <div class="side behind"></div>
+        <div class="side right"></div>
+        <div class="side left"></div>
+        <div class="side bottom"></div>
+      </aside>
+      <aside class="triangle triangle-frontend">
+        <div class="side front"></div>
+        <div class="side behind"></div>
+        <div class="side right"></div>
+        <div class="side left"></div>
+        <div class="side bottom"></div>
+      </aside>
+      <aside class="triangle triangle-backend">
+        <div class="side front"></div>
+        <div class="side behind"></div>
+        <div class="side right"></div>
+        <div class="side left"></div>
+        <div class="side bottom"></div>
+      </aside>
+    </aside>`,
+  vasilisco: `<article class="container-vasilisco">
+    <aside class="triangle triangle-top">
+      <div class="side front"></div>
+      <div class="side behind"></div>
+      <div class="side right"></div>
+      <div class="side left"></div>
+      <div class="side bottom"></div>
+    </aside>
+    <aside class="cube">
+      <div class="side front"></div>
+      <div class="side behind"></div>
+      <div class="side right"></div>
+      <div class="side left"></div>
+      <div class="side top"></div>
+      <div class="side bottom"></div>
+    </aside>
+    <aside class="triangle triangle-bottom">
+      <div class="side front"></div>
+      <div class="side behind"></div>
+      <div class="side right"></div>
+      <div class="side left"></div>
+      <div class="side bottom"></div>
+    </aside>
+  </article>`,
+  pentagonal: `<section class="container-pentagonal">
+      <div class="base top"></div>
+      <div class="side side1"></div>
+      <div class="side side2"></div>
+      <div class="side side3"></div>
+      <div class="side side4"></div>
+      <div class="side side5"></div>
+      <div class="base bottom"></div>
+    </section>`,
+  hexagonal: `<article class="container-hexagonal">
+      <div class="base base-top"></div>
+      <div class="side side-1"></div>
+      <div class="side side-2"></div>
+      <div class="side side-3"></div>
+      <div class="side side-4"></div>
+      <div class="side side-5"></div>
+      <div class="side side-6"></div>
+      <div class="base base-bottom"></div>
+    </article>`,
+  octagonal: `<section class="container-octagonal">
+      <div class="base base-top"></div>
+      <div class="side side-1"></div>
+      <div class="side side-2"></div>
+      <div class="side side-3"></div>
+      <div class="side side-4"></div>
+      <div class="side side-5"></div>
+      <div class="side side-6"></div>
+      <div class="side side-7"></div>
+      <div class="side side-8"></div>
+      <div class="base base-bottom"></div>
+    </section>`,
+  pid: `<article class="container-pid">
+      <div class="base base-top"></div>
+      <div class="side side-1"></div>
+      <div class="side side-2"></div>
+      <div class="side side-3"></div>
+      <div class="side side-4"></div>
+      <div class="side side-5"></div>
+      <div class="side side-6"></div>
+    </article>  `,
+  frutr: `<article class="container">
+      <div class="base base-top"></div>
+      <div class="side side-1"></div>
+      <div class="side side-2"></div>
+      <div class="side side-3"></div>
+      <div class="side side-4"></div>
+      <div class="side side-5"></div>
+      <div class="side side-6"></div>
+
+      <article class="container container-bottom container-2">
+        <div class="base base-top"></div>
+        <div class="side side-1"></div>
+        <div class="side side-2"></div>
+        <div class="side side-3"></div>
+        <div class="side side-4"></div>
+        <div class="side side-5"></div>
+        <div class="side side-6"></div>
+      </article>
+    </article>`,
+  sphere: `<aside class="container-sphere">
+      <div class="aro" style="--r: 1"></div>
+      <div class="aro" style="--r: 2"></div>
+      <div class="aro" style="--r: 3"></div>
+      <div class="aro" style="--r: 4"></div>
+      <div class="aro" style="--r: 5"></div>
+      <div class="aro" style="--r: 6"></div>
+      <div class="aro" style="--r: 7"></div>
+      <div class="aro" style="--r: 8"></div>
+      <div class="aro" style="--r: 9"></div>
+      <div class="aro" style="--r: 10"></div>
+      <div class="aro" style="--r: 11"></div>
+      <div class="aro" style="--r: 12"></div>
+      <div class="aro" style="--r: 13"></div>
+      <div class="aro" style="--r: 14"></div>
+      <div class="aro" style="--r: 15"></div>
+      <div class="aro" style="--r: 16"></div>
+      <div class="aro" style="--r: 17"></div>
+      <div class="aro" style="--r: 18"></div>
+    </aside>`,
+  pentaIn: `<article class="container-penta-in">
+      <div class="base base-bottom">
+        <div class="side side-1"></div>
+        <div class="side side-2"></div>
+        <div class="side side-3"></div>
+        <div class="side side-4"></div>
+        <div class="side side-5"></div>
+      </div>
+      <div class="base center">
+        <div class="side side-1"></div>
+        <div class="side side-2"></div>
+        <div class="side side-3"></div>
+        <div class="side side-4"></div>
+        <div class="side side-5"></div>
+      </div>
+      <div class="base center-top">
+        <div class="side side-1"></div>
+        <div class="side side-2"></div>
+        <div class="side side-3"></div>
+        <div class="side side-4"></div>
+        <div class="side side-5"></div>
+      </div>
+      <div class="base base-top">
+        <div class="side side-1"></div>
+        <div class="side side-2"></div>
+        <div class="side side-3"></div>
+        <div class="side side-4"></div>
+        <div class="side side-5"></div>
+      </div>
+    </article>`,
+  prismSquare: `<div class="container">
+      <div class="side side-bottom"></div>
+      <div class="side side-top"></div>
+      <div class="side side-right"></div>
+      <div class="side side-left"></div>
+      <div class="side side-front"></div>
+      <div class="side side-behind"></div>
+    </div>`,
+  trom: `<article class="container-trom">
+      <div class="triangle triangle-top">
+        <div class="side side-front"></div>
+        <div class="side side-behind"></div>
+        <div class="side side-right"></div>
+        <div class="side side-left"></div>
+        <div class="side side-bottom"></div>
+      </div>
+      <div class="triangle triangle-bottom">
+        <div class="side side-front"></div>
+        <div class="side side-behind"></div>
+        <div class="side side-right"></div>
+        <div class="side side-left"></div>
+        <div class="side side-bottom"></div>
+      </div>
+      <div class="triangle-three-sides tts-top-front">
+        <div class="side side-front"></div>
+        <div class="side side-left"></div>
+        <div class="side side-right"></div>
+        <div class="side side-bottom"></div>
+      </div>
+      <div class="triangle-three-sides tts-top-behind">
+        <div class="side side-front"></div>
+        <div class="side side-left"></div>
+        <div class="side side-right"></div>
+        <div class="side side-bottom"></div>
+      </div>
+      <div class="triangle-three-sides tts-top-right">
+        <div class="side side-front"></div>
+        <div class="side side-left"></div>
+        <div class="side side-right"></div>
+        <div class="side side-bottom"></div>
+      </div>
+      <div class="triangle-three-sides tts-top-left">
+        <div class="side side-front"></div>
+        <div class="side side-left"></div>
+        <div class="side side-right"></div>
+        <div class="side side-bottom"></div>
+      </div>
+      <div class="triangle-three-sides tts-bottom-front">
+        <div class="side side-front"></div>
+        <div class="side side-left"></div>
+        <div class="side side-right"></div>
+        <div class="side side-bottom"></div>
+      </div>
+      <div class="triangle-three-sides tts-bottom-behind">
+        <div class="side side-front"></div>
+        <div class="side side-left"></div>
+        <div class="side side-right"></div>
+        <div class="side side-bottom"></div>
+      </div>
+      <div class="triangle-three-sides tts-bottom-right">
+        <div class="side side-front"></div>
+        <div class="side side-left"></div>
+        <div class="side side-right"></div>
+        <div class="side side-bottom"></div>
+      </div>
+      <div class="triangle-three-sides tts-bottom-left">
+        <div class="side side-front"></div>
+        <div class="side side-left"></div>
+        <div class="side side-right"></div>
+        <div class="side side-bottom"></div>
+      </div>
+    </article>`,
+    miniPent: ` <aside class="container-mini-pent">
+      <article class="side front"></article>
+      <article class="side behind"></article>
+      <article class="side top-left"></article>
+      <article class="side top-right"></article>
+      <article class="side bottom-right"></article>
+      <article class="side bottom-left"></article>
+    </aside>`,
+  pyramiDuplex: `<div class="pyramid pyramid-top">
+      <div class="side side-front"></div>
+      <div class="side side-right"></div>
+      <div class="side side-left"></div>
+      <div class="side side-bottom"></div>
+
+      <div class="pyramid pyramid-bottom">
+        <div class="side side-front"></div>
+        <div class="side side-right"></div>
+        <div class="side side-left"></div>
+        <div class="side side-bottom"></div>
+      </div>
     </div>`
 };
 
@@ -783,7 +1369,7 @@ d.addEventListener('keydown', e => {
     }
 
     let index = localStorage.getItem('last-index');
-    let currentCard = document.querySelectorAll('.card-single')[index];
+    let currentCard = $$('.card-single')[index];
 
     if (currentCard) {
       let lastIndex = localStorage.getItem('last-index');
@@ -873,7 +1459,7 @@ d.addEventListener('click', e => {
     }
 
     let index = localStorage.getItem('last-index');
-    let currentCard = document.querySelectorAll('.card-single')[index];
+    let currentCard = $$('.card-single')[index];
 
     if (currentCard) {
       let lastIndex = localStorage.getItem('last-index');
