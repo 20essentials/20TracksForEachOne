@@ -149,6 +149,8 @@ const bands = [
   ['Joan Jett And The Blackhearts', `${path}/joan-jett-and-the-blackhearts/`],
   ['Jefferson Tadeo', `${path}/jefferson-tadeo/`],
   ['Journey', `${path}/journey-ost/`],
+  ['JJD', `${path}/jjd-ost/`],
+  ['Justice', `${path}/justice-ost/`],
 
   /* ======================= K ======================= */
   ['Kanye West', `${path}/kanye-west-ost`],
@@ -217,6 +219,7 @@ const bands = [
   ['Piano Deuss', `${path}/piano-deuss/`],
   ['Pet Shop Boys', `${path}/pet-shop-boys/`],
   ['Pimpinela', `${path}/pimpinela/`],
+  ['Portwave', `${path}/portwave-ost/`],
   ['Pixies', `${path}/pixies-ost/`],
   ['Penguin Research', `${path}/penguin-research/`],
 
