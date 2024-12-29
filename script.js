@@ -580,7 +580,30 @@ d.addEventListener('input', e => {
 
 /* ======================= RANDOM LOADERS  ======================= */
 let $elementerCentrar = $('.centrar');
-const LOADER_CLASSNAME = ['cube', 'pyramid', 'star', 'tetraPyramid', 'multiFaces', 'triangPre', 'rombo3d', 'sticks8', 'sixlaps', 'tuplas', 'vasilisco','pentagonal', 'hexagonal', 'octagonal', 'pid', 'frutr', 'sphere', 'pentaIn', 'prismSquare', 'trom', 'miniPent', 'pyramiDuplex'];
+const LOADER_CLASSNAME = [
+  'cube',
+  'pyramid',
+  'star',
+  'tetraPyramid',
+  'multiFaces',
+  'triangPre',
+  'rombo3d',
+  'sticks8',
+  'sixlaps',
+  'tuplas',
+  'vasilisco',
+  'pentagonal',
+  'hexagonal',
+  'octagonal',
+  'pid',
+  'frutr',
+  'sphere',
+  'pentaIn',
+  'prismSquare',
+  'trom',
+  'miniPent',
+  'pyramiDuplex'
+];
 
 const LOADER_HTML = {
   pyramid: `<div class="pyramid-loader">
@@ -1254,7 +1277,7 @@ const LOADER_HTML = {
         <div class="side side-bottom"></div>
       </div>
     </article>`,
-    miniPent: ` <aside class="container-mini-pent">
+  miniPent: ` <aside class="container-mini-pent">
       <article class="side front"></article>
       <article class="side behind"></article>
       <article class="side top-left"></article>

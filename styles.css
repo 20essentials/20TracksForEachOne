@@ -764,7 +764,7 @@ body {
     height: 150px;
     --height-side-pentagon: 150px;
     position: relative;
-    top: -140px;
+    top: -220px;
     transform-style: preserve-3d;
     perspective: 10000px;
     animation: rotarStar 10s linear infinite alternate both;
@@ -904,7 +904,7 @@ body {
     transform-style: preserve-3d;
     perspective: 10000px;
     position: relative;
-    top: -70px;
+    top: -100px;
     animation: girar4Piramids 8s linear infinite alternate both;
 
     & .cube {
@@ -1056,20 +1056,14 @@ body {
 .centrar.multiFaces {
   .container-multi {
     position: relative;
-    top: -190px;
-    /* left: -40px; */
-    width: 15vmax;
-    height: 30vmax;
+    top: -220px;
+    width: 150px;
+    height: 300px;
     transform-style: preserve-3d;
     transition: transform 3s linear;
     animation: multi 6s linear infinite alternate;
-    zoom: 0.2;
+    zoom: 0.3;
     pointer-events: none;
-
-    @media (width <= 1111px) {
-      top: -120px;
-      zoom: 0.5;
-    }
 
     .lado {
       position: absolute;
@@ -1093,7 +1087,7 @@ body {
 .centrar.triangPre {
   .container-pretriang {
     position: relative;
-    top: -120px;
+    top: -190px;
     height: 100dvh;
     width: 100%;
     left: 0;
@@ -1164,13 +1158,17 @@ body {
   .container-rombo {
     position: relative;
     inset: 0;
-    top: -150px;
+    top: -190px;
     background-color: #000;
     display: flex;
     flex-wrap: wrap;
     height: 100dvh;
     place-content: center;
     zoom: 0.45;
+
+    @media (width <= 1111px) {
+      top: -220px;
+    }
 
     .container-octa {
       --w: 150px;
@@ -1268,13 +1266,12 @@ body {
     perspective: 10000px;
     transform: rotateX(40deg) rotateY(48deg);
     position: relative;
-    top: -190px;
+    top: -245px;
     animation: rotate8sticks 10s linear infinite alternate;
-    zoom: 0.5;
+    zoom: 0.4;
 
     @media (width <= 1111px) {
-      zoom: 0.35;
-      top: -220px;
+      zoom: 0.3;
     }
 
     .block {
@@ -1361,11 +1358,11 @@ body {
     perspective: 10000px;
     animation: rotar6laps 10s linear infinite;
     position: relative;
-    top: -235px;
-    zoom: 0.35;
+    top: -300px;
+    zoom: 0.3;
 
     @media (width <= 1111px) {
-      top: -250px;
+      top: -330px;
     }
 
     .block {
@@ -1462,12 +1459,11 @@ body {
     perspective: 10000px;
     position: relative;
     animation: girartupla 8s linear infinite alternate both;
-    zoom: 0.5;
-    top: -120px;
+    zoom: 0.4;
+    top: -220px;
 
     @media (width <= 1111px) {
-      zoom: 0.4;
-      top: -170px;
+      zoom: 0.3;
     }
 
     .cube {
@@ -1625,14 +1621,13 @@ body {
     transform-style: preserve-3d;
     perspective: 10000px;
     position: relative;
-    top: -130px;
+    top: -200px;
     z-index: 10;
     animation: girarVasilisco 10s linear infinite both;
-    zoom: 0.55;
+    zoom: 0.4;
 
     @media (width <= 1111px) {
-      zoom: 0.45;
-      top: -195px;
+      top: -240px;
     }
 
     .cube {
@@ -1751,12 +1746,11 @@ body {
     transform-style: preserve-3d;
     perspective: 10000px;
     animation: rotarPentagonal 12s linear infinite alternate both;
-    top: -190px;
-    zoom: 0.4;
+    top: -235px;
+    zoom: 0.35;
 
     @media (width <= 1111px) {
-      zoom: 0.35;
-      top: -215px;
+      zoom: .3;
     }
 
     .base {
@@ -1829,13 +1823,13 @@ body {
     perspective: 10000px;
     transform-style: preserve-3d;
     position: relative;
-    top: -180px;
-    zoom: 0.45;
+    top: -230px;
+    zoom: 0.4;
     animation: rotarTetr 30s linear infinite alternate both;
 
     @media (width <= 1111px) {
-      zoom: 0.38;
-      top: -218px;
+      zoom: 0.3;
+      top: -240px;
     }
 
     .base {
@@ -1916,12 +1910,12 @@ body {
     perspective: 10000px;
     transform-style: preserve-3d;
     animation: rotarOctagonal 20s linear infinite alternate both;
-    top: -170px;
-    zoom: 0.5;
+    top: -220px;
+    zoom: 0.4;
 
     @media (width <= 1111px) {
-      zoom: 0.38;
-      top: -230px;
+      zoom: 0.3;
+      top: -240px;
     }
 
     .base {
@@ -2017,12 +2011,12 @@ body {
     transform-style: preserve-3d;
     position: relative;
     animation: rotarPid 30s linear infinite alternate both;
-    top: -150px;
-    zoom: 0.45;
+    top: -200px;
+    zoom: 0.4;
 
     @media (width <= 1111px) {
-      zoom: 0.4;
-      top: -190px;
+      zoom: 0.35;
+      top: -220px;
     }
 
     .base {
@@ -2248,12 +2242,11 @@ body {
     animation: rotarPenta 8s linear infinite alternate;
     transform-style: preserve-3d;
     perspective: 10000px;
-    zoom: 0.5;
-    top: -140px;
+    zoom: 0.4;
+    top: -230px;
 
     @media (width <= 1111px) {
-      zoom: 0.4;
-      top: -170px;
+      zoom: 0.35;
     }
 
     .base {
@@ -2336,6 +2329,7 @@ body {
 }
 
 .centrar.prismSquare {
+
   .container {
     width: 150px;
     height: 300px;
@@ -2343,12 +2337,13 @@ body {
     transform-style: preserve-3d;
     perspective: 10000px;
     animation: rotarPrismSquare 8s linear infinite alternate;
-    top: -150px;
-    zoom: 0.45;
+    top: -270px;
+    zoom: 0.4;
+    pointer-events: none;
 
     @media (width <= 1111px) {
-      zoom: 0.4;
-      top: -195px;
+      zoom: 0.3;
+      top: -210px;
     }
 
     .side {
@@ -2420,12 +2415,13 @@ body {
     position: relative;
     transform-style: preserve-3d;
     animation: tromRotate 16s linear infinite;
-    zoom: 0.45;
-    top: -150px;
+    zoom: 0.35;
+    top: -240px;
+    pointer-events: none;
 
     @media (width <= 1111px) {
-      zoom: 0.35;
-      top: -200px;
+      zoom: 0.25;
+      top: -250px;
     }
 
     &.pause {
@@ -2570,12 +2566,12 @@ body {
     transform-style: preserve-3d;
     transform: perspective(10000px);
     animation: rotarPent 10s linear infinite alternate both;
-    top: -80px;
-    zoom: 0.65;
+    top: -170px;
+    zoom: 0.5;
 
     @media (width <= 1111px) {
-      zoom: 0.5;
-      top: -150px;
+      zoom: 0.45;
+      top: -190px;
     }
 
     .side {
@@ -2654,10 +2650,10 @@ body {
     position: relative;
     transform-style: preserve-3d;
     perspective: 10000px;
-    top: -80px;
+    top: -100px;
 
     @media (width <= 1111px) {
-      zoom: -100px;
+      zoom: -170px;
     }
 
     &.pyramid-top {
@@ -2906,10 +2902,10 @@ body {
 /* prismSquare */
 @keyframes rotarPrismSquare {
   0% {
-    transform: rotateX(0deg) rotateY(0deg);
+    transform: scale(.8) rotateX(0deg) rotateY(0deg);
   }
   100% {
-    transform: rotateX(359deg) rotateY(359deg);
+    transform: scale(.8) rotateX(359deg) rotateY(359deg);
   }
 }
 
