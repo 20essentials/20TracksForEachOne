@@ -116,6 +116,7 @@ const bands = [
   ['Galantis', `${path}/galantis-ost/`],
   ['Glass Animals', `${path}/glass-animals-ost/`],
   [`Guns N' Roses`, `${path}/guns-n-roses-ost/`],
+  [`GLHF`, `${path}/glhf`],
 
   /* ======================= H ======================= */
   ['Hippie Sabotage', `${path}/hippie-sabotage/`],
@@ -137,8 +138,8 @@ const bands = [
   ['Inner Circle', `${path}/inner--circle/`],
   ['Imagine Dragons', `${path}/imagine--dragons/`],
   ['Izecold', `${path}/izecold/`],
-  ['Iracundos', `${path}/los-iracundos/`],
   ['Incubus', `${path}/incubus/`],
+  ['Iracundos', `${path}/los-iracundos/`],
 
   /* ======================= J ======================= */
   ['Jack Black', `${path}/jack-black/`],
@@ -165,11 +166,13 @@ const bands = [
   /* ======================= L ======================= */
   ['Los Prisioneros', `${path}/los-prisioneros/`],
   ['Los Violadores', `${path}/los-vi0ladores/`],
-  ['Legend of Zelda', `${path}/legend-of-zelda/`],
+  ['Linkin Park', `${path}/linkin-park-ost/`],
   ['La Unión', `${path}/la-union/`],
   ['La Ley', `${path}/la-ley/`],
   ['Luis Fonsi', `${path}/luis-fonsi/`],
   ['Leeandlie', `${path}/leeandlie/`],
+  ['La Bouche', `${path}/la-bouche-ost/`],
+  ['Legend of Zelda', `${path}/legend-of-zelda/`],
   ['Lost Sky', `${path}/lost-sky/`],
   ['Los Enanitos Verdes', `${path}/los-enanitos-verdes/`],
   ['Little Dragon', `${path}/little-dragon/`],
@@ -210,6 +213,7 @@ const bands = [
   ['Ofdream', `${path}/ofdream/`],
   ['Orbital', `${path}/orbital/`],
   ['One Republic', `${path}/one-republic/`],
+  ['Outlaws', `${path}/outlaws-ost/`],
 
   /* ======================= P ======================= */
   ['Propellerheads', `${path}/propellerheads/`],
@@ -219,6 +223,7 @@ const bands = [
   ['Piano Deuss', `${path}/piano-deuss/`],
   ['Pet Shop Boys', `${path}/pet-shop-boys/`],
   ['Pimpinela', `${path}/pimpinela/`],
+  ['Panic at the Disco', `${path}/panic-at-the-disco-ost/`],
   ['Portwave', `${path}/portwave-ost/`],
   ['Pixies', `${path}/pixies-ost/`],
   ['Penguin Research', `${path}/penguin-research/`],
