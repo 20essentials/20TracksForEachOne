@@ -45,9 +45,13 @@ function toCapitalize(text = '') {
     .split(' ')
     .map(el => {
       if (el.length === 0) return '';
-      if (el.length < 2) return `${el[0].toUpperCase()}${el.slice(1).toLowerCase()}`
-      let secondLetter = el[0] === '(' ? el[1].toUpperCase() : el[1].toLowerCase();
-      return `${el[0].toUpperCase()}${secondLetter}${el.slice(2).toLowerCase()}`;
+      if (el.length < 2)
+        return `${el[0].toUpperCase()}${el.slice(1).toLowerCase()}`;
+      let secondLetter =
+        el[0] === '(' ? el[1].toUpperCase() : el[1].toLowerCase();
+      return `${el[0].toUpperCase()}${secondLetter}${el
+        .slice(2)
+        .toLowerCase()}`;
     })
     .join(' ')
     .replace(/\s+/g, ' ');
@@ -183,11 +187,6 @@ const headerColors = {
     );
   }
 
-  // arrayPosters.forEach((link, index) => {
-  //   addVariable(link, index + 1)
-
-  // });
-
   $$('.card').forEach((card, index) => {
     card.style.setProperty(
       `--image-bg`,
@@ -195,11 +194,6 @@ const headerColors = {
       `
     );
   });
-
-  // addVariable(n1, 1);
-  // addVariable(n2, 2);
-  // addVariable(n3, 3);
-  // addVariable(n4, 4);
 })();
 
 const blockPlayPauseStopBUTTON = () => {

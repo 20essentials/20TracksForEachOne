@@ -14,6 +14,7 @@ body {
   height: 100dvh;
   margin-inline: auto;
   position: relative;
+  background-color: transparent;
 }
 
 html,
@@ -1750,7 +1751,7 @@ body {
     zoom: 0.35;
 
     @media (width <= 1111px) {
-      zoom: .3;
+      zoom: 0.3;
     }
 
     .base {
@@ -2329,7 +2330,6 @@ body {
 }
 
 .centrar.prismSquare {
-
   .container {
     width: 150px;
     height: 300px;
@@ -2653,7 +2653,7 @@ body {
     top: -100px;
 
     @media (width <= 1111px) {
-      zoom: -170px;
+      top: -170px;
     }
 
     &.pyramid-top {
@@ -2902,10 +2902,10 @@ body {
 /* prismSquare */
 @keyframes rotarPrismSquare {
   0% {
-    transform: scale(.8) rotateX(0deg) rotateY(0deg);
+    transform: scale(0.8) rotateX(0deg) rotateY(0deg);
   }
   100% {
-    transform: scale(.8) rotateX(359deg) rotateY(359deg);
+    transform: scale(0.8) rotateX(359deg) rotateY(359deg);
   }
 }
 
@@ -3181,7 +3181,7 @@ body {
   flex-wrap: wrap;
   place-content: center;
   width: 100%;
-  height: 100dvh;
+  max-height: 100dvh;
   z-index: 800;
   background-color: transparent;
   transform-style: preserve-3d;
@@ -3307,7 +3307,7 @@ body {
 
 /* ============================MEDIA============================*/
 
-@media only screen and (orientation: landscape) and (width <=1000px) {
+@media  (orientation: landscape) and (width <=1000px) {
   .centrar {
     display: flex;
     flex-direction: row;
@@ -3350,15 +3350,13 @@ body {
   }
 }
 
-@media only screen and (orientation: portrait) and (width <=800px) {
+@media  (orientation: portrait) and (width <=800px) {
   .theForm {
     width: 72%;
     margin-inline: auto;
   }
-
   .centrar {
-    transition: transform 0.5s linear;
-    transform: translateY(-50px);
+    transform: translateY(-50px)
   }
 }
 
