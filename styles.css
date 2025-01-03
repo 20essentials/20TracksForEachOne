@@ -389,6 +389,11 @@ body {
         background-image: var(--bg-img-playlist);
         background-position: center;
         background-size: cover;
+        position: relative;
+        --black: #0004;
+        filter: drop-shadow(1px 0px 0px var(--black))
+          drop-shadow(-1px 0px 0px var(--black))
+          drop-shadow(0px -1px 0px var(--black));
       }
     }
 
@@ -3307,7 +3312,7 @@ body {
 
 /* ============================MEDIA============================*/
 
-@media  (orientation: landscape) and (width <=1000px) {
+@media (orientation: landscape) and (width <=1000px) {
   .centrar {
     display: flex;
     flex-direction: row;
@@ -3350,13 +3355,13 @@ body {
   }
 }
 
-@media  (orientation: portrait) and (width <=800px) {
+@media (orientation: portrait) and (width <=800px) {
   .theForm {
     width: 72%;
     margin-inline: auto;
   }
   .centrar {
-    transform: translateY(-50px)
+    transform: translateY(-50px);
   }
 }
 

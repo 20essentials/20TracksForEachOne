@@ -106,6 +106,7 @@ function previousTrack(currentIndex) {
     $audio.loop = false;
     actualButtonPlayActive(currentIndex);
     nextTrack(currentIndex);
+    showTitle(currentIndex)
   });
 }
 
@@ -119,6 +120,7 @@ function nextTrack(currentIndex) {
     $audio.loop = false;
     actualButtonPlayActive(currentIndex);
     previousTrack(currentIndex);
+    showTitle(currentIndex)
   });
 }
 
@@ -275,7 +277,6 @@ const toKebabCase = (sentence = '') => {
 const putTitle = title => (d.title = `${title}`);
 
 const showTitle = elIndex => {
-  let titles = $$('.card-right-top');
   putTitle(nameSongs[elIndex]);
 };
 
@@ -316,6 +317,7 @@ const playAllSongs = (songs, selector) => {
         $audio.src = arraySongs[currentIndex];
         $audio.loop = false;
         actualButtonPlayActive(currentIndex);
+        showTitle(currentIndex)
       }
 
       function previousTrack(currentIndex) {
@@ -401,6 +403,7 @@ const playRandomSongs = (songs, selector) => {
         $audio.loop = false;
         updateMetadata(unArray[currentIndex]);
         actualButtonPlayActive(unArray[currentIndex]);
+        showTitle(unArray[currentIndex])
       }
 
       function previousTrackOfRandomSongs(currentIndex) {
@@ -469,6 +472,7 @@ const playSelectedSongs = (songs, selector, listNumber) => {
         $audio.loop = false;
         updateMetadata(listNumber[currentIndex]);
         actualButtonPlayActive(listNumber[currentIndex]);
+        showTitle(listNumber[currentIndex]);
       }
 
       function previousTrackOfSelectedSongs(currentIndex) {

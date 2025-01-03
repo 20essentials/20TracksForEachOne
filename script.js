@@ -222,15 +222,16 @@ const bands = [
 
   /* ======================= P ======================= */
   ['Propellerheads', `${path}/propellerheads/`],
-  ['Petit Biscuit', `${path}/petit-biscuit/`],
+  ['Project X', `${path}/project-x/`],
+  ['Pixies', `${path}/pixies-ost/`],
+  ['Portwave', `${path}/portwave-ost/`],
+  ['Piano Deuss', `${path}/piano-deuss/`],
+  ['Panic at the Disco', `${path}/panic-at-the-disco-ost/`],
   ['Pitbull', `${path}/pitbull/`],
   ['Pink Floyd', `${path}/pink-floyd/`],
-  ['Piano Deuss', `${path}/piano-deuss/`],
   ['Pet Shop Boys', `${path}/pet-shop-boys/`],
   ['Pimpinela', `${path}/pimpinela/`],
-  ['Panic at the Disco', `${path}/panic-at-the-disco-ost/`],
-  ['Portwave', `${path}/portwave-ost/`],
-  ['Pixies', `${path}/pixies-ost/`],
+  ['Petit Biscuit', `${path}/petit-biscuit/`],
   ['Penguin Research', `${path}/penguin-research/`],
 
   /* ======================= Q ======================= */
@@ -307,9 +308,16 @@ const bands = [
 
   /* ======================= V ======================= */
   ['Virus', `${path}/virus/`],
+  ['Vanze', `${path}/vanze-ost/`],
   ['Vnv Nation', `${path}/vnv-nation/`],
   ['Vxllain', `${path}/vxllain/`],
   ['Vilma Palma', `${path}/vilma-palma/`],
+  ['Van Halen', `${path}/van--halen/`],
+  ['Village People', `${path}/village-people-ost/`],
+  ['Velvet Revolver', `${path}/velvet-revolver-ost/`],
+  ['Vitalic', `${path}/vitalic-ost/`],
+  ['Vampire Weekend', `${path}/vampire-weekend-ost/`],
+  ['Viti Ruiz', `${path}/viti-ruiz-ost/`],
 
   /* ======================= W ======================= */
   ['Wiguez & Vizzen', `${path}/wiguez-and-vizzen/`],
