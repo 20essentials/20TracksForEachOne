@@ -11,7 +11,7 @@ body {
   width: 100%;
   height: 100%;
   max-width: 2400px;
-  height: 100dvh;
+  max-height: 100vh;
   margin-inline: auto;
   position: relative;
   background-color: transparent;
@@ -1071,6 +1071,11 @@ body {
     zoom: 0.3;
     pointer-events: none;
 
+    @media (width <= 1000px) {
+      width: 200px;
+      height: 300px;
+    }
+
     .lado {
       position: absolute;
       left: 0;
@@ -1094,10 +1099,14 @@ body {
   .container-pretriang {
     position: relative;
     top: -190px;
-    height: 100dvh;
+    height: 100vh;
     width: 100%;
     left: 0;
-    zoom: 0.45;
+    zoom: .4;
+
+    @media (width <= 1111px) {
+      zoom: .5;
+    }
 
     .container-cube {
       --size: 200px;
@@ -1168,7 +1177,7 @@ body {
     background-color: #000;
     display: flex;
     flex-wrap: wrap;
-    height: 100dvh;
+    height: 100vh;
     place-content: center;
     zoom: 0.45;
 
@@ -1277,7 +1286,8 @@ body {
     zoom: 0.4;
 
     @media (width <= 1111px) {
-      zoom: 0.3;
+      top: -285px;
+      zoom: 0.35;
     }
 
     .block {
@@ -1756,7 +1766,7 @@ body {
     zoom: 0.35;
 
     @media (width <= 1111px) {
-      zoom: 0.3;
+      zoom: 0.33;
     }
 
     .base {
@@ -1834,7 +1844,7 @@ body {
     animation: rotarTetr 30s linear infinite alternate both;
 
     @media (width <= 1111px) {
-      zoom: 0.3;
+      zoom: 0.33;
       top: -240px;
     }
 
@@ -1920,7 +1930,7 @@ body {
     zoom: 0.4;
 
     @media (width <= 1111px) {
-      zoom: 0.3;
+      zoom: 0.38;
       top: -240px;
     }
 
@@ -2021,7 +2031,6 @@ body {
     zoom: 0.4;
 
     @media (width <= 1111px) {
-      zoom: 0.35;
       top: -220px;
     }
 
@@ -2347,7 +2356,7 @@ body {
     pointer-events: none;
 
     @media (width <= 1111px) {
-      zoom: 0.3;
+      zoom: 0.38;
       top: -210px;
     }
 
@@ -2425,8 +2434,8 @@ body {
     pointer-events: none;
 
     @media (width <= 1111px) {
-      zoom: 0.25;
-      top: -250px;
+      zoom: 0.3;
+      top: -290px;
     }
 
     &.pause {
@@ -2575,8 +2584,7 @@ body {
     zoom: 0.5;
 
     @media (width <= 1111px) {
-      zoom: 0.45;
-      top: -190px;
+      top: -205px;
     }
 
     .side {
@@ -2658,7 +2666,7 @@ body {
     top: -100px;
 
     @media (width <= 1111px) {
-      top: -170px;
+      top: -120px;
     }
 
     &.pyramid-top {
@@ -3186,7 +3194,7 @@ body {
   flex-wrap: wrap;
   place-content: center;
   width: 100%;
-  max-height: 100dvh;
+  min-height: 100vh;
   z-index: 800;
   background-color: transparent;
   transform-style: preserve-3d;
@@ -3195,6 +3203,14 @@ body {
   .container-loader {
     transform-style: preserve-3d;
     perspective: 10000px;
+
+    @media (width <= 1111px) {
+      transform: translateY(-70px);
+    }
+  }
+
+  @media (width <= 800px) and (orientation: portrait) {
+    transform: translateY(-50px);
   }
 }
 
@@ -3217,6 +3233,12 @@ body {
   );
   background-size: 1000% 100%;
   animation: cambiar 5s ease infinite alternate;
+
+  @media (width <= 800px) and (orientation: portrait) {
+    width: 72%;
+    margin-inline: auto;
+    transform:  translate(-50%, -50%) translateY(-60px);
+  }
 
   .autocomplete {
     position: relative;
@@ -3355,16 +3377,6 @@ body {
   }
 }
 
-@media (orientation: portrait) and (width <=800px) {
-  .theForm {
-    width: 72%;
-    margin-inline: auto;
-  }
-  .centrar {
-    transform: translateY(-50px);
-  }
-}
-
 /* ============================KEYFRAMES============================*/
 
 /* Gotas de lluvia */
@@ -3374,7 +3386,7 @@ body {
   }
 
   100% {
-    transform: translateY(calc(100dvh + 200px));
+    transform: translateY(calc(100vh + 200px));
   }
 }
 

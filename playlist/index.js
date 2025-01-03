@@ -10,7 +10,6 @@ if (localStorage.getItem('lastNameCardClicked')) {
   lastNameCard = localStorage.getItem('lastNameCardClicked');
   let listNameCards = JSON.parse(localStorage.getItem('listname-cards'));
   let currentArray = listNameCards[lastNameCard];
-  console.log(currentArray);
   if (currentArray.length > 0) {
     nameSongs = currentArray.map(el => {
       let name = el[0].replace(/\&amp\;/g, '&');
@@ -58,13 +57,6 @@ function toCapitalize(text = '') {
 }
 
 function updateMetadata(currentIndex = 0) {
-  let currentUrl =
-    window
-      .getComputedStyle(
-        document.querySelectorAll('.card')[currentIndex].querySelector('.img')
-      )
-      .getPropertyValue('background-image') ?? '1';
-
   navigator.mediaSession.metadata = new MediaMetadata({
     title: `${toCapitalize(playlist[currentIndex].title)}`,
     artist: `${toCapitalize(playlist[currentIndex].artist)}`,
@@ -106,7 +98,7 @@ function previousTrack(currentIndex) {
     $audio.loop = false;
     actualButtonPlayActive(currentIndex);
     nextTrack(currentIndex);
-    showTitle(currentIndex)
+    showTitle(currentIndex);
   });
 }
 
@@ -120,7 +112,7 @@ function nextTrack(currentIndex) {
     $audio.loop = false;
     actualButtonPlayActive(currentIndex);
     previousTrack(currentIndex);
-    showTitle(currentIndex)
+    showTitle(currentIndex);
   });
 }
 
@@ -165,30 +157,7 @@ const headerColors = {
 };
 
 /******************** FUNCTIONS ********************/
-
-(function generate4Fotos() {
-  //
-  let fourValues = [],
-    nRandom = null;
-
-  for (let i = 0; i < 4; i++) {
-    do {
-      nRandom = Math.floor(Math.random() * 101);
-    } while (fourValues.includes(nRandom) || nRandom === 0);
-
-    fourValues.push(nRandom);
-  }
-
-  const [n1, n2, n3, n4] = fourValues;
-
-  function addVariable(n$, num) {
-    document.documentElement.style.setProperty(
-      `--image-${num}`,
-      `url('${n$}'), linear-gradient(90deg, #ffffff33, #ffffff80, #ffffff33)
-      `
-    );
-  }
-
+(function generaCardImages() {
   $$('.card').forEach((card, index) => {
     card.style.setProperty(
       `--image-bg`,
@@ -317,7 +286,7 @@ const playAllSongs = (songs, selector) => {
         $audio.src = arraySongs[currentIndex];
         $audio.loop = false;
         actualButtonPlayActive(currentIndex);
-        showTitle(currentIndex)
+        showTitle(currentIndex);
       }
 
       function previousTrack(currentIndex) {
@@ -365,11 +334,9 @@ const playRandomSongs = (songs, selector) => {
     listNumbersSongs = [];
   }
 
-  let unArray = [],
-    i,
-    valor;
+  let unArray = [], valor;
 
-  for (i = 0; i < songs.length; i++) {
+  for (let i = 0; i < songs.length; i++) {
     do {
       valor = Math.floor(Math.random() * songs.length);
     } while (unArray.includes(valor));
@@ -403,7 +370,7 @@ const playRandomSongs = (songs, selector) => {
         $audio.loop = false;
         updateMetadata(unArray[currentIndex]);
         actualButtonPlayActive(unArray[currentIndex]);
-        showTitle(unArray[currentIndex])
+        showTitle(unArray[currentIndex]);
       }
 
       function previousTrackOfRandomSongs(currentIndex) {
@@ -639,12 +606,6 @@ d.addEventListener('click', e => {
 
   if (e.target.matches(cardPlayListButton)) {
     let index = [...$$('.card')].indexOf(e.target.closest('.card'));
-    let lastLetterUrl = localStorage.getItem('iframeUrl').at(-1);
-    let urlPuro =
-      lastLetterUrl === '/'
-        ? localStorage.getItem('iframeUrl')
-        : `${localStorage.getItem('iframeUrl')}/`;
-
     let currentNameSong = [...$$('.card')][index].querySelector(
       '.card-right-top'
     ).innerHTML;
@@ -655,18 +616,19 @@ d.addEventListener('click', e => {
   }
 
   if (e.target.matches('.cerrar')) {
-    let $containerModal = $('.container-modal');
     e.target.parentElement.close();
     $('.am-modal')
       .querySelector('.container-add-playlist')
       .classList.remove('mode-active');
     d.getElementById('agregarPlaylistInput').value = '';
   }
+
   if (e.target.matches('.container-add-playlist')) {
     e.target.classList.add('mode-active');
     d.getElementById('agregarPlaylistInput').focus();
     return;
   }
+
   if (e.target.matches('.container-inputs input[type=submit]')) {
     let input = e.target.previousElementSibling.previousElementSibling;
     let inputValor =
@@ -1022,7 +984,6 @@ function pickCards(allCards, listNumbersSongs) {
 }
 
 /******************** REMOVE ANIMATION VIEW() OF CARDS ********************/
-
 const cards = document.querySelectorAll('.card');
 
 const observer = new IntersectionObserver(

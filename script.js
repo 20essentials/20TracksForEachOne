@@ -25,7 +25,7 @@ const bands = [
   ['Beauz', `${path}/beauz/`],
   ['Blueberry', `${path}/blueberry/`],
   ['Blackbear', `${path}/blackbear/`],
-  ['Bastille', `${path}/bastille/`],  
+  ['Bastille', `${path}/bastille/`],
   ['Blur', `${path}/blur-ost/`],
   ['Ben 10', `${path}/ben-10/`],
   ['Bruce Springsteen', `${path}/bruce-springsteen/`],
