@@ -20,17 +20,19 @@ const bands = [
   ['AKFG', `${path}/akfg`],
 
   /* ======================= B ======================= */
-  ['Butterfly Boucher', `${path}/butterfly-boucher/`],
+  ['Beyonce', `${path}/beyonce/`],
   ['Barbie - Soundtrack', `${path}/barbie/`],
+  ['Blur', `${path}/blur-ost/`],
+  ['Beach Weather', `${path}/beach-weather-ost/`],
+  ['Butterfly Boucher', `${path}/butterfly-boucher/`],
+  ['Ben 10', `${path}/ben-10/`],
+  ['Benson Boone', `${path}/benson-boone/`],
   ['Beauz', `${path}/beauz/`],
   ['Blueberry', `${path}/blueberry/`],
   ['Blackbear', `${path}/blackbear/`],
   ['Bastille', `${path}/bastille/`],
-  ['Blur', `${path}/blur-ost/`],
-  ['Ben 10', `${path}/ben-10/`],
   ['Bruce Springsteen', `${path}/bruce-springsteen/`],
   ['Blondie', `${path}/blondie-ost/`],
-  ['Beach Weather', `${path}/beach-weather-ost/`],
   ['Black Sabbath', `${path}/black-sabbath/`],
   ['Bad Bunny', `${path}/bad-bunny/`],
   ['Billy Idol', `${path}/billy-idol/`],
@@ -147,6 +149,8 @@ const bands = [
   ['Jimi Hendrix', `${path}/jimi-hendrix/`],
   ['Jutty Ranx', `${path}/jutty-ranx/`],
   ['Jim Yosef', `${path}/jim-yosef/`],
+  ['Jo Cohen', `${path}/jo-cohen`],
+  ['Janji', `${path}/janji`],
   ['John Newman', `${path}/john-newman/`],
   ['Joan Jett And The Blackhearts', `${path}/joan-jett-and-the-blackhearts/`],
   ['Jefferson Tadeo', `${path}/jefferson-tadeo/`],
@@ -156,13 +160,14 @@ const bands = [
 
   /* ======================= K ======================= */
   ['Kanye West', `${path}/kanye-west-ost`],
-  ['Kaleo', `${path}/kaleo/`],
+  ['Kid cudi', `${path}/kid-cudi`],
   ['Kike Jiménez', `${path}/kike-jimenez/`],
+  ['Kana-Boon', `${path}/kana-boon-ost/`],
   ['K-391', `${path}/k-391/`],
   ['Kings of Leon', `${path}/kings-of--leon/`],
   ['Kasabian', `${path}/kasabian-ost/`],
   ['Katy Perry', `${path}/katy-perry/`],
-  ['Kana-Boon', `${path}/kana-boon-ost/`],
+  ['Kaleo', `${path}/kaleo/`],
 
   /* ======================= L ======================= */
   ['Los Prisioneros', `${path}/los-prisioneros/`],
@@ -307,7 +312,7 @@ const bands = [
   ['Urge Overkill', `${path}/urge-overkill-ost/`],
 
   /* ======================= V ======================= */
-  ['Virus', `${path}/virus/`],
+  ['Vicetone', `${path}/vicetone-ost/`],
   ['Vanze', `${path}/vanze-ost/`],
   ['Vnv Nation', `${path}/vnv-nation/`],
   ['Vxllain', `${path}/vxllain/`],
@@ -315,6 +320,7 @@ const bands = [
   ['Van Halen', `${path}/van--halen/`],
   ['Village People', `${path}/village-people-ost/`],
   ['Velvet Revolver', `${path}/velvet-revolver-ost/`],
+  ['Virus', `${path}/virus/`],
   ['Vitalic', `${path}/vitalic-ost/`],
   ['Vampire Weekend', `${path}/vampire-weekend-ost/`],
   ['Viti Ruiz', `${path}/viti-ruiz-ost/`],
@@ -325,6 +331,7 @@ const bands = [
   ['Weezer', `${path}/weezer/`],
   ['Warpaint', `${path}/warpaint/`],
   ['Wolfmother', `${path}/wolfmother/`],
+  ['War', `${path}/war`],
 
   /* ======================= X ======================= */
   ['Xerath', `${path}/xerath/`],
