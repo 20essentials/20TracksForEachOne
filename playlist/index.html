@@ -43,8 +43,6 @@
       }
 
       html {
-        scrollbar-width: thin;
-        scrollbar-color: #c9c9c9 transparent;
         min-width: 350px;
         max-width: 1600px;
         display: block;
@@ -57,6 +55,37 @@
       html,
       body {
         scroll-behavior: smooth;
+      }
+
+      body {
+        --sb-track-color: transparent;
+        --sb-thumb-color: linear-gradient(
+          to bottom,
+          var(--color1),
+          var(--color2),
+          var(--color3)
+        );
+        --sb-size: 8px;
+      }
+
+      body::-webkit-scrollbar {
+        width: var(--sb-size);
+      }
+
+      body::-webkit-scrollbar-track {
+        background: var(--sb-track-color);
+        border-radius: 12px;
+      }
+
+      body::-webkit-scrollbar-thumb {
+        background: var(--sb-thumb-color);
+        border-radius: 12px;
+      }
+
+      @supports not selector(::-webkit-scrollbar) {
+        body {
+          scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+        }
       }
 
       .am-modal {
@@ -933,7 +962,7 @@
           }
         }
       }
-    /* ===========================VIEW TRANSITIONS========================= */
+      /* ===========================VIEW TRANSITIONS========================= */
 
       html {
         view-transition-name: transitionPage;
@@ -998,7 +1027,10 @@
     </dialog>
 
     <nav class="myNav">
-      <a class="home" href="https://20essentials.github.io/20TracksForEachOne/">
+      <a
+        class="home"
+        href="https://20essentials.github.io/20TracksForEachOne/"
+      >
         <svg>
           <use href="assets/svgSprite.svg#homebutton"></use>
         </svg>
@@ -1058,17 +1090,23 @@
             <section class="card-right-buttons">
               <button class="card-playbutton">
                 <svg>
-                  <use href="assets/svgSpriteCardMusical.svg#playbutton"></use>
+                  <use
+                    href="assets/svgSpriteCardMusical.svg#playbutton"
+                  ></use>
                 </svg>
               </button>
               <button class="card-pausebutton">
                 <svg>
-                  <use href="assets/svgSpriteCardMusical.svg#pausebutton"></use>
+                  <use
+                    href="assets/svgSpriteCardMusical.svg#pausebutton"
+                  ></use>
                 </svg>
               </button>
               <button class="card-stopbutton">
                 <svg>
-                  <use href="assets/svgSpriteCardMusical.svg#stopbutton"></use>
+                  <use
+                    href="assets/svgSpriteCardMusical.svg#stopbutton"
+                  ></use>
                 </svg>
               </button>
               <button class="card-infinitybutton">
@@ -1114,17 +1152,23 @@
             <section class="card-right-buttons">
               <button class="card-playbutton">
                 <svg>
-                  <use href="assets/svgSpriteCardMusical.svg#playbutton"></use>
+                  <use
+                    href="assets/svgSpriteCardMusical.svg#playbutton"
+                  ></use>
                 </svg>
               </button>
               <button class="card-pausebutton">
                 <svg>
-                  <use href="assets/svgSpriteCardMusical.svg#pausebutton"></use>
+                  <use
+                    href="assets/svgSpriteCardMusical.svg#pausebutton"
+                  ></use>
                 </svg>
               </button>
               <button class="card-stopbutton">
                 <svg>
-                  <use href="assets/svgSpriteCardMusical.svg#stopbutton"></use>
+                  <use
+                    href="assets/svgSpriteCardMusical.svg#stopbutton"
+                  ></use>
                 </svg>
               </button>
               <button class="card-infinitybutton">
@@ -1170,17 +1214,23 @@
             <section class="card-right-buttons">
               <button class="card-playbutton">
                 <svg>
-                  <use href="assets/svgSpriteCardMusical.svg#playbutton"></use>
+                  <use
+                    href="assets/svgSpriteCardMusical.svg#playbutton"
+                  ></use>
                 </svg>
               </button>
               <button class="card-pausebutton">
                 <svg>
-                  <use href="assets/svgSpriteCardMusical.svg#pausebutton"></use>
+                  <use
+                    href="assets/svgSpriteCardMusical.svg#pausebutton"
+                  ></use>
                 </svg>
               </button>
               <button class="card-stopbutton">
                 <svg>
-                  <use href="assets/svgSpriteCardMusical.svg#stopbutton"></use>
+                  <use
+                    href="assets/svgSpriteCardMusical.svg#stopbutton"
+                  ></use>
                 </svg>
               </button>
               <button class="card-infinitybutton">
@@ -1226,17 +1276,23 @@
             <section class="card-right-buttons">
               <button class="card-playbutton">
                 <svg>
-                  <use href="assets/svgSpriteCardMusical.svg#playbutton"></use>
+                  <use
+                    href="assets/svgSpriteCardMusical.svg#playbutton"
+                  ></use>
                 </svg>
               </button>
               <button class="card-pausebutton">
                 <svg>
-                  <use href="assets/svgSpriteCardMusical.svg#pausebutton"></use>
+                  <use
+                    href="assets/svgSpriteCardMusical.svg#pausebutton"
+                  ></use>
                 </svg>
               </button>
               <button class="card-stopbutton">
                 <svg>
-                  <use href="assets/svgSpriteCardMusical.svg#stopbutton"></use>
+                  <use
+                    href="assets/svgSpriteCardMusical.svg#stopbutton"
+                  ></use>
                 </svg>
               </button>
               <button class="card-infinitybutton">
@@ -1282,17 +1338,23 @@
             <section class="card-right-buttons">
               <button class="card-playbutton">
                 <svg>
-                  <use href="assets/svgSpriteCardMusical.svg#playbutton"></use>
+                  <use
+                    href="assets/svgSpriteCardMusical.svg#playbutton"
+                  ></use>
                 </svg>
               </button>
               <button class="card-pausebutton">
                 <svg>
-                  <use href="assets/svgSpriteCardMusical.svg#pausebutton"></use>
+                  <use
+                    href="assets/svgSpriteCardMusical.svg#pausebutton"
+                  ></use>
                 </svg>
               </button>
               <button class="card-stopbutton">
                 <svg>
-                  <use href="assets/svgSpriteCardMusical.svg#stopbutton"></use>
+                  <use
+                    href="assets/svgSpriteCardMusical.svg#stopbutton"
+                  ></use>
                 </svg>
               </button>
               <button class="card-infinitybutton">
@@ -1338,17 +1400,23 @@
             <section class="card-right-buttons">
               <button class="card-playbutton">
                 <svg>
-                  <use href="assets/svgSpriteCardMusical.svg#playbutton"></use>
+                  <use
+                    href="assets/svgSpriteCardMusical.svg#playbutton"
+                  ></use>
                 </svg>
               </button>
               <button class="card-pausebutton">
                 <svg>
-                  <use href="assets/svgSpriteCardMusical.svg#pausebutton"></use>
+                  <use
+                    href="assets/svgSpriteCardMusical.svg#pausebutton"
+                  ></use>
                 </svg>
               </button>
               <button class="card-stopbutton">
                 <svg>
-                  <use href="assets/svgSpriteCardMusical.svg#stopbutton"></use>
+                  <use
+                    href="assets/svgSpriteCardMusical.svg#stopbutton"
+                  ></use>
                 </svg>
               </button>
               <button class="card-infinitybutton">
@@ -1394,17 +1462,23 @@
             <section class="card-right-buttons">
               <button class="card-playbutton">
                 <svg>
-                  <use href="assets/svgSpriteCardMusical.svg#playbutton"></use>
+                  <use
+                    href="assets/svgSpriteCardMusical.svg#playbutton"
+                  ></use>
                 </svg>
               </button>
               <button class="card-pausebutton">
                 <svg>
-                  <use href="assets/svgSpriteCardMusical.svg#pausebutton"></use>
+                  <use
+                    href="assets/svgSpriteCardMusical.svg#pausebutton"
+                  ></use>
                 </svg>
               </button>
               <button class="card-stopbutton">
                 <svg>
-                  <use href="assets/svgSpriteCardMusical.svg#stopbutton"></use>
+                  <use
+                    href="assets/svgSpriteCardMusical.svg#stopbutton"
+                  ></use>
                 </svg>
               </button>
               <button class="card-infinitybutton">
@@ -1450,17 +1524,23 @@
             <section class="card-right-buttons">
               <button class="card-playbutton">
                 <svg>
-                  <use href="assets/svgSpriteCardMusical.svg#playbutton"></use>
+                  <use
+                    href="assets/svgSpriteCardMusical.svg#playbutton"
+                  ></use>
                 </svg>
               </button>
               <button class="card-pausebutton">
                 <svg>
-                  <use href="assets/svgSpriteCardMusical.svg#pausebutton"></use>
+                  <use
+                    href="assets/svgSpriteCardMusical.svg#pausebutton"
+                  ></use>
                 </svg>
               </button>
               <button class="card-stopbutton">
                 <svg>
-                  <use href="assets/svgSpriteCardMusical.svg#stopbutton"></use>
+                  <use
+                    href="assets/svgSpriteCardMusical.svg#stopbutton"
+                  ></use>
                 </svg>
               </button>
               <button class="card-infinitybutton">
@@ -1506,17 +1586,23 @@
             <section class="card-right-buttons">
               <button class="card-playbutton">
                 <svg>
-                  <use href="assets/svgSpriteCardMusical.svg#playbutton"></use>
+                  <use
+                    href="assets/svgSpriteCardMusical.svg#playbutton"
+                  ></use>
                 </svg>
               </button>
               <button class="card-pausebutton">
                 <svg>
-                  <use href="assets/svgSpriteCardMusical.svg#pausebutton"></use>
+                  <use
+                    href="assets/svgSpriteCardMusical.svg#pausebutton"
+                  ></use>
                 </svg>
               </button>
               <button class="card-stopbutton">
                 <svg>
-                  <use href="assets/svgSpriteCardMusical.svg#stopbutton"></use>
+                  <use
+                    href="assets/svgSpriteCardMusical.svg#stopbutton"
+                  ></use>
                 </svg>
               </button>
               <button class="card-infinitybutton">
@@ -1562,17 +1648,23 @@
             <section class="card-right-buttons">
               <button class="card-playbutton">
                 <svg>
-                  <use href="assets/svgSpriteCardMusical.svg#playbutton"></use>
+                  <use
+                    href="assets/svgSpriteCardMusical.svg#playbutton"
+                  ></use>
                 </svg>
               </button>
               <button class="card-pausebutton">
                 <svg>
-                  <use href="assets/svgSpriteCardMusical.svg#pausebutton"></use>
+                  <use
+                    href="assets/svgSpriteCardMusical.svg#pausebutton"
+                  ></use>
                 </svg>
               </button>
               <button class="card-stopbutton">
                 <svg>
-                  <use href="assets/svgSpriteCardMusical.svg#stopbutton"></use>
+                  <use
+                    href="assets/svgSpriteCardMusical.svg#stopbutton"
+                  ></use>
                 </svg>
               </button>
               <button class="card-infinitybutton">
@@ -1618,17 +1710,23 @@
             <section class="card-right-buttons">
               <button class="card-playbutton">
                 <svg>
-                  <use href="assets/svgSpriteCardMusical.svg#playbutton"></use>
+                  <use
+                    href="assets/svgSpriteCardMusical.svg#playbutton"
+                  ></use>
                 </svg>
               </button>
               <button class="card-pausebutton">
                 <svg>
-                  <use href="assets/svgSpriteCardMusical.svg#pausebutton"></use>
+                  <use
+                    href="assets/svgSpriteCardMusical.svg#pausebutton"
+                  ></use>
                 </svg>
               </button>
               <button class="card-stopbutton">
                 <svg>
-                  <use href="assets/svgSpriteCardMusical.svg#stopbutton"></use>
+                  <use
+                    href="assets/svgSpriteCardMusical.svg#stopbutton"
+                  ></use>
                 </svg>
               </button>
               <button class="card-infinitybutton">
@@ -1674,17 +1772,23 @@
             <section class="card-right-buttons">
               <button class="card-playbutton">
                 <svg>
-                  <use href="assets/svgSpriteCardMusical.svg#playbutton"></use>
+                  <use
+                    href="assets/svgSpriteCardMusical.svg#playbutton"
+                  ></use>
                 </svg>
               </button>
               <button class="card-pausebutton">
                 <svg>
-                  <use href="assets/svgSpriteCardMusical.svg#pausebutton"></use>
+                  <use
+                    href="assets/svgSpriteCardMusical.svg#pausebutton"
+                  ></use>
                 </svg>
               </button>
               <button class="card-stopbutton">
                 <svg>
-                  <use href="assets/svgSpriteCardMusical.svg#stopbutton"></use>
+                  <use
+                    href="assets/svgSpriteCardMusical.svg#stopbutton"
+                  ></use>
                 </svg>
               </button>
               <button class="card-infinitybutton">
@@ -1730,17 +1834,23 @@
             <section class="card-right-buttons">
               <button class="card-playbutton">
                 <svg>
-                  <use href="assets/svgSpriteCardMusical.svg#playbutton"></use>
+                  <use
+                    href="assets/svgSpriteCardMusical.svg#playbutton"
+                  ></use>
                 </svg>
               </button>
               <button class="card-pausebutton">
                 <svg>
-                  <use href="assets/svgSpriteCardMusical.svg#pausebutton"></use>
+                  <use
+                    href="assets/svgSpriteCardMusical.svg#pausebutton"
+                  ></use>
                 </svg>
               </button>
               <button class="card-stopbutton">
                 <svg>
-                  <use href="assets/svgSpriteCardMusical.svg#stopbutton"></use>
+                  <use
+                    href="assets/svgSpriteCardMusical.svg#stopbutton"
+                  ></use>
                 </svg>
               </button>
               <button class="card-infinitybutton">
@@ -1786,17 +1896,23 @@
             <section class="card-right-buttons">
               <button class="card-playbutton">
                 <svg>
-                  <use href="assets/svgSpriteCardMusical.svg#playbutton"></use>
+                  <use
+                    href="assets/svgSpriteCardMusical.svg#playbutton"
+                  ></use>
                 </svg>
               </button>
               <button class="card-pausebutton">
                 <svg>
-                  <use href="assets/svgSpriteCardMusical.svg#pausebutton"></use>
+                  <use
+                    href="assets/svgSpriteCardMusical.svg#pausebutton"
+                  ></use>
                 </svg>
               </button>
               <button class="card-stopbutton">
                 <svg>
-                  <use href="assets/svgSpriteCardMusical.svg#stopbutton"></use>
+                  <use
+                    href="assets/svgSpriteCardMusical.svg#stopbutton"
+                  ></use>
                 </svg>
               </button>
               <button class="card-infinitybutton">
@@ -1842,17 +1958,23 @@
             <section class="card-right-buttons">
               <button class="card-playbutton">
                 <svg>
-                  <use href="assets/svgSpriteCardMusical.svg#playbutton"></use>
+                  <use
+                    href="assets/svgSpriteCardMusical.svg#playbutton"
+                  ></use>
                 </svg>
               </button>
               <button class="card-pausebutton">
                 <svg>
-                  <use href="assets/svgSpriteCardMusical.svg#pausebutton"></use>
+                  <use
+                    href="assets/svgSpriteCardMusical.svg#pausebutton"
+                  ></use>
                 </svg>
               </button>
               <button class="card-stopbutton">
                 <svg>
-                  <use href="assets/svgSpriteCardMusical.svg#stopbutton"></use>
+                  <use
+                    href="assets/svgSpriteCardMusical.svg#stopbutton"
+                  ></use>
                 </svg>
               </button>
               <button class="card-infinitybutton">
@@ -1898,17 +2020,23 @@
             <section class="card-right-buttons">
               <button class="card-playbutton">
                 <svg>
-                  <use href="assets/svgSpriteCardMusical.svg#playbutton"></use>
+                  <use
+                    href="assets/svgSpriteCardMusical.svg#playbutton"
+                  ></use>
                 </svg>
               </button>
               <button class="card-pausebutton">
                 <svg>
-                  <use href="assets/svgSpriteCardMusical.svg#pausebutton"></use>
+                  <use
+                    href="assets/svgSpriteCardMusical.svg#pausebutton"
+                  ></use>
                 </svg>
               </button>
               <button class="card-stopbutton">
                 <svg>
-                  <use href="assets/svgSpriteCardMusical.svg#stopbutton"></use>
+                  <use
+                    href="assets/svgSpriteCardMusical.svg#stopbutton"
+                  ></use>
                 </svg>
               </button>
               <button class="card-infinitybutton">
@@ -1950,17 +2078,23 @@
             <section class="card-right-buttons">
               <button class="card-playbutton">
                 <svg>
-                  <use href="assets/svgSpriteCardMusical.svg#playbutton"></use>
+                  <use
+                    href="assets/svgSpriteCardMusical.svg#playbutton"
+                  ></use>
                 </svg>
               </button>
               <button class="card-pausebutton">
                 <svg>
-                  <use href="assets/svgSpriteCardMusical.svg#pausebutton"></use>
+                  <use
+                    href="assets/svgSpriteCardMusical.svg#pausebutton"
+                  ></use>
                 </svg>
               </button>
               <button class="card-stopbutton">
                 <svg>
-                  <use href="assets/svgSpriteCardMusical.svg#stopbutton"></use>
+                  <use
+                    href="assets/svgSpriteCardMusical.svg#stopbutton"
+                  ></use>
                 </svg>
               </button>
               <button class="card-infinitybutton">
@@ -2006,17 +2140,23 @@
             <section class="card-right-buttons">
               <button class="card-playbutton">
                 <svg>
-                  <use href="assets/svgSpriteCardMusical.svg#playbutton"></use>
+                  <use
+                    href="assets/svgSpriteCardMusical.svg#playbutton"
+                  ></use>
                 </svg>
               </button>
               <button class="card-pausebutton">
                 <svg>
-                  <use href="assets/svgSpriteCardMusical.svg#pausebutton"></use>
+                  <use
+                    href="assets/svgSpriteCardMusical.svg#pausebutton"
+                  ></use>
                 </svg>
               </button>
               <button class="card-stopbutton">
                 <svg>
-                  <use href="assets/svgSpriteCardMusical.svg#stopbutton"></use>
+                  <use
+                    href="assets/svgSpriteCardMusical.svg#stopbutton"
+                  ></use>
                 </svg>
               </button>
               <button class="card-infinitybutton">
@@ -2062,17 +2202,23 @@
             <section class="card-right-buttons">
               <button class="card-playbutton">
                 <svg>
-                  <use href="assets/svgSpriteCardMusical.svg#playbutton"></use>
+                  <use
+                    href="assets/svgSpriteCardMusical.svg#playbutton"
+                  ></use>
                 </svg>
               </button>
               <button class="card-pausebutton">
                 <svg>
-                  <use href="assets/svgSpriteCardMusical.svg#pausebutton"></use>
+                  <use
+                    href="assets/svgSpriteCardMusical.svg#pausebutton"
+                  ></use>
                 </svg>
               </button>
               <button class="card-stopbutton">
                 <svg>
-                  <use href="assets/svgSpriteCardMusical.svg#stopbutton"></use>
+                  <use
+                    href="assets/svgSpriteCardMusical.svg#stopbutton"
+                  ></use>
                 </svg>
               </button>
               <button class="card-infinitybutton">
@@ -2118,17 +2264,23 @@
             <section class="card-right-buttons">
               <button class="card-playbutton">
                 <svg>
-                  <use href="assets/svgSpriteCardMusical.svg#playbutton"></use>
+                  <use
+                    href="assets/svgSpriteCardMusical.svg#playbutton"
+                  ></use>
                 </svg>
               </button>
               <button class="card-pausebutton">
                 <svg>
-                  <use href="assets/svgSpriteCardMusical.svg#pausebutton"></use>
+                  <use
+                    href="assets/svgSpriteCardMusical.svg#pausebutton"
+                  ></use>
                 </svg>
               </button>
               <button class="card-stopbutton">
                 <svg>
-                  <use href="assets/svgSpriteCardMusical.svg#stopbutton"></use>
+                  <use
+                    href="assets/svgSpriteCardMusical.svg#stopbutton"
+                  ></use>
                 </svg>
               </button>
               <button class="card-infinitybutton">

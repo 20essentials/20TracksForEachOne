@@ -38,18 +38,21 @@ const bands = [
   ['Billy Idol', `${path}/billy-idol/`],
   ['Børns', `${path}/borns-ost/`],
   ['Blink 182', `${path}/blink-182-ost/`],
+  ['Bojack Horseman', `${path}/bojack-horseman/`],
 
   /* ======================= C ======================= */
   ['Cnco', `${path}/cnco/`],
-  ['Charly Black', `${path}/charly-black/`],
+  ['Culture Code', `${path}/culture-code-ost`],
   ['Cartoon', `${path}/cartoon-ost/`],
+  ['Cigarettes After Sex', `${path}/cigarettes-after-sex/`],
+  ['Craspore', `${path}/craspore/`],
   ['Calvin Harris', `${path}/calvin-harris/`],
   ['Carl Duglas', `${path}/carl-douglas/`],
   ['Cindy Lauper', `${path}/cindy-lauper/`],
   ['Coldplay', `${path}/coldplay/`],
+  ['Charly Black', `${path}/charly-black/`],
   ['Carpenter Brut', `${path}/carpenter-brut/`],
   ['Chino y Nacho', `${path}/chino-y-nacho/`],
-  ['Culture Code', `${path}/culture-code-ost`],
   ['Crystal Castles', `${path}/crystal-castles-ost`],
   ['Cage the Elephant', `${path}/cage-the-elephant-ost/`],
   ['Chromeo', `${path}/chromeo-ost/`],
@@ -100,6 +103,7 @@ const bands = [
   ['Flow', `${path}/flow-ost/`],
   ['FleetWood Mac', `${path}/fleetwood/`],
   ['Flume', `${path}/flume-ost/`],
+  ['Forhill', `${path}/forhill/`],
   ['Franz Ferdinand', `${path}/franz-ferdinand-ost/`],
   ['Fitz and the Tantrums', `${path}/fitz-and-the-tantrums-ost/`],
   ['Fantom 87', `${path}/fantom-87-ost/`],
@@ -175,6 +179,7 @@ const bands = [
   ['Linkin Park', `${path}/linkin-park-ost/`],
   ['Lynyrd Skynyrd', `${path}/lynyrd-skynyrd-ost/`],
   ['Linked Horizon', `${path}/linked-horizon-ost/`],
+  ['Lana del Rey', `${path}/lana-del-rey/`],
   ['Left 4 Dead 2', `${path}/left-4-dead/`],
   ['Lost Frequencies', `${path}/lost-frequencies-ost/`],
   ['La Roux', `${path}/la-roux/`],
@@ -248,18 +253,19 @@ const bands = [
   ['Queens Of The Stop Age', `${path}/queens-of-the-stop-age-ost/`],
 
   /* ======================= R ======================= */
-  ['Rauf & faik', `${path}/rauf-and-faik/`],
+  ['Robert Miles', `${path}/robert-miles/`],
   ['Roxette (version English)', `${path}/roxette-ost/`],
   ['Roxette (version Spanish)', `${path}/roxette-in-spanish/`],
   ['Rage Against The Machine', `${path}/rage-against-the-machine/`],
+  ['Royal Blood', `${path}/royal-blood/`],
   ['Rihanna', `${path}/rihanna/`],
   ['Red Hot Chilli Peppers', `${path}/red-hot-chilli-peppers/`],
   ['Rauw Alejandro', `${path}/rauw-alejandro/`],
   ['Rata Blanca', `${path}/rata-blanca/`],
   ['Remy Zero', `${path}/remy-zero/`],
   ['Rhcp', `${path}/red-hot-chilli-peppers/`],
+  ['Rauf & faik', `${path}/rauf-and-faik/`],
   ['Rick Astley', `${path}/rick-astley/`],
-  ['Royal Blood', `${path}/royal-blood/`],
   ['Rocio Durcal', `${path}/rocio-durcal/`],
   ['Rammstein', `${path}/rammstein/`],
   ['Rio', `${path}/rio-ost/`],
@@ -332,6 +338,7 @@ const bands = [
   ['Warpaint', `${path}/warpaint/`],
   ['Wolfmother', `${path}/wolfmother/`],
   ['War', `${path}/war`],
+  ['Wafia', `${path}/wafia`],
 
   /* ======================= X ======================= */
   ['Xerath', `${path}/xerath/`],
@@ -357,6 +364,7 @@ const bands = [
   ['Zoé', `${path}/zoe/`],
   ['Zoids Chaotic Century', `${path}/zoids-chaotic-century/`],
   ['Zoids Guardian Force', `${path}/zoids-guardian-force/`],
+  ['Zaza', `${path}/zaza/`],
 
   /* ======================= 0 ======================= */
   /* ======================= 1 ======================= */
