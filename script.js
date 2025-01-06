@@ -147,6 +147,8 @@ const bands = [
   ['Izecold', `${path}/izecold/`],
   ['Incubus', `${path}/incubus/`],
   ['Iracundos', `${path}/los-iracundos/`],
+  ['Icona Pop', `${path}/icona-pop/`],
+  ['Iced Earth', `${path}/iced-earth`],
 
   /* ======================= J ======================= */
   ['Jack Black', `${path}/jack-black/`],
@@ -174,17 +176,18 @@ const bands = [
   ['Kaleo', `${path}/kaleo/`],
 
   /* ======================= L ======================= */
-  ['Los Prisioneros', `${path}/los-prisioneros/`],
   ['Los Violadores', `${path}/los-vi0ladores/`],
+  ['LazerPUnk', `${path}/lazerpunk`],
   ['Linkin Park', `${path}/linkin-park-ost/`],
+  ['La Roux', `${path}/la-roux/`],
   ['Lynyrd Skynyrd', `${path}/lynyrd-skynyrd-ost/`],
   ['Linked Horizon', `${path}/linked-horizon-ost/`],
   ['Lana del Rey', `${path}/lana-del-rey/`],
   ['Left 4 Dead 2', `${path}/left-4-dead/`],
   ['Lost Frequencies', `${path}/lost-frequencies-ost/`],
-  ['La Roux', `${path}/la-roux/`],
   ['La Unión', `${path}/la-union/`],
   ['La Ley', `${path}/la-ley/`],
+  ['Los Prisioneros', `${path}/los-prisioneros/`],
   ['Luis Fonsi', `${path}/luis-fonsi/`],
   ['Leeandlie', `${path}/leeandlie/`],
   ['La Bouche', `${path}/la-bouche-ost/`],
@@ -200,7 +203,9 @@ const bands = [
   ['Martin Garrix', `${path}/martin-garrix/`],
   ['Mazemirror', `${path}/mazemirror/`],
   ['Men At Work', `${path}/men-at-work/`],
+  ['Miki González', `${path}/miki-gonzales/`],
   ['Madonna', `${path}/madonna/`],
+  ['Masterboy', `${path}/masterboy/`],
   ['Myke Towers', `${path}/myke-towers/`],
   ['Marilyn Manson', `${path}/marilyn-manson/`],
   ['Mutiny On The Bounty', `${path}/mutiny-on-the-bounty/`],
@@ -254,6 +259,7 @@ const bands = [
 
   /* ======================= R ======================= */
   ['Robert Miles', `${path}/robert-miles/`],
+  ['Resident Evil', `${path}/resident-evil/`],
   ['Roxette (version English)', `${path}/roxette-ost/`],
   ['Roxette (version Spanish)', `${path}/roxette-in-spanish/`],
   ['Rage Against The Machine', `${path}/rage-against-the-machine/`],
@@ -293,11 +299,12 @@ const bands = [
 
   /* ======================= T ======================= */
   ['Tony Igy', `${path}/tony-igy/`],
-  ['Timbaland', `${path}/timbaland/`],
+  ['Twisted Sister', `${path}/twisted-sister/`],
+  ['The Rare Occasions', `${path}/the-rare-occasions/`],
   ['Toto', `${path}/toto-ost/`],
   ['The Script', `${path}/the-script-ost/`],
   ['The Smiths', `${path}/the-smiths-ost/`],
-  ['The Rare Occasions', `${path}/the-rare-occasions/`],
+  ['Timbaland', `${path}/timbaland/`],
   ['The Rasmus', `${path}/the-rasmus/`],
   ['Two Door Cinema Club', `${path}/two-door-cinema-club/`],
   ['The Neighbourhood', `${path}/the-neighbourhood/`],
