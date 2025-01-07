@@ -102,6 +102,7 @@ const bands = [
   ['Frágil', `${path}/fragil/`],
   ['Flow', `${path}/flow-ost/`],
   ['FleetWood Mac', `${path}/fleetwood/`],
+  ['Foreigner', `${path}/foreigner/`],
   ['Flume', `${path}/flume-ost/`],
   ['Forhill', `${path}/forhill/`],
   ['Franz Ferdinand', `${path}/franz-ferdinand-ost/`],
@@ -143,6 +144,7 @@ const bands = [
   /* ======================= I ======================= */
   ['Indochine', `${path}/indochine/`],
   ['Inner Circle', `${path}/inner--circle/`],
+  ['Interpol', `${path}/interpol/`],
   ['Imagine Dragons', `${path}/imagine--dragons/`],
   ['Izecold', `${path}/izecold/`],
   ['Incubus', `${path}/incubus/`],
@@ -200,12 +202,15 @@ const bands = [
 
   /* ======================= M ======================= */
   ['Memorex Memories', `${path}/memorex-memories/`],
-  ['Martin Garrix', `${path}/martin-garrix/`],
+  ['Miguel Bosé', `${path}/miguel-bose/`],
+  ['Mr Kitty', `${path}/mr-kitty/`],
+  ['Modest Mouse', `${path}/modest-mouse/`],
   ['Mazemirror', `${path}/mazemirror/`],
   ['Men At Work', `${path}/men-at-work/`],
   ['Miki González', `${path}/miki-gonzales/`],
   ['Madonna', `${path}/madonna/`],
   ['Masterboy', `${path}/masterboy/`],
+  ['Martin Garrix', `${path}/martin-garrix/`],
   ['Myke Towers', `${path}/myke-towers/`],
   ['Marilyn Manson', `${path}/marilyn-manson/`],
   ['Mutiny On The Bounty', `${path}/mutiny-on-the-bounty/`],
