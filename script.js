@@ -2,31 +2,35 @@ const path = 'https://20essentials.github.io';
 
 const bands = [
   /* ======================= A ======================= */
+  ['Asian Kung Fu Generation', `${path}/akfg`],
+  ['Ahrix', `${path}/ahrix-ost/`],
+  ['Adieu Aru', `${path}/adieu-4ru`],
   ['Alessia Cara', `${path}/alessia-cara`],
+  ['Akiaura', `${path}/akiaura-ost`],
+  ['AC - DC', `${path}/ac--dc`],
   ['Ariana Grande', `${path}/ariana-grande`],
   ['A-ha', `${path}/a-ha`],
   ['Artic Monkeys', `${path}/artic-monkeys`],
   ['Alphaville', `${path}/alphaville`],
   ['Arena Hash', `${path}/arena-hash`],
-  ['AC - DC', `${path}/ac--dc`],
   ['Aerosmith', `${path}/aerosmith-ost/`],
-  ['Ahrix', `${path}/ahrix-ost/`],
   ['Alabama 3', `${path}/alabama3-ost/`],
   ['Audioslave', `${path}/audioslave-ost`],
-  ['Adieu Aru', `${path}/adieu-4ru`],
-  ['Akiaura', `${path}/akiaura-ost`],
   ['Alan Walker', `${path}/alan--walker`],
-  ['Asian Kung Fu Generation', `${path}/akfg`],
   ['AKFG', `${path}/akfg`],
 
   /* ======================= B ======================= */
   ['Beyonce', `${path}/beyonce/`],
   ['Barbie - Soundtrack', `${path}/barbie/`],
+  ['Børns', `${path}/borns-ost/`],
+  ['Boston', `${path}/boston/`],
   ['Blur', `${path}/blur-ost/`],
+  ['Benson Boone', `${path}/benson-boone/`],
+  ['Bojack Horseman', `${path}/bojack-horseman/`],
   ['Beach Weather', `${path}/beach-weather-ost/`],
   ['Butterfly Boucher', `${path}/butterfly-boucher/`],
+  ['Bob Dylan', `${path}/bob-dylan/`],
   ['Ben 10', `${path}/ben-10/`],
-  ['Benson Boone', `${path}/benson-boone/`],
   ['Beauz', `${path}/beauz/`],
   ['Blueberry', `${path}/blueberry/`],
   ['Blackbear', `${path}/blackbear/`],
@@ -36,25 +40,24 @@ const bands = [
   ['Black Sabbath', `${path}/black-sabbath/`],
   ['Bad Bunny', `${path}/bad-bunny/`],
   ['Billy Idol', `${path}/billy-idol/`],
-  ['Børns', `${path}/borns-ost/`],
   ['Blink 182', `${path}/blink-182-ost/`],
-  ['Bojack Horseman', `${path}/bojack-horseman/`],
 
   /* ======================= C ======================= */
-  ['Cnco', `${path}/cnco/`],
+  ['Cage the Elephant', `${path}/cage-the-elephant-ost/`],
   ['Culture Code', `${path}/culture-code-ost`],
   ['Cartoon', `${path}/cartoon-ost/`],
   ['Cigarettes After Sex', `${path}/cigarettes-after-sex/`],
+  ['Counting Crows', `${path}/counting-crows/`],
   ['Craspore', `${path}/craspore/`],
   ['Calvin Harris', `${path}/calvin-harris/`],
+  ['Crystal Castles', `${path}/crystal-castles-ost`],
   ['Carl Duglas', `${path}/carl-douglas/`],
   ['Cindy Lauper', `${path}/cindy-lauper/`],
   ['Coldplay', `${path}/coldplay/`],
   ['Charly Black', `${path}/charly-black/`],
+  ['Cnco', `${path}/cnco/`],
   ['Carpenter Brut', `${path}/carpenter-brut/`],
   ['Chino y Nacho', `${path}/chino-y-nacho/`],
-  ['Crystal Castles', `${path}/crystal-castles-ost`],
-  ['Cage the Elephant', `${path}/cage-the-elephant-ost/`],
   ['Chromeo', `${path}/chromeo-ost/`],
   ['Culture Beat', `${path}/culture-beat-ost/`],
   ['Chvrches', `${path}/chvrches-ost/`],
@@ -70,21 +73,15 @@ const bands = [
   ['DLS 2016 - Soundtrack', `${path}/dream-league-soccer-2016/`],
   ['Depeche Mode', `${path}/depeche-mode/`],
   ['DLS 2020 - Soundtrack', `${path}/dream-league-soccer-2020/`],
-  [
-    'Dream League Soccer 2016 - Soundtrack',
-    `${path}/dream-league-soccer-2016/`
-  ],
-  [
-    'Dream League Soccer 2020 - Soundtrack',
-    `${path}/dream-league-soccer-2020/`
-  ],
+  ['Dream League Soccer 2016 - Soundtrack', `${path}/dream-league-soccer-2016/`],
+  ['Dream League Soccer 2020 - Soundtrack', `${path}/dream-league-soccer-2020/`],
   ['Duncan Laurence', `${path}/duncan-laurence/`],
   ['Daughter', `${path}/daughter/`],
   ['Dire Straits', `${path}/dire-straits/`],
   ['Dead or Alive', `${path}/dead-or-alive/`],
   ['Duncan Dhu', `${path}/duncan-dhu/`],
-  ['Danza Invisible', `${path}/danza-invisible/`],
   ['Dominic Fike', `${path}/dominic-fike/`],
+  ['Danza Invisible', `${path}/danza-invisible/`],
 
   /* ======================= E ======================= */
   ['Electric Light Orchestra', `${path}/electric-light-orchestra/`],
@@ -118,13 +115,14 @@ const bands = [
 
   /* ======================= G ======================= */
   ['Glude', `${path}/glude/`],
-  ['Geolier', `${path}/geolier/`],
   ['Good Charlotte', `${path}/good-charlotte/`],
+  ['Grouplove', `${path}/grouplove/`],
+  [`Guns N' Roses`, `${path}/guns-n-roses-ost/`],
   ['Gesaffelstein', `${path}/gesaffelstein/`],
+  [`GLHF`, `${path}/glhf`],
   ['Galantis', `${path}/galantis-ost/`],
   ['Glass Animals', `${path}/glass-animals-ost/`],
-  [`Guns N' Roses`, `${path}/guns-n-roses-ost/`],
-  [`GLHF`, `${path}/glhf`],
+  ['Geolier', `${path}/geolier/`],
 
   /* ======================= H ======================= */
   ['Hippie Sabotage', `${path}/hippie-sabotage/`],
@@ -154,17 +152,19 @@ const bands = [
 
   /* ======================= J ======================= */
   ['Jack Black', `${path}/jack-black/`],
-  ['Jimi Hendrix', `${path}/jimi-hendrix/`],
-  ['Jutty Ranx', `${path}/jutty-ranx/`],
+  ['Jet', `${path}/jet/`],
+  ['JJD', `${path}/jjd-ost/`],
+  ['Justice', `${path}/justice-ost/`],
   ['Jim Yosef', `${path}/jim-yosef/`],
+  ['JCole', `${path}/j-cole/`],
   ['Jo Cohen', `${path}/jo-cohen`],
   ['Janji', `${path}/janji`],
+  ['Jutty Ranx', `${path}/jutty-ranx/`],
+  ['Jimi Hendrix', `${path}/jimi-hendrix/`],
   ['John Newman', `${path}/john-newman/`],
   ['Joan Jett And The Blackhearts', `${path}/joan-jett-and-the-blackhearts/`],
   ['Jefferson Tadeo', `${path}/jefferson-tadeo/`],
   ['Journey', `${path}/journey-ost/`],
-  ['JJD', `${path}/jjd-ost/`],
-  ['Justice', `${path}/justice-ost/`],
 
   /* ======================= K ======================= */
   ['Kanye West', `${path}/kanye-west-ost`],
@@ -184,6 +184,8 @@ const bands = [
   ['La Roux', `${path}/la-roux/`],
   ['Lynyrd Skynyrd', `${path}/lynyrd-skynyrd-ost/`],
   ['Linked Horizon', `${path}/linked-horizon-ost/`],
+  ['League of Legends', `${path}/league-of-legends`],
+  ['Lol', `${path}/league-of-legends`],
   ['Lana del Rey', `${path}/lana-del-rey/`],
   ['Left 4 Dead 2', `${path}/left-4-dead/`],
   ['Lost Frequencies', `${path}/lost-frequencies-ost/`],
@@ -202,6 +204,7 @@ const bands = [
 
   /* ======================= M ======================= */
   ['Memorex Memories', `${path}/memorex-memories/`],
+  ['Macklemore', `${path}/macklemore/`],
   ['Miguel Bosé', `${path}/miguel-bose/`],
   ['Mr Kitty', `${path}/mr-kitty/`],
   ['Modest Mouse', `${path}/modest-mouse/`],
@@ -211,6 +214,7 @@ const bands = [
   ['Madonna', `${path}/madonna/`],
   ['Masterboy', `${path}/masterboy/`],
   ['Martin Garrix', `${path}/martin-garrix/`],
+  ['Marwa Loud', `${path}/marwa-loud//`],
   ['Myke Towers', `${path}/myke-towers/`],
   ['Marilyn Manson', `${path}/marilyn-manson/`],
   ['Mutiny On The Bounty', `${path}/mutiny-on-the-bounty/`],
@@ -241,18 +245,22 @@ const bands = [
   ['Outlaws', `${path}/outlaws-ost/`],
 
   /* ======================= P ======================= */
-  ['Propellerheads', `${path}/propellerheads/`],
+  ['Penguin Research', `${path}/penguin-research/`],
+  ['Prismo', `${path}/prismo/`],
   ['Project X', `${path}/project-x/`],
   ['Pixies', `${path}/pixies-ost/`],
   ['Portwave', `${path}/portwave-ost/`],
+  ['Phillip Phillips', `${path}/phillip-phillips/`],
+  ['Phantogram', `${path}/phantogram/`],
   ['Piano Deuss', `${path}/piano-deuss/`],
   ['Panic at the Disco', `${path}/panic-at-the-disco-ost/`],
   ['Pitbull', `${path}/pitbull/`],
   ['Pink Floyd', `${path}/pink-floyd/`],
   ['Pet Shop Boys', `${path}/pet-shop-boys/`],
   ['Pimpinela', `${path}/pimpinela/`],
+  ['Pachelbel', `${path}/pachelbel/`],
+  ['Propellerheads', `${path}/propellerheads/`],
   ['Petit Biscuit', `${path}/petit-biscuit/`],
-  ['Penguin Research', `${path}/penguin-research/`],
 
   /* ======================= Q ======================= */
   ['Queen Latifah', `${path}/queen-latifah/`],
@@ -303,11 +311,12 @@ const bands = [
   ['Shakira', `${path}/shakira/`],
 
   /* ======================= T ======================= */
-  ['Tony Igy', `${path}/tony-igy/`],
+  ['The Score', `${path}/the-score/`],
   ['Twisted Sister', `${path}/twisted-sister/`],
   ['The Rare Occasions', `${path}/the-rare-occasions/`],
   ['Toto', `${path}/toto-ost/`],
   ['The Script', `${path}/the-script-ost/`],
+  ['Tony Igy', `${path}/tony-igy/`],
   ['The Smiths', `${path}/the-smiths-ost/`],
   ['Timbaland', `${path}/timbaland/`],
   ['The Rasmus', `${path}/the-rasmus/`],
@@ -459,18 +468,14 @@ function autocomplete(inpt, elArray) {
     let miContador = 0;
     this.parentNode.appendChild(a);
 
-    for (i = 0; i < elArray.length && miContador < 6; i++) {
+    for (i = 0; i < elArray.length && miContador < 5; i++) {
       if (
-        elArray[i][0].substr(0, val.length).toUpperCase() ===
-        val.toUpperCase()
+        elArray[i][0].substr(0, val.length).toUpperCase() === val.toUpperCase()
       ) {
         b = document.createElement('a');
         b.setAttribute('href', elArray[i][1]);
         b.translate = false;
-        b.innerHTML = `<strong>${elArray[i][0].substr(
-          0,
-          val.length
-        )}</strong>`;
+        b.innerHTML = `<strong>${elArray[i][0].substr(0, val.length)}</strong>`;
         b.innerHTML += elArray[i][0].substr(val.length);
         b.innerHTML += `<input type='hidden' value="${elArray[i][0]}"></input>`;
 
@@ -1396,10 +1401,7 @@ d.addEventListener('keydown', e => {
         input.classList.add('invalid');
       }
 
-      if (
-        !regExP.test(input.value) ||
-        comprobeExistThisProperty(input.value)
-      ) {
+      if (!regExP.test(input.value) || comprobeExistThisProperty(input.value)) {
         return;
       }
 
@@ -1442,9 +1444,7 @@ d.addEventListener('keydown', e => {
     if (currentCard) {
       let lastIndex = localStorage.getItem('last-index');
       let cardName = input.value.trim();
-      let objectCardNames = JSON.parse(
-        localStorage.getItem('listname-cards')
-      );
+      let objectCardNames = JSON.parse(localStorage.getItem('listname-cards'));
       let currentCard = [...$$('.card-single')][lastIndex].querySelector(
         '.card-single-right h3'
       );
@@ -1486,10 +1486,7 @@ d.addEventListener('click', e => {
         input.classList.add('invalid');
       }
 
-      if (
-        !regExP.test(input.value) ||
-        comprobeExistThisProperty(input.value)
-      ) {
+      if (!regExP.test(input.value) || comprobeExistThisProperty(input.value)) {
         return;
       }
 
@@ -1532,9 +1529,7 @@ d.addEventListener('click', e => {
     if (currentCard) {
       let lastIndex = localStorage.getItem('last-index');
       let cardName = input.value.trim();
-      let objectCardNames = JSON.parse(
-        localStorage.getItem('listname-cards')
-      );
+      let objectCardNames = JSON.parse(localStorage.getItem('listname-cards'));
       let currentCard = [...$$('.card-single')][lastIndex].querySelector(
         '.card-single-right h3'
       );
@@ -1627,13 +1622,11 @@ d.addEventListener('click', e => {
       el.classList.remove('btn-backup-active');
     });
     e.target.classList.add('btn-backup-active');
-    let textareaHermana =
-      e.target.nextElementSibling?.firstElementChild ?? '';
+    let textareaHermana = e.target.nextElementSibling?.firstElementChild ?? '';
     if (!textareaHermana) return;
     let valor = e.target.nextElementSibling.firstElementChild.value ?? '';
     if (!localStorage.getItem('listname-cards')) {
-      textareaHermana.value =
-        'There are not playlists, you need at least one.';
+      textareaHermana.value = 'There are not playlists, you need at least one.';
       localStorage.setItem('listname-cards', '');
       return;
     }
@@ -1678,13 +1671,11 @@ d.addEventListener('click', e => {
       el.classList.remove('btn-backup-active');
     });
     e.target.classList.add('btn-backup-active');
-    let textareaHermana =
-      e.target.nextElementSibling?.firstElementChild ?? '';
+    let textareaHermana = e.target.nextElementSibling?.firstElementChild ?? '';
     if (!textareaHermana) return;
     let valor = e.target.nextElementSibling.firstElementChild.value ?? '';
     if (!localStorage.getItem('listname-cards')) {
-      textareaHermana.value =
-        'There are not playlists, you need at least one.';
+      textareaHermana.value = 'There are not playlists, you need at least one.';
       localStorage.setItem('listname-cards', '');
       return;
     }
@@ -1740,8 +1731,7 @@ d.addEventListener('click', e => {
       localStorage.getItem('listname-cards') || '""'
     );
     if (!listNameCards) {
-      textareaHermana.value =
-        'There are not playlists, you need at least one.';
+      textareaHermana.value = 'There are not playlists, you need at least one.';
       localStorage.setItem('listname-cards', '');
       return;
     }
@@ -1786,8 +1776,7 @@ d.addEventListener('click', e => {
       localStorage.getItem('listname-cards') || '""'
     );
     if (!listNameCards) {
-      textareaHermana.value =
-        'There are not playlists, you need at least one.';
+      textareaHermana.value = 'There are not playlists, you need at least one.';
       localStorage.setItem('listname-cards', '');
       return;
     }
@@ -1823,13 +1812,11 @@ d.addEventListener('click', e => {
       el.classList.remove('btn-backup-active');
     });
     e.target.classList.add('btn-backup-active');
-    let textareaHermana =
-      e.target.nextElementSibling?.firstElementChild ?? '';
+    let textareaHermana = e.target.nextElementSibling?.firstElementChild ?? '';
     if (!textareaHermana) return;
     let valor = e.target.nextElementSibling.firstElementChild.value ?? '';
     if (!localStorage.getItem('listname-cards')) {
-      textareaHermana.value =
-        'There are not playlists, you need at least one.';
+      textareaHermana.value = 'There are not playlists, you need at least one.';
       localStorage.setItem('listname-cards', '');
       return;
     }
@@ -1923,19 +1910,15 @@ function renderPlaylistCards() {
 renderPlaylistCards();
 
 $inputPlaylist.addEventListener('input', e => {
-  e.target.parentElement.querySelector(
-    '.max-length-input output'
-  ).textContent = e.target.value.length;
+  e.target.parentElement.querySelector('.max-length-input output').textContent =
+    e.target.value.length;
 
   if (e.target.value.length === 0) {
     e.target.classList.remove('valid', 'invalid');
     return;
   }
 
-  if (
-    regExP.test(e.target.value) &&
-    !comprobeExistThisProperty(e.target.value)
-  ) {
+  if (regExP.test(e.target.value) && !comprobeExistThisProperty(e.target.value)) {
     e.target.classList.remove('invalid');
     e.target.classList.add('valid');
   } else {
@@ -1953,10 +1936,7 @@ $inputPlaylist2.addEventListener('input', e => {
     return;
   }
 
-  if (
-    regExP.test(e.target.value) &&
-    !comprobeExistThisProperty(e.target.value)
-  ) {
+  if (regExP.test(e.target.value) && !comprobeExistThisProperty(e.target.value)) {
     e.target.classList.remove('invalid');
     e.target.classList.add('valid');
   } else {
