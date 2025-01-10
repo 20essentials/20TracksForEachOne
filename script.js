@@ -46,6 +46,7 @@ const bands = [
   ['Cage the Elephant', `${path}/cage-the-elephant-ost/`],
   ['Culture Code', `${path}/culture-code-ost`],
   ['Cartoon', `${path}/cartoon-ost/`],
+  ['Clint Mansell', `${path}/clint-mansell/`],
   ['Cigarettes After Sex', `${path}/cigarettes-after-sex/`],
   ['Counting Crows', `${path}/counting-crows/`],
   ['Craspore', `${path}/craspore/`],
@@ -96,7 +97,7 @@ const bands = [
   ['Earth Wind and Fire', `${path}/earth-wind-and-fire/`],
 
   /* ======================= F ======================= */
-  ['Frágil', `${path}/fragil/`],
+  ['Foo Fighters', `${path}/foo-fighters/`],
   ['Flow', `${path}/flow-ost/`],
   ['FleetWood Mac', `${path}/fleetwood/`],
   ['Foreigner', `${path}/foreigner/`],
@@ -104,6 +105,7 @@ const bands = [
   ['Forhill', `${path}/forhill/`],
   ['Franz Ferdinand', `${path}/franz-ferdinand-ost/`],
   ['Fitz and the Tantrums', `${path}/fitz-and-the-tantrums-ost/`],
+  ['Frágil', `${path}/fragil/`],
   ['Fantom 87', `${path}/fantom-87-ost/`],
   ['French Montana', `${path}/french-montana-ost/`],
   ['Final Fantasy VII', `${path}/final-fantasy-7/`],
@@ -122,6 +124,7 @@ const bands = [
   [`GLHF`, `${path}/glhf`],
   ['Galantis', `${path}/galantis-ost/`],
   ['Glass Animals', `${path}/glass-animals-ost/`],
+  ['Glwzbll', `${path}/glwzbll/`],
   ['Geolier', `${path}/geolier/`],
 
   /* ======================= H ======================= */
@@ -240,6 +243,7 @@ const bands = [
   ['Outkast', `${path}/outkast/`],
   ['Omar Cabán', `${path}/omar-caban/`],
   ['Ofdream', `${path}/ofdream/`],
+  ['Oneheart', `${path}/oneheart/`],
   ['Orbital', `${path}/orbital/`],
   ['One Republic', `${path}/one-republic/`],
   ['Outlaws', `${path}/outlaws-ost/`],
@@ -290,18 +294,20 @@ const bands = [
   ['Rio', `${path}/rio-ost/`],
 
   /* ======================= S ======================= */
-  ['Sad Puppy', `${path}/sad-puppy/`],
+  ['Skyrim', `${path}/skyrim/`],
   ['Snap!', `${path}/snap/`],
   ['Selena Gomez', `${path}/selena-gomez/`],
   ['Sawano Hiroyuki', `${path}/sawano-hiroyuki-ost/`],
   ['September 87', `${path}/september-87-ost/`],
-  ['St. Vincent', `${path}/st-vincent/`],
   ['Succession', `${path}/succession/`],
+  ['St. Vincent', `${path}/st-vincent/`],
+  ['Sad Puppy', `${path}/sad-puppy/`],
   ['Sidewalks and Skeletons', `${path}/sidewalks-and-skeletons-ost/`],
 
   ['Sandra', `${path}/sandra/`],
   ['Soda Stereo', `${path}/soda-stereo/`],
   ['Ship Wrek', `${path}/ship-wrek-ost/`],
+  ['Shrek 2', `${path}/shrek-2/`],
   ['Spin Doctors', `${path}/spin-doctors/`],
   ['Serena', `${path}/serena/`],
   [

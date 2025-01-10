@@ -390,9 +390,10 @@ body {
         background-position: center;
         background-size: cover;
         position: relative;
-        --black: #0004;
+        --black: #0003;
         filter: drop-shadow(1px 0px 0px var(--black))
           drop-shadow(-1px 0px 0px var(--black))
+          drop-shadow(0px 1px 0px var(--black))
           drop-shadow(0px -1px 0px var(--black));
       }
     }
