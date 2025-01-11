@@ -157,6 +157,7 @@ const bands = [
   ['Jack Black', `${path}/jack-black/`],
   ['Jet', `${path}/jet/`],
   ['JJD', `${path}/jjd-ost/`],
+  ['Joy Division', `${path}/joy-division/`],
   ['Justice', `${path}/justice-ost/`],
   ['Jim Yosef', `${path}/jim-yosef/`],
   ['JCole', `${path}/j-cole/`],
@@ -181,7 +182,7 @@ const bands = [
   ['Kaleo', `${path}/kaleo/`],
 
   /* ======================= L ======================= */
-  ['Los Violadores', `${path}/los-vi0ladores/`],
+  ['Lisa', `${path}/lisa/`],
   ['LazerPUnk', `${path}/lazerpunk`],
   ['Linkin Park', `${path}/linkin-park-ost/`],
   ['La Roux', `${path}/la-roux/`],
@@ -190,6 +191,7 @@ const bands = [
   ['League of Legends', `${path}/league-of-legends`],
   ['Lol', `${path}/league-of-legends`],
   ['Lana del Rey', `${path}/lana-del-rey/`],
+  ['Los Violadores', `${path}/los-vi0ladores/`],
   ['Left 4 Dead 2', `${path}/left-4-dead/`],
   ['Lost Frequencies', `${path}/lost-frequencies-ost/`],
   ['La Unión', `${path}/la-union/`],
@@ -212,6 +214,7 @@ const bands = [
   ['Mr Kitty', `${path}/mr-kitty/`],
   ['Modest Mouse', `${path}/modest-mouse/`],
   ['Mazemirror', `${path}/mazemirror/`],
+  ['Magneto', `${path}/magneto/`],
   ['Men At Work', `${path}/men-at-work/`],
   ['Miki González', `${path}/miki-gonzales/`],
   ['Madonna', `${path}/madonna/`],
@@ -255,6 +258,7 @@ const bands = [
   ['Pixies', `${path}/pixies-ost/`],
   ['Portwave', `${path}/portwave-ost/`],
   ['Phillip Phillips', `${path}/phillip-phillips/`],
+  ['Pastel Ghost', `${path}/pastel-ghost/`],
   ['Phantogram', `${path}/phantogram/`],
   ['Piano Deuss', `${path}/piano-deuss/`],
   ['Panic at the Disco', `${path}/panic-at-the-disco-ost/`],
@@ -321,6 +325,7 @@ const bands = [
   ['Twisted Sister', `${path}/twisted-sister/`],
   ['The Rare Occasions', `${path}/the-rare-occasions/`],
   ['Toto', `${path}/toto-ost/`],
+  ['The Weeknd', `${path}/the-weeknd/`],
   ['The Script', `${path}/the-script-ost/`],
   ['Tony Igy', `${path}/tony-igy/`],
   ['The Smiths', `${path}/the-smiths-ost/`],
@@ -392,6 +397,7 @@ const bands = [
   ['Zoids Chaotic Century', `${path}/zoids-chaotic-century/`],
   ['Zoids Guardian Force', `${path}/zoids-guardian-force/`],
   ['Zaza', `${path}/zaza/`],
+  ['Zambo Cavero', `${path}/zambo-cavero/`],
 
   /* ======================= 0 ======================= */
   /* ======================= 1 ======================= */

@@ -32,9 +32,7 @@ html {
   place-content: center;
 }
 
-body {
-  max-height: 1600px;
-}
+
 
 .html-scheme {
   position: fixed;
