@@ -20,6 +20,8 @@ const bands = [
   ['Alan Walker', `${path}/alan--walker`],
   ['AKFG', `${path}/akfg`],
   ['Agnes Obel', `${path}/agnes-obel`],
+  ['Autechre', `${path}/autechre`],
+  ['Alex Bueno', `${path}/alex-bueno/`],
 
   /* ======================= B ======================= */
   ['Beyonce', `${path}/beyonce/`],
@@ -43,15 +45,18 @@ const bands = [
   ['Bad Bunny', `${path}/bad-bunny/`],
   ['Billy Idol', `${path}/billy-idol/`],
   ['Blink 182', `${path}/blink-182-ost/`],
+  ['Bonobo', `${path}/bonobo/`],
+  ['Bruno Mars', `${path}/bruno-mars/`],
 
   /* ======================= C ======================= */
   ['Cage the Elephant', `${path}/cage-the-elephant-ost/`],
   ['Culture Code', `${path}/culture-code-ost`],
   ['Cartoon', `${path}/cartoon-ost/`],
   ['Clint Mansell', `${path}/clint-mansell/`],
-  ['Cigarettes After Sex', `${path}/cigarettes-after-sex/`],
+  ['Cadmium', `${path}/cadmium/`],
   ['Counting Crows', `${path}/counting-crows/`],
   ['Craspore', `${path}/craspore/`],
+  ['Cigarettes After Sex', `${path}/cigarettes-after-sex/`],
   ['Calvin Harris', `${path}/calvin-harris/`],
   ['Crystal Castles', `${path}/crystal-castles-ost`],
   ['Carl Duglas', `${path}/carl-douglas/`],
@@ -64,6 +69,7 @@ const bands = [
   ['Chromeo', `${path}/chromeo-ost/`],
   ['Culture Beat', `${path}/culture-beat-ost/`],
   ['Chvrches', `${path}/chvrches-ost/`],
+  ['Can', `${path}/can/`],
 
   /* ======================= D ======================= */
   ['Different Heaven', `${path}/different-heaven-ost/`],
@@ -130,6 +136,7 @@ const bands = [
   ['Glass Animals', `${path}/glass-animals-ost/`],
   ['Glwzbll', `${path}/glwzbll/`],
   ['Geolier', `${path}/geolier/`],
+  ['Gaitán Castro', `${path}/gaitan-castro/`],
 
   /* ======================= H ======================= */
   ['Hippie Sabotage', `${path}/hippie-sabotage/`],
@@ -212,6 +219,8 @@ const bands = [
   ['Libido', `${path}/libido/`],
   ['Los Iracundos', `${path}/los-iracundos/`],
   ['Los Morrochucos', `${path}/los-morrochucos/`],
+  ['Luther Vandross', `${path}/luther-vandross`],
+  ['Lucha Reyes', `${path}/lucha-reyes/`],
 
   /* ======================= M ======================= */
   ['M83', `${path}/m83/`],
@@ -277,6 +286,7 @@ const bands = [
   ['Pachelbel', `${path}/pachelbel/`],
   ['Propellerheads', `${path}/propellerheads/`],
   ['Petit Biscuit', `${path}/petit-biscuit/`],
+  ['Pepe Vasquez', `${path}/pepe-vasquez/`],
 
   /* ======================= Q ======================= */
   ['Queen Latifah', `${path}/queen-latifah/`],
@@ -309,8 +319,9 @@ const bands = [
   /* ======================= S ======================= */
   ['Skyrim', `${path}/skyrim/`],
   ['Snap!', `${path}/snap/`],
-  ['Selena Gomez', `${path}/selena-gomez/`],
+  ['Sia', `${path}/sia/`],
   ['Sawano Hiroyuki', `${path}/sawano-hiroyuki-ost/`],
+  ['Spin Doctors', `${path}/spin-doctors/`],
   ['September 87', `${path}/september-87-ost/`],
   ['Succession', `${path}/succession/`],
   ['St. Vincent', `${path}/st-vincent/`],
@@ -322,13 +333,13 @@ const bands = [
   ['Stevie Wonder', `${path}/stevie-wonder//`],
   ['Ship Wrek', `${path}/ship-wrek-ost/`],
   ['Shrek 2', `${path}/shrek-2/`],
-  ['Spin Doctors', `${path}/spin-doctors/`],
   ['Serena', `${path}/serena/`],
   [
     'Star vs. The Forces Of Evil - Soundtrack',
     `${path}/star-vs-the-forces-of-evil-soundtrack/`
   ],
   ['Shakira', `${path}/shakira/`],
+  ['Selena Gomez', `${path}/selena-gomez/`],
 
   /* ======================= T ======================= */
   ['The Score', `${path}/the-score/`],
@@ -1991,3 +2002,14 @@ window.addEventListener('storage', e => {
     $dataList.innerHTML = html;
   }
 })();
+
+document.addEventListener('contextmenu', function (e) {
+  if (e.target.matches('.card-single-right h3')) {
+    let h3Title = e.target.textContent;
+    localStorage.setItem('lastNameCardClicked', h3Title);
+  }
+  if (e.target.matches('.card-single-right p')) {
+    let h3Title = e.target.previousElementSibling.textContent;
+    localStorage.setItem('lastNameCardClicked', h3Title);
+  }
+});

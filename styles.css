@@ -9,7 +9,7 @@
 html,
 body {
   width: 100%;
-  height: 100%;
+  min-height: 100vh;
   max-width: 2400px;
   max-height: 100vh;
   margin-inline: auto;
@@ -31,8 +31,6 @@ html {
   flex-wrap: wrap;
   place-content: center;
 }
-
-
 
 .html-scheme {
   position: fixed;
@@ -489,27 +487,15 @@ html {
   }
 
   .card-single:nth-child(3n + 1) {
-    background-color: color-mix(
-      in srgb,
-      var(--color1, #f004),
-      transparent 55%
-    );
+    background-color: color-mix(in srgb, var(--color1, #f004), transparent 55%);
   }
 
   .card-single:nth-child(3n + 2) {
-    background-color: color-mix(
-      in srgb,
-      var(--color2, #f004),
-      transparent 55%
-    );
+    background-color: color-mix(in srgb, var(--color2, #f004), transparent 55%);
   }
 
   .card-single:nth-child(3n + 3) {
-    background-color: color-mix(
-      in srgb,
-      var(--color3, #00f4),
-      transparent 55%
-    );
+    background-color: color-mix(in srgb, var(--color3, #00f4), transparent 55%);
   }
 
   .playlist-container-form,
@@ -1101,10 +1087,10 @@ html {
     height: 100vh;
     width: 100%;
     left: 0;
-    zoom: .4;
+    zoom: 0.4;
 
     @media (width <= 1111px) {
-      zoom: .5;
+      zoom: 0.5;
     }
 
     .container-cube {
@@ -2378,8 +2364,7 @@ html {
         left: 20px;
         width: 73%;
         height: 25%;
-        transform: translate(0px, 0px) translateZ(-37px) scale(0.7)
-          rotateX(90deg);
+        transform: translate(0px, 0px) translateZ(-37px) scale(0.7) rotateX(90deg);
         background-color: #ffa50088;
       }
       &.side-bottom {
@@ -2516,8 +2501,8 @@ html {
       }
       &.tts-bottom-left {
         transform: perspective(10000px) scaleY(-1)
-          translateZ(var(--w-half-negative))
-          translateX(var(--w-half-negative)) rotateY(90deg) rotateX(-47deg);
+          translateZ(var(--w-half-negative)) translateX(var(--w-half-negative))
+          rotateY(90deg) rotateX(-47deg);
       }
 
       &.tts-bottom-front {
@@ -2525,14 +2510,14 @@ html {
       }
 
       &.tts-bottom-behind {
-        transform: perspective(10000px) scaleY(-1)
-          translateZ(var(--w-negative)) rotateX(-47deg);
+        transform: perspective(10000px) scaleY(-1) translateZ(var(--w-negative))
+          rotateX(-47deg);
       }
 
       &.tts-bottom-right {
         transform: perspective(10000px) scaleY(-1)
-          translateZ(var(--w-half-negative))
-          translateX(var(--w-half-positive)) rotateY(-90deg) rotateX(-47deg);
+          translateZ(var(--w-half-negative)) translateX(var(--w-half-positive))
+          rotateY(-90deg) rotateX(-47deg);
       }
 
       .side {
@@ -2770,8 +2755,7 @@ html {
   }
 
   25% {
-    transform: translate(-50%, -50%) rotateX(90deg) rotateY(180deg)
-      rotate(90deg);
+    transform: translate(-50%, -50%) rotateX(90deg) rotateY(180deg) rotate(90deg);
   }
 
   50% {
@@ -3236,7 +3220,7 @@ html {
   @media (width <= 800px) and (orientation: portrait) {
     width: 72%;
     margin-inline: auto;
-    transform:  translate(-50%, -50%) translateY(-60px);
+    transform: translate(-50%, -50%) translateY(-60px);
   }
 
   .autocomplete {
