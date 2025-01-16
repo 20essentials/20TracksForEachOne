@@ -10,7 +10,7 @@ html,
 body {
   width: 100%;
   max-width: 2400px;
-  height: 100vh;
+  height: 100%;
   margin-inline: auto;
   position: relative;
   background-color: transparent;
@@ -3176,7 +3176,7 @@ html {
   flex-wrap: wrap;
   place-content: center;
   width: 100%;
-  min-height: 100vh;
+  max-height: 100vh;
   z-index: 800;
   background-color: transparent;
   transform-style: preserve-3d;
