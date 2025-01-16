@@ -9,9 +9,8 @@
 html,
 body {
   width: 100%;
-  min-height: 100vh;
   max-width: 2400px;
-  max-height: 100vh;
+  height: 100vh;
   margin-inline: auto;
   position: relative;
   background-color: transparent;
