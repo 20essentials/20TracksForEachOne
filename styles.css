@@ -3176,22 +3176,22 @@ html {
   flex-wrap: wrap;
   place-content: center;
   width: 100%;
-  max-height: 100vh;
+  height: 100vh;
   z-index: 800;
   background-color: transparent;
-  transform-style: preserve-3d;
-  perspective: 10000px;
 
   .container-loader {
     transform-style: preserve-3d;
     perspective: 10000px;
+    
 
     @media (width <= 1111px) {
-      transform: translateY(-70px);
+      transform: translateY(-60px);
+      display: none;
     }
   }
 
-  @media (width <= 800px) and (orientation: portrait) {
+  @media (width <= 999px) and (orientation: portrait) {
     transform: translateY(-50px);
   }
 }
@@ -3216,10 +3216,10 @@ html {
   background-size: 1000% 100%;
   animation: cambiar 5s ease infinite alternate;
 
-  @media (width <= 800px) and (orientation: portrait) {
+  @media (width <= 999px) and (orientation: portrait) {
     width: 72%;
     margin-inline: auto;
-    transform: translate(-50%, -50%) translateY(-60px);
+    transform: translate(-50%, -280px);
   }
 
   .autocomplete {

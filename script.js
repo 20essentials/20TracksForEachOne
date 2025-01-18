@@ -22,6 +22,7 @@ const bands = [
   ['Agnes Obel', `${path}/agnes-obel`],
   ['Autechre', `${path}/autechre`],
   ['Alex Bueno', `${path}/alex-bueno/`],
+  ['Alexander Rybak', `${path}/alexander-rybak/`],
 
   /* ======================= B ======================= */
   ['Beyonce', `${path}/beyonce/`],
@@ -107,6 +108,7 @@ const bands = [
   ['Enigma', `${path}/enigma-ost/`],
   ['El Último De La Fila', `${path}/el-ultimo-de-la-fila-ost/`],
   ['Earth Wind and Fire', `${path}/earth-wind-and-fire/`],
+  ['Evanescence', `${path}/evanescence/`],
 
   /* ======================= F ======================= */
   ['Foo Fighters', `${path}/foo-fighters/`],
@@ -182,6 +184,7 @@ const bands = [
   ['Joan Jett And The Blackhearts', `${path}/joan-jett-and-the-blackhearts/`],
   ['Jefferson Tadeo', `${path}/jefferson-tadeo/`],
   ['Journey', `${path}/journey-ost/`],
+  ['Jamiroquai', `${path}/jamiroquai/`],
 
   /* ======================= K ======================= */
   ['Kanye West', `${path}/kanye-west-ost`],
@@ -193,6 +196,7 @@ const bands = [
   ['Kasabian', `${path}/kasabian-ost/`],
   ['Katy Perry', `${path}/katy-perry/`],
   ['Kaleo', `${path}/kaleo/`],
+  ['Kohta Yamamoto', `${path}/kohta-yamamoto/`],
 
   /* ======================= L ======================= */
   ['Lisa', `${path}/lisa/`],
@@ -250,7 +254,7 @@ const bands = [
 
   /* ======================= N ======================= */
   ['Neffex', `${path}/neffex/`],
-  ['Nuages', `${path}/nuages/`],
+  ['New Found Glory', `${path}/new-found-glory/`],
   ['Neon Rox', `${path}/neon-rox/`],
   ['Neon Genesis Evangelion', `${path}/neon-genesis-evangelion/`],
   ['Neon Trees', `${path}/neon-trees/`],
@@ -258,6 +262,7 @@ const bands = [
   ['No mercy', `${path}/no-mercy/`],
   ['Nicky Jam', `${path}/nicky-jam/`],
   ['New Radicals', `${path}/new-radicals-ost/`],
+  ['Nuages', `${path}/nuages/`],
 
   /* ======================= O ======================= */
   ["Oscar D'león", `${path}/oscar-d-leon/`],
@@ -319,9 +324,10 @@ const bands = [
   ['Rammstein', `${path}/rammstein/`],
   ['Rio', `${path}/rio-ost/`],
   ['Rafaga', `${path}/rafaga/`],
+  ['Ryan Gosling', `${path}/ryan-gosling/`],
 
   /* ======================= S ======================= */
-  ['Skyrim', `${path}/skyrim/`],
+  ['Spandau Ballet', `${path}/spandau-ballet/`],
   ['Surf Curse', `${path}/surf-curse/`],
   ['Sia', `${path}/sia/`],
   ['Sawano Hiroyuki', `${path}/sawano-hiroyuki-ost/`],
@@ -332,10 +338,10 @@ const bands = [
   ['Snap!', `${path}/snap/`],
   ['Sad Puppy', `${path}/sad-puppy/`],
   ['Sidewalks and Skeletons', `${path}/sidewalks-and-skeletons-ost/`],
-
   ['Sandra', `${path}/sandra/`],
-  ['Soda Stereo', `${path}/soda-stereo/`],
+  ['Skrillex', `${path}/skrillex/`],
   ['Stevie Wonder', `${path}/stevie-wonder//`],
+  ['Skyrim', `${path}/skyrim/`],
   ['Ship Wrek', `${path}/ship-wrek-ost/`],
   ['Shrek 2', `${path}/shrek-2/`],
   ['Serena', `${path}/serena/`],
@@ -345,12 +351,13 @@ const bands = [
   ],
   ['Shakira', `${path}/shakira/`],
   ['Selena Gomez', `${path}/selena-gomez/`],
+  ['Soda Stereo', `${path}/soda-stereo/`],
 
   /* ======================= T ======================= */
   ['The Score', `${path}/the-score/`],
   ['Twisted Sister', `${path}/twisted-sister/`],
   ['The Rare Occasions', `${path}/the-rare-occasions/`],
-  ['Toto', `${path}/toto-ost/`],
+  ['The Rolling Stones', `${path}/the-rolling-stones/`],
   ['Torbellino', `${path}/torbellino/`],
   ['The Beach Boys', `${path}/the-beach-boys/`],
   ['The Black Eyed Peas', `${path}/the-black-eyed-peas/`],
@@ -358,6 +365,7 @@ const bands = [
   ['The Script', `${path}/the-script-ost/`],
   ['Tony Igy', `${path}/tony-igy/`],
   ['The Smiths', `${path}/the-smiths-ost/`],
+  ['Toto', `${path}/toto-ost/`],
   ['Timbaland', `${path}/timbaland/`],
   ['The Rasmus', `${path}/the-rasmus/`],
   ['Two Door Cinema Club', `${path}/two-door-cinema-club/`],
@@ -446,16 +454,24 @@ const bands = [
 let d = document,
   $borrar = d.querySelector('.borrar'),
   $ = el => document.querySelector(el),
-  $$ = el => document.querySelectorAll(el);
+  $$ = el => document.querySelectorAll(el),
+  maxItemsInInput = 5;
 
 let $inputPlaylist = $('.playlist-container-form .playlist-input');
 let $inputPlaylist2 = $('.playlist-container-form-2 .playlist-input');
 let regExP = /^(?![\s0-9\-_])[\w\s\-]{1,20}(?<![\s\-])$/;
 
-console.group('Reference');
-console.log('Switch ->', 'https://uiverse.io/csemszepp/soft-pug-40');
-console.log('Rain ->', 'https://youtu.be/YhXxBhInJMI?si=Ib56mu0h76sQz9WJ');
-console.groupEnd();
+function updateMaxItems() {
+  const isPortrait = window.matchMedia('(orientation: portrait)').matches;
+  const isLessThan1000px = window.matchMedia('(max-width: 1000px)').matches;
+
+  maxItemsInInput = isPortrait && isLessThan1000px ? 10 : 5;
+  console.log(`maxItemsInInput: ${maxItemsInInput}`);
+}
+
+updateMaxItems();
+window.addEventListener('resize', updateMaxItems);
+window.addEventListener('orientationchange', updateMaxItems);
 
 const headerColors = {
   0: ['#ff00ff', '#00ffff', '#39ff14'],
@@ -509,7 +525,7 @@ function autocomplete(inpt, elArray) {
     let miContador = 0;
     this.parentNode.appendChild(a);
 
-    for (i = 0; i < elArray.length && miContador < 5; i++) {
+    for (i = 0; i < elArray.length && miContador < maxItemsInInput; i++) {
       if (
         elArray[i][0].substr(0, val.length).toUpperCase() === val.toUpperCase()
       ) {
