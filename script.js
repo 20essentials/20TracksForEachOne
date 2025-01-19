@@ -197,6 +197,7 @@ const bands = [
   ['Katy Perry', `${path}/katy-perry/`],
   ['Kaleo', `${path}/kaleo/`],
   ['Kohta Yamamoto', `${path}/kohta-yamamoto/`],
+  ['Kmfdm', `${path}/kmfdm/`],
 
   /* ======================= L ======================= */
   ['Lisa', `${path}/lisa/`],
@@ -211,6 +212,7 @@ const bands = [
   ['Lana del Rey', `${path}/lana-del-rey/`],
   ['Los Violadores', `${path}/los-vi0ladores/`],
   ['Left 4 Dead 2', `${path}/left-4-dead/`],
+  ['Led Zepellin', `${path}/led-zepellin//`],
   ['Lost Frequencies', `${path}/lost-frequencies-ost/`],
   ['La Unión', `${path}/la-union/`],
   ['La Ley', `${path}/la-ley/`],
@@ -227,6 +229,7 @@ const bands = [
   ['Los Morrochucos', `${path}/los-morrochucos/`],
   ['Luther Vandross', `${path}/luther-vandross`],
   ['Lucha Reyes', `${path}/lucha-reyes/`],
+  ['Lcd', `${path}/lcd/`],
 
   /* ======================= M ======================= */
   ['M83', `${path}/m83/`],
@@ -263,6 +266,7 @@ const bands = [
   ['Nicky Jam', `${path}/nicky-jam/`],
   ['New Radicals', `${path}/new-radicals-ost/`],
   ['Nuages', `${path}/nuages/`],
+  ['Nickelback', `${path}/nickelback/`],
 
   /* ======================= O ======================= */
   ["Oscar D'león", `${path}/oscar-d-leon/`],
@@ -336,7 +340,7 @@ const bands = [
   ['Succession', `${path}/succession/`],
   ['St. Vincent', `${path}/st-vincent/`],
   ['Snap!', `${path}/snap/`],
-  ['Sad Puppy', `${path}/sad-puppy/`],
+  ['Sim', `${path}/sim/`],
   ['Sidewalks and Skeletons', `${path}/sidewalks-and-skeletons-ost/`],
   ['Sandra', `${path}/sandra/`],
   ['Skrillex', `${path}/skrillex/`],
@@ -352,7 +356,8 @@ const bands = [
   ['Shakira', `${path}/shakira/`],
   ['Selena Gomez', `${path}/selena-gomez/`],
   ['Soda Stereo', `${path}/soda-stereo/`],
-
+  ['Sad Puppy', `${path}/sad-puppy/`],
+  
   /* ======================= T ======================= */
   ['The Score', `${path}/the-score/`],
   ['Twisted Sister', `${path}/twisted-sister/`],
