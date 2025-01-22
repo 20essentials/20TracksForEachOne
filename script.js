@@ -48,6 +48,7 @@ const bands = [
   ['Blink 182', `${path}/blink-182-ost/`],
   ['Bonobo', `${path}/bonobo/`],
   ['Bruno Mars', `${path}/bruno-mars/`],
+  ['Bag Raiders', `${path}/bag-raiders/`],
 
   /* ======================= C ======================= */
   ['Cage the Elephant', `${path}/cage-the-elephant-ost/`],
@@ -267,6 +268,7 @@ const bands = [
   ['New Radicals', `${path}/new-radicals-ost/`],
   ['Nuages', `${path}/nuages/`],
   ['Nickelback', `${path}/nickelback/`],
+  ['Nxcre', `${path}/nxcre/`],
 
   /* ======================= O ======================= */
   ["Oscar D'león", `${path}/oscar-d-leon/`],
@@ -313,6 +315,7 @@ const bands = [
   ['Red Swam', `${path}/red-swam//`],
   ['Roxette (version English)', `${path}/roxette-ost/`],
   ['Red Hot Chilli Peppers', `${path}/red-hot-chilli-peppers/`],
+  ['Rupert Holmes', `${path}/rupert-holmes/`],
   ['Rage Against The Machine', `${path}/rage-against-the-machine/`],
   ['Royal Blood', `${path}/royal-blood/`],
   ['Rihanna', `${path}/rihanna/`],
@@ -357,7 +360,8 @@ const bands = [
   ['Selena Gomez', `${path}/selena-gomez/`],
   ['Soda Stereo', `${path}/soda-stereo/`],
   ['Sad Puppy', `${path}/sad-puppy/`],
-  
+  ['Savage Garden', `${path}/savage-garden/`],
+
   /* ======================= T ======================= */
   ['The Score', `${path}/the-score/`],
   ['Twisted Sister', `${path}/twisted-sister/`],
@@ -381,6 +385,7 @@ const bands = [
   ['Tears For Fears', `${path}/tears-for-fears/`],
   ['Tron - Soundtrack', `${path}/tron/`],
   ['The Outfield', `${path}/the-outfield-ost/`],
+  ['Tyler Bates', `${path}/tyler-bates/`],
 
   /* ======================= U ======================= */
   ['U2', `${path}/u2/`],
@@ -413,6 +418,7 @@ const bands = [
   ['Wolfmother', `${path}/wolfmother/`],
   ['War', `${path}/war`],
   ['Wafia', `${path}/wafia`],
+  ['Wasted Time', `${path}/wasted-time/`],
 
   /* ======================= X ======================= */
   ['Xerath', `${path}/xerath/`],
@@ -440,6 +446,8 @@ const bands = [
   ['Zoids Guardian Force', `${path}/zoids-guardian-force/`],
   ['Zaza', `${path}/zaza/`],
   ['Zambo Cavero', `${path}/zambo-cavero/`],
+  ['Zoot Woman', `${path}/zoot-woman/`],
+  ['Zero 7', `${path}/zero-7/`],
 
   /* ======================= 0 ======================= */
   /* ======================= 1 ======================= */

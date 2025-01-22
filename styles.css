@@ -3183,9 +3183,8 @@ html {
   .container-loader {
     transform-style: preserve-3d;
     perspective: 10000px;
-    
 
-    @media (width <= 1111px) {
+    @media (width <= 999px) {
       transform: translateY(-60px);
       display: none;
     }
@@ -3316,7 +3315,7 @@ html {
 
 /* ============================MEDIA============================*/
 
-@media (orientation: landscape) and (width <=1000px) {
+@media (orientation: landscape) and (width <= 999px) {
   .centrar {
     display: flex;
     flex-direction: row;
