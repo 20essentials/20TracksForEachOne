@@ -23,6 +23,7 @@ const bands = [
   ['Autechre', `${path}/autechre`],
   ['Alex Bueno', `${path}/alex-bueno/`],
   ['Alexander Rybak', `${path}/alexander-rybak/`],
+  ['Akassuna', `${path}/akassuna/`],
 
   /* ======================= B ======================= */
   ['Beyonce', `${path}/beyonce/`],
@@ -142,6 +143,7 @@ const bands = [
   ['Glwzbll', `${path}/glwzbll/`],
   ['Geolier', `${path}/geolier/`],
   ['Gaitán Castro', `${path}/gaitan-castro/`],
+  ['Garbage', `${path}/garbage/`],
 
   /* ======================= H ======================= */
   ['Hippie Sabotage', `${path}/hippie-sabotage/`],
@@ -189,6 +191,7 @@ const bands = [
 
   /* ======================= K ======================= */
   ['Kanye West', `${path}/kanye-west-ost`],
+  ['Keane', `${path}/keane`],
   ['Kid cudi', `${path}/kid-cudi`],
   ['Kike Jiménez', `${path}/kike-jimenez/`],
   ['Kana-Boon', `${path}/kana-boon-ost/`],
@@ -280,6 +283,7 @@ const bands = [
   ['Orbital', `${path}/orbital/`],
   ['One Republic', `${path}/one-republic/`],
   ['Outlaws', `${path}/outlaws-ost/`],
+  ['Opeth', `${path}/opeth/`],
 
   /* ======================= P ======================= */
   ['Penguin Research', `${path}/penguin-research/`],
@@ -301,6 +305,8 @@ const bands = [
   ['Propellerheads', `${path}/propellerheads/`],
   ['Petit Biscuit', `${path}/petit-biscuit/`],
   ['Pepe Vasquez', `${path}/pepe-vasquez/`],
+  ['Placebo', `${path}/placebo/`],
+  ['Pantera', `${path}/pantera/`],
 
   /* ======================= Q ======================= */
   ['Queen Latifah', `${path}/queen-latifah/`],
@@ -332,6 +338,7 @@ const bands = [
   ['Rio', `${path}/rio-ost/`],
   ['Rafaga', `${path}/rafaga/`],
   ['Ryan Gosling', `${path}/ryan-gosling/`],
+  ['Ramones', `${path}/ramones/`],
 
   /* ======================= S ======================= */
   ['Spandau Ballet', `${path}/spandau-ballet/`],
