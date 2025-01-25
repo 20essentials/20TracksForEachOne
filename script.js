@@ -76,12 +76,14 @@ const bands = [
   ['Can', `${path}/can/`],
 
   /* ======================= D ======================= */
-  ['Different Heaven', `${path}/different-heaven-ost/`],
-  ['Diviners', `${path}/diviners-ost/`],
+  ['Deep Purple', `${path}/deep-purple-ost/`],
   ['Disfigure', `${path}/disfigure/`],
   ['Drake', `${path}/drake/`],
-  ['Don Omar', `${path}/don-omar/`],
+  ['Def Leppard', `${path}/def-leppard-ost/`],
   ['Daft Punk', `${path}/daft-punk-ost/`],
+  ['Don Omar', `${path}/don-omar/`],
+  ['Different Heaven', `${path}/different-heaven-ost/`],
+  ['Diviners', `${path}/diviners-ost/`],
   ['David Guetta', `${path}/david-guetta/`],
   ['Dj Snake', `${path}/dj--snake/`],
   ['Dua Lipa', `${path}/dua-lipa/`],
@@ -101,7 +103,7 @@ const bands = [
 
   /* ======================= E ======================= */
   ['Electric Light Orchestra', `${path}/electric-light-orchestra/`],
-  ['ELO', `${path}/electric-light-orchestra/`],
+  ['Eurythmics', `${path}/eurythmics/`],
   ['Enrique Iglesias', `${path}/enrique-iglesias-ost/`],
   ['Elton John', `${path}/elton-john-ost/`],
   ['Erasure', `${path}/erasure-ost/`],
@@ -110,6 +112,7 @@ const bands = [
   ['Enigma', `${path}/enigma-ost/`],
   ['El Último De La Fila', `${path}/el-ultimo-de-la-fila-ost/`],
   ['Earth Wind and Fire', `${path}/earth-wind-and-fire/`],
+  ['ELO', `${path}/electric-light-orchestra/`],
   ['Evanescence', `${path}/evanescence/`],
 
   /* ======================= F ======================= */
@@ -130,6 +133,7 @@ const bands = [
   ['Fuego', `${path}/fuego-ost/`],
   ['Free Fire', `${path}/free-fire/`],
   ["Fool's Garden", `${path}/fools-garden/`],
+  ["Faithless", `${path}/faithless/`],
 
   /* ======================= G ======================= */
   ['Glude', `${path}/glude/`],
@@ -193,6 +197,7 @@ const bands = [
   ['Kanye West', `${path}/kanye-west-ost`],
   ['Keane', `${path}/keane`],
   ['Kid cudi', `${path}/kid-cudi`],
+  ['Kamatte', `${path}/kamatte`],
   ['Kike Jiménez', `${path}/kike-jimenez/`],
   ['Kana-Boon', `${path}/kana-boon-ost/`],
   ['K-391', `${path}/k-391/`],
@@ -284,6 +289,7 @@ const bands = [
   ['One Republic', `${path}/one-republic/`],
   ['Outlaws', `${path}/outlaws-ost/`],
   ['Opeth', `${path}/opeth/`],
+  ['Ocean Colour Scene', `${path}/ocean-colour-scene/`],
 
   /* ======================= P ======================= */
   ['Penguin Research', `${path}/penguin-research/`],
@@ -418,14 +424,18 @@ const bands = [
   ['Viti Ruiz', `${path}/viti-ruiz-ost/`],
 
   /* ======================= W ======================= */
-  ['Wiguez & Vizzen', `${path}/wiguez-and-vizzen/`],
-  ['Warriyo', `${path}/warriyo/`],
+  ['Will I Am', `${path}/william-james/`],
+  ['Wasted Time', `${path}/wasted-time/`],
   ['Weezer', `${path}/weezer/`],
+  ['Wilco', `${path}/wilco-ost/`],
   ['Warpaint', `${path}/warpaint/`],
   ['Wolfmother', `${path}/wolfmother/`],
   ['War', `${path}/war`],
+  ['Warriyo', `${path}/warriyo/`],
+  ['Wiguez & Vizzen', `${path}/wiguez-and-vizzen/`],
   ['Wafia', `${path}/wafia`],
-  ['Wasted Time', `${path}/wasted-time/`],
+  ['Wutang Clan', `${path}/wutang-ost/`],
+  ['Woodkid', `${path}/woodkid-ost/`],
 
   /* ======================= X ======================= */
   ['Xerath', `${path}/xerath/`],
