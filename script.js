@@ -27,7 +27,7 @@ const bands = [
 
   /* ======================= B ======================= */
   ['Beyonce', `${path}/beyonce/`],
-  ['Barbie - Soundtrack', `${path}/barbie/`],
+  ['Barbie', `${path}/barbie-soundtrack/`],
   ['Børns', `${path}/borns-ost/`],
   ['Boston', `${path}/boston/`],
   ['Blur', `${path}/blur-ost/`],
@@ -56,6 +56,7 @@ const bands = [
   ['Culture Code', `${path}/culture-code-ost`],
   ['Cartoon', `${path}/cartoon-ost/`],
   ['Clint Mansell', `${path}/clint-mansell/`],
+  ['Crim3s', `${path}/crim3s`],
   ['Cadmium', `${path}/cadmium/`],
   ['Counting Crows', `${path}/counting-crows/`],
   ['Craspore', `${path}/craspore/`],
@@ -102,18 +103,19 @@ const bands = [
   ['Danza Invisible', `${path}/danza-invisible/`],
 
   /* ======================= E ======================= */
-  ['Electric Light Orchestra', `${path}/electric-light-orchestra/`],
+  ['Eagles', `${path}/eagles-ost/`],
   ['Eurythmics', `${path}/eurythmics/`],
-  ['Enrique Iglesias', `${path}/enrique-iglesias-ost/`],
   ['Elton John', `${path}/elton-john-ost/`],
+  ['Evanescence', `${path}/evanescence/`],
   ['Erasure', `${path}/erasure-ost/`],
   ['Edd Sheeran', `${path}/edd-sheeran-ost/`],
   ['Eva Ayllón', `${path}/eva-ayllon-ost/`],
+  ['Enrique Iglesias', `${path}/enrique-iglesias-ost/`],
   ['Enigma', `${path}/enigma-ost/`],
+  ['Electric Light Orchestra', `${path}/electric-light-orchestra/`],
   ['El Último De La Fila', `${path}/el-ultimo-de-la-fila-ost/`],
   ['Earth Wind and Fire', `${path}/earth-wind-and-fire/`],
-  ['ELO', `${path}/electric-light-orchestra/`],
-  ['Evanescence', `${path}/evanescence/`],
+  ['Elo', `${path}/electric-light-orchestra/`],
 
   /* ======================= F ======================= */
   ['Foo Fighters', `${path}/foo-fighters/`],
@@ -121,6 +123,7 @@ const bands = [
   ['FleetWood Mac', `${path}/fleetwood/`],
   ['Foreigner', `${path}/foreigner/`],
   ['Flume', `${path}/flume-ost/`],
+  ['Foster The People', `${path}/foster-the-people/`],
   ['Forhill', `${path}/forhill/`],
   ['Franz Ferdinand', `${path}/franz-ferdinand-ost/`],
   ['Fitz and the Tantrums', `${path}/fitz-and-the-tantrums-ost/`],
@@ -136,18 +139,20 @@ const bands = [
   ["Faithless", `${path}/faithless/`],
 
   /* ======================= G ======================= */
-  ['Glude', `${path}/glude/`],
+  ['Green Day', `${path}/green-day-ost/`],
   ['Good Charlotte', `${path}/good-charlotte/`],
   ['Grouplove', `${path}/grouplove/`],
   [`Guns N' Roses`, `${path}/guns-n-roses-ost/`],
-  ['Gesaffelstein', `${path}/gesaffelstein/`],
-  [`GLHF`, `${path}/glhf`],
+  ['Gorillaz', `${path}/gorillaz-ost/`],
+  ['Garbage', `${path}/garbage/`],
+  [`Glhf`, `${path}/glhf`],
   ['Galantis', `${path}/galantis-ost/`],
+  ['Gesaffelstein', `${path}/gesaffelstein/`],
   ['Glass Animals', `${path}/glass-animals-ost/`],
   ['Glwzbll', `${path}/glwzbll/`],
+  ['Glude', `${path}/glude/`],
   ['Geolier', `${path}/geolier/`],
   ['Gaitán Castro', `${path}/gaitan-castro/`],
-  ['Garbage', `${path}/garbage/`],
 
   /* ======================= H ======================= */
   ['Hippie Sabotage', `${path}/hippie-sabotage/`],
@@ -192,6 +197,7 @@ const bands = [
   ['Jefferson Tadeo', `${path}/jefferson-tadeo/`],
   ['Journey', `${path}/journey-ost/`],
   ['Jamiroquai', `${path}/jamiroquai/`],
+  ['Jackson 5', `${path}/jackson-5/`],
 
   /* ======================= K ======================= */
   ['Kanye West', `${path}/kanye-west-ost`],
@@ -372,7 +378,7 @@ const bands = [
   ['Shakira', `${path}/shakira/`],
   ['Selena Gomez', `${path}/selena-gomez/`],
   ['Soda Stereo', `${path}/soda-stereo/`],
-  ['Sad Puppy', `${path}/sad-puppy/`],
+  ['Sad Puppy', `${path}//sad-puppy-ost/`],
   ['Savage Garden', `${path}/savage-garden/`],
 
   /* ======================= T ======================= */
@@ -399,6 +405,7 @@ const bands = [
   ['Tron - Soundtrack', `${path}/tron/`],
   ['The Outfield', `${path}/the-outfield-ost/`],
   ['Tyler Bates', `${path}/tyler-bates/`],
+  ['The Jackson 5', `${path}/jackson-5/`],
 
   /* ======================= U ======================= */
   ['U2', `${path}/u2/`],
@@ -446,13 +453,14 @@ const bands = [
   ['Xmal Deutschland', `${path}/xmal-deutschland-ost`],
 
   /* ======================= Y ======================= */
-  ['Yandel', `${path}/yandel/`],
   ['Yoshiki', `${path}/yoshiki/`],
+  ['Yamamoto Kohta', `${path}/kohta-yamamoto/`],
   ["Yousou N'dour", `${path}/youssou-ndour/`],
   ['Yazoo', `${path}/yazoo/`],
   ['Yardbirds', `${path}/yardbirds/`],
   ['Your Favorite Enemies', `${path}/your-favorite-enemies/`],
   ['Yeah Yeah Yeahs', `${path}/yeah-yeah-yeahs/`],
+  ['Yandel', `${path}/yandel/`],
   ['Yellow Magic Orchestra', `${path}/yellow-magic-orchestra-ost/`],
   ['Yonderboi', `${path}/yonderboi-ost/`],
 
