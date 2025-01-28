@@ -137,6 +137,7 @@ const bands = [
   ['Free Fire', `${path}/free-fire/`],
   ["Fool's Garden", `${path}/fools-garden/`],
   ["Faithless", `${path}/faithless/`],
+  ["Florence + The Machine", `${path}/florence-more-machine/`],
 
   /* ======================= G ======================= */
   ['Green Day', `${path}/green-day-ost/`],
@@ -153,6 +154,7 @@ const bands = [
   ['Glude', `${path}/glude/`],
   ['Geolier', `${path}/geolier/`],
   ['Gaitán Castro', `${path}/gaitan-castro/`],
+  ['Grimes', `${path}/grimes-ost/`],
 
   /* ======================= H ======================= */
   ['Hippie Sabotage', `${path}/hippie-sabotage/`],
@@ -198,6 +200,7 @@ const bands = [
   ['Journey', `${path}/journey-ost/`],
   ['Jamiroquai', `${path}/jamiroquai/`],
   ['Jackson 5', `${path}/jackson-5/`],
+  ['Jungle', `${path}/jungle-ost/`],
 
   /* ======================= K ======================= */
   ['Kanye West', `${path}/kanye-west-ost`],
@@ -269,6 +272,8 @@ const bands = [
   ['Matrix', `${path}/matrix/`],
   ['Maná', `${path}/mana/`],
   ['Michel Teló', `${path}/michel-telo/`],
+  ['Major Lazer', `${path}/major-lazer-ost/`],
+  ['Maroon 5', `${path}/maroon5/`],
 
   /* ======================= N ======================= */
   ['Neffex', `${path}/neffex/`],
@@ -473,6 +478,7 @@ const bands = [
   ['Zambo Cavero', `${path}/zambo-cavero/`],
   ['Zoot Woman', `${path}/zoot-woman/`],
   ['Zero 7', `${path}/zero-7/`],
+  ['Zorken', `${path}/zorken/`],
 
   /* ======================= 0 ======================= */
   /* ======================= 1 ======================= */
