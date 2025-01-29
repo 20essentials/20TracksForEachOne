@@ -207,6 +207,8 @@ const bands = [
   ['Keane', `${path}/keane`],
   ['Kid cudi', `${path}/kid-cudi`],
   ['Kamatte', `${path}/kamatte`],
+  ['ksb-studio/', `${path}/ksb-studio/`],
+  ['Kohta Yamamoto', `${path}/kohta-yamamoto/`],
   ['Kike Jiménez', `${path}/kike-jimenez/`],
   ['Kana-Boon', `${path}/kana-boon-ost/`],
   ['K-391', `${path}/k-391/`],
@@ -214,7 +216,6 @@ const bands = [
   ['Kasabian', `${path}/kasabian-ost/`],
   ['Katy Perry', `${path}/katy-perry/`],
   ['Kaleo', `${path}/kaleo/`],
-  ['Kohta Yamamoto', `${path}/kohta-yamamoto/`],
   ['Kmfdm', `${path}/kmfdm/`],
 
   /* ======================= L ======================= */
@@ -251,7 +252,7 @@ const bands = [
 
   /* ======================= M ======================= */
   ['M83', `${path}/m83/`],
-  ['Macklemore', `${path}/macklemore/`],
+  ['Modern Talking', `${path}/modern-talking-ost/`],
   ['Miguel Bosé', `${path}/miguel-bose/`],
   ['Mr Kitty', `${path}/mr-kitty/`],
   ['Mgmt', `${path}/mgmt/`],
@@ -259,6 +260,7 @@ const bands = [
   ['Modest Mouse', `${path}/modest-mouse/`],
   ['Mazemirror', `${path}/mazemirror/`],
   ['Magneto', `${path}/magneto/`],
+  ['Macklemore', `${path}/macklemore/`],
   ['Men At Work', `${path}/men-at-work/`],
   ['Miki González', `${path}/miki-gonzales/`],
   ['Madonna', `${path}/madonna/`],
@@ -274,6 +276,10 @@ const bands = [
   ['Michel Teló', `${path}/michel-telo/`],
   ['Major Lazer', `${path}/major-lazer-ost/`],
   ['Maroon 5', `${path}/maroon5/`],
+  ['Mecano', `${path}/mecano-ost/`],
+  ['Metallica', `${path}/metallica-ost/`],
+  ['My Chemical Romance', `${path}/my-chemical-romance-ost/`],
+  ['Melanconia', `${path}/melanconia/`],
 
   /* ======================= N ======================= */
   ['Neffex', `${path}/neffex/`],
