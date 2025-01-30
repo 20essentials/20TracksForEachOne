@@ -207,7 +207,7 @@ const bands = [
   ['Keane', `${path}/keane`],
   ['Kid cudi', `${path}/kid-cudi`],
   ['Kamatte', `${path}/kamatte`],
-  ['ksb-studio/', `${path}/ksb-studio/`],
+  ['Ksb Studio', `${path}/ksb-studio/`],
   ['Kohta Yamamoto', `${path}/kohta-yamamoto/`],
   ['Kike Jiménez', `${path}/kike-jimenez/`],
   ['Kana-Boon', `${path}/kana-boon-ost/`],
@@ -280,20 +280,25 @@ const bands = [
   ['Metallica', `${path}/metallica-ost/`],
   ['My Chemical Romance', `${path}/my-chemical-romance-ost/`],
   ['Melanconia', `${path}/melanconia/`],
+  ['Muse', `${path}/muse-ost/`],
 
   /* ======================= N ======================= */
-  ['Neffex', `${path}/neffex/`],
+  ['Nirvana', `${path}/nirvana-ost/`],
   ['New Found Glory', `${path}/new-found-glory/`],
-  ['Neon Rox', `${path}/neon-rox/`],
   ['Neon Genesis Evangelion', `${path}/neon-genesis-evangelion/`],
+  ['New Order', `${path}/new-order-ost/`],
   ['Neon Trees', `${path}/neon-trees/`],
   ['Narvent', `${path}/narvent-ost/`],
   ['No mercy', `${path}/no-mercy/`],
+  ['Neon Rox', `${path}/neon-rox/`],
   ['Nicky Jam', `${path}/nicky-jam/`],
+  ['Neffex', `${path}/neffex/`],
   ['New Radicals', `${path}/new-radicals-ost/`],
   ['Nuages', `${path}/nuages/`],
   ['Nickelback', `${path}/nickelback/`],
   ['Nxcre', `${path}/nxcre/`],
+  ['Nostalghia', `${path}/nostalghia-ost/`],
+  ['Noisettes', `${path}/noisettes-ost/`],
 
   /* ======================= O ======================= */
   ["Oscar D'león", `${path}/oscar-d-leon/`],
@@ -362,6 +367,7 @@ const bands = [
   ['Rafaga', `${path}/rafaga/`],
   ['Ryan Gosling', `${path}/ryan-gosling/`],
   ['Ramones', `${path}/ramones/`],
+  ['Real Mccoy', `${path}/real-mccoy-ost/`],
 
   /* ======================= S ======================= */
   ['Spandau Ballet', `${path}/spandau-ballet/`],
