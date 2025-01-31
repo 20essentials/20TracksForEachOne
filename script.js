@@ -120,7 +120,7 @@ const bands = [
   /* ======================= F ======================= */
   ['Foo Fighters', `${path}/foo-fighters/`],
   ['Flow', `${path}/flow-ost/`],
-  ['FleetWood Mac', `${path}/fleetwood/`],
+  ['Folder 5', `${path}/folder-5/`],
   ['Foreigner', `${path}/foreigner/`],
   ['Flume', `${path}/flume-ost/`],
   ['Foster The People', `${path}/foster-the-people/`],
@@ -128,6 +128,7 @@ const bands = [
   ['Franz Ferdinand', `${path}/franz-ferdinand-ost/`],
   ['Fitz and the Tantrums', `${path}/fitz-and-the-tantrums-ost/`],
   ['Frágil', `${path}/fragil/`],
+  ['FleetWood Mac', `${path}/fleetwood/`],
   ['Fantom 87', `${path}/fantom-87-ost/`],
   ['French Montana', `${path}/french-montana-ost/`],
   ['Final Fantasy VII', `${path}/final-fantasy-7/`],
@@ -356,6 +357,7 @@ const bands = [
   ['Roxette (version Spanish)', `${path}/roxette-in-spanish/`],
   ['Rauw Alejandro', `${path}/rauw-alejandro/`],
   ['Rata Blanca', `${path}/rata-blanca/`],
+  ['Rhcp Lives', `${path}/rhcp-lives-ost/`],
   ['Remy Zero', `${path}/remy-zero/`],
   ['Robert Miles', `${path}/robert-miles/`],
   ['Rhcp', `${path}/red-hot-chilli-peppers/`],
@@ -368,12 +370,14 @@ const bands = [
   ['Ryan Gosling', `${path}/ryan-gosling/`],
   ['Ramones', `${path}/ramones/`],
   ['Real Mccoy', `${path}/real-mccoy-ost/`],
+  ['Radiohead', `${path}/radiohead-ost/`],
 
   /* ======================= S ======================= */
   ['Spandau Ballet', `${path}/spandau-ballet/`],
   ['Surf Curse', `${path}/surf-curse/`],
   ['Sia', `${path}/sia/`],
   ['Sawano Hiroyuki', `${path}/sawano-hiroyuki-ost/`],
+  ['Sunstroke Project', `${path}/sunstroke-project-ost/`],
   ['Spin Doctors', `${path}/spin-doctors/`],
   ['September 87', `${path}/september-87-ost/`],
   ['Succession', `${path}/succession/`],
@@ -381,6 +385,7 @@ const bands = [
   ['Snap!', `${path}/snap/`],
   ['Sim', `${path}/sim/`],
   ['Sidewalks and Skeletons', `${path}/sidewalks-and-skeletons-ost/`],
+  ['Sas', `${path}/sidewalks-and-skeletons-ost/`],
   ['Sandra', `${path}/sandra/`],
   ['Skrillex', `${path}/skrillex/`],
   ['Stevie Wonder', `${path}/stevie-wonder//`],
@@ -397,6 +402,8 @@ const bands = [
   ['Soda Stereo', `${path}/soda-stereo/`],
   ['Sad Puppy', `${path}//sad-puppy-ost/`],
   ['Savage Garden', `${path}/savage-garden/`],
+  ['Skyfall Beats', `${path}/skyfall-beats-ost/`],
+  
 
   /* ======================= T ======================= */
   ['The Score', `${path}/the-score/`],
