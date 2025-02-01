@@ -382,6 +382,8 @@ const bands = [
   ['September 87', `${path}/september-87-ost/`],
   ['Succession', `${path}/succession/`],
   ['St. Vincent', `${path}/st-vincent/`],
+  ['Swedish House Mafia', `${path}/swedish-house-mafia-ost/`],
+  ['Soundgarden', `${path}/soundgarden-ost/`],
   ['Snap!', `${path}/snap/`],
   ['Sim', `${path}/sim/`],
   ['Sidewalks and Skeletons', `${path}/sidewalks-and-skeletons-ost/`],
@@ -403,6 +405,10 @@ const bands = [
   ['Sad Puppy', `${path}//sad-puppy-ost/`],
   ['Savage Garden', `${path}/savage-garden/`],
   ['Skyfall Beats', `${path}/skyfall-beats-ost/`],
+  ['Sur Andino', `${path}/sur-andino-ost/`],
+  ['Saint Motel', `${path}/saint-motel-ost/`],
+  ['Sangiovanni', `${path}/sangiovanni-ost/`],
+  ['System of a Down', `${path}/system-of-a-down-ost/`],
   
 
   /* ======================= T ======================= */
@@ -410,9 +416,10 @@ const bands = [
   ['Twisted Sister', `${path}/twisted-sister/`],
   ['The Rare Occasions', `${path}/the-rare-occasions/`],
   ['The Rolling Stones', `${path}/the-rolling-stones/`],
-  ['Torbellino', `${path}/torbellino/`],
+  ['Tomandandy', `${path}/tomandandy/`],
   ['The Beach Boys', `${path}/the-beach-boys/`],
   ['The Black Eyed Peas', `${path}/the-black-eyed-peas/`],
+  ['Torbellino', `${path}/torbellino/`],
   ['The Weeknd', `${path}/the-weeknd/`],
   ['The Script', `${path}/the-script-ost/`],
   ['Tony Igy', `${path}/tony-igy/`],
@@ -457,6 +464,7 @@ const bands = [
   /* ======================= W ======================= */
   ['Will I Am', `${path}/william-james/`],
   ['Wasted Time', `${path}/wasted-time/`],
+  ['The Who', `${path}/the-who-ost/`],
   ['Weezer', `${path}/weezer/`],
   ['Wilco', `${path}/wilco-ost/`],
   ['Warpaint', `${path}/warpaint/`],
