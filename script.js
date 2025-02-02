@@ -5,10 +5,12 @@ const bands = [
   ['Asian Kung Fu Generation', `${path}/akfg`],
   ['Ahrix', `${path}/ahrix-ost/`],
   ['Axol', `${path}/axol`],
+  ['Adam Goldman', `${path}/adam-goldman-ost/`],
+  ['Akassuna', `${path}/akassuna/`],
+  ['Ac/Dc', `${path}/ac--dc`],
   ['Alessia Cara', `${path}/alessia-cara`],
-  ['Akiaura', `${path}/akiaura-ost`],
-  ['AC - DC', `${path}/ac--dc`],
   ['Ariana Grande', `${path}/ariana-grande`],
+  ['Akiaura', `${path}/akiaura-ost`],
   ['A-ha', `${path}/a-ha`],
   ['Adieu Aru', `${path}/adieu-4ru`],
   ['Artic Monkeys', `${path}/artic-monkeys`],
@@ -23,7 +25,6 @@ const bands = [
   ['Autechre', `${path}/autechre`],
   ['Alex Bueno', `${path}/alex-bueno/`],
   ['Alexander Rybak', `${path}/alexander-rybak/`],
-  ['Akassuna', `${path}/akassuna/`],
 
   /* ======================= B ======================= */
   ['Beyonce', `${path}/beyonce/`],
@@ -397,9 +398,9 @@ const bands = [
   ['Serena', `${path}/serena/`],
   [
     'Star vs. The Forces Of Evil - Soundtrack',
-    `${path}/star-vs-the-forces-of-evil-soundtrack/`
+    `${path}/star-vs-the-forces-of-evil-ost/`
   ],
-  ['Shakira', `${path}/shakira/`],
+  ['Shakira', `${path}/shakira-ost/`],
   ['Selena Gomez', `${path}/selena-gomez/`],
   ['Soda Stereo', `${path}/soda-stereo/`],
   ['Sad Puppy', `${path}//sad-puppy-ost/`],
@@ -409,11 +410,15 @@ const bands = [
   ['Saint Motel', `${path}/saint-motel-ost/`],
   ['Sangiovanni', `${path}/sangiovanni-ost/`],
   ['System of a Down', `${path}/system-of-a-down-ost/`],
+  ['Stone Template Pilots', `${path}/stone-template-pilots-ost/`],
+  ['Stp', `${path}/stone-template-pilots-ost/`],
   
 
   /* ======================= T ======================= */
-  ['The Score', `${path}/the-score/`],
+  ['Twenty One Pilots', `${path}/twenty-one-pilots-ost/`],
+  ['The Foundations', `${path}/the-foundations-ost/`],
   ['Twisted Sister', `${path}/twisted-sister/`],
+  ['The Score', `${path}/the-score/`],
   ['The Rare Occasions', `${path}/the-rare-occasions/`],
   ['The Rolling Stones', `${path}/the-rolling-stones/`],
   ['Tomandandy', `${path}/tomandandy/`],
@@ -495,6 +500,7 @@ const bands = [
   ['Yandel', `${path}/yandel/`],
   ['Yellow Magic Orchestra', `${path}/yellow-magic-orchestra-ost/`],
   ['Yonderboi', `${path}/yonderboi-ost/`],
+  ['Yatashigang', `${path}/yatashigang/`],
 
   /* ======================= Z ======================= */
   ['Zara Larsson', `${path}/zara-larsson/`],
