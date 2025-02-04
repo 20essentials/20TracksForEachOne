@@ -48,9 +48,7 @@ function toCapitalize(text = '') {
         return `${el[0].toUpperCase()}${el.slice(1).toLowerCase()}`;
       let secondLetter =
         el[0] === '(' ? el[1].toUpperCase() : el[1].toLowerCase();
-      return `${el[0].toUpperCase()}${secondLetter}${el
-        .slice(2)
-        .toLowerCase()}`;
+      return `${el[0].toUpperCase()}${secondLetter}${el.slice(2).toLowerCase()}`;
     })
     .join(' ')
     .replace(/\s+/g, ' ');
@@ -122,6 +120,11 @@ const $ = el => d.querySelector(el);
 const $$ = el => d.querySelectorAll(el);
 let regExP = /^(?![\s0-9\-_])[\w\s\-]{1,20}(?<![\-])$/;
 
+(function lastLogoClicked() {
+  $('.myHeader img').src =
+    localStorage?.getItem('lastLogoPlaylistClicked') ?? 'assets/favicon.png';
+})();
+
 const nameBand = lastNameCard ?? 'Without name';
 $('.namePlaylist').innerHTML = nameBand;
 const $audio = d.createElement('audio');
@@ -192,8 +195,8 @@ const generateStars = (totalStars, selector, size, duration) => {
 };
 
 const removeClassBlockedButtonNextSiblings = el => {
-  [...el.closest('.card-right-buttons').querySelectorAll('button')].forEach(
-    btn => btn.classList.remove('blocked')
+  [...el.closest('.card-right-buttons').querySelectorAll('button')].forEach(btn =>
+    btn.classList.remove('blocked')
   );
 };
 
@@ -252,9 +255,7 @@ const showTitle = elIndex => {
 const playAllSongs = (songs, selector) => {
   if (listNumbersSongs?.length > 0) {
     let arrayCards = listNumbersSongs.map(i => $$('.card')[i]);
-    let arrayColors = listNumbersSongs.map(
-      i => $$('.card')[i].dataset.colorCard
-    );
+    let arrayColors = listNumbersSongs.map(i => $$('.card')[i].dataset.colorCard);
     arrayCards.forEach((card, i) => (card.style.color = arrayColors[i]));
     listNumbersSongs = [];
   }
@@ -292,8 +293,7 @@ const playAllSongs = (songs, selector) => {
       function previousTrack(currentIndex) {
         navigator.mediaSession.setActionHandler('previoustrack', () => {
           index--;
-          currentIndex =
-            (currentIndex - 1 + playlist.length) % playlist.length;
+          currentIndex = (currentIndex - 1 + playlist.length) % playlist.length;
           if (index === -1) index = currentIndex + 1;
 
           nextTrack(currentIndex);
@@ -327,14 +327,13 @@ const playAllSongs = (songs, selector) => {
 const playRandomSongs = (songs, selector) => {
   if (listNumbersSongs?.length > 0) {
     let arrayCards = listNumbersSongs.map(i => $$('.card')[i]);
-    let arrayColors = listNumbersSongs.map(
-      i => $$('.card')[i].dataset.colorCard
-    );
+    let arrayColors = listNumbersSongs.map(i => $$('.card')[i].dataset.colorCard);
     arrayCards.forEach((card, i) => (card.style.color = arrayColors[i]));
     listNumbersSongs = [];
   }
 
-  let unArray = [], valor;
+  let unArray = [],
+    valor;
 
   for (let i = 0; i < songs.length; i++) {
     do {
@@ -376,8 +375,7 @@ const playRandomSongs = (songs, selector) => {
       function previousTrackOfRandomSongs(currentIndex) {
         navigator.mediaSession.setActionHandler('previoustrack', () => {
           index--;
-          currentIndex =
-            (currentIndex - 1 + playlist.length) % playlist.length;
+          currentIndex = (currentIndex - 1 + playlist.length) % playlist.length;
           if (index === -1) index = currentIndex + 1;
           nextTrackOfRandomSongs(currentIndex);
           actualAudio(currentIndex);
@@ -406,9 +404,7 @@ const playRandomSongs = (songs, selector) => {
 };
 
 const removeClassNavButtonActive = () => {
-  [...$$('.nav-btn-active')].forEach(el =>
-    el.classList.remove('nav-btn-active')
-  );
+  [...$$('.nav-btn-active')].forEach(el => el.classList.remove('nav-btn-active'));
 };
 
 const playSelectedSongs = (songs, selector, listNumber) => {
@@ -482,9 +478,7 @@ generateStars(200, '.star-1', '2px', '20s');
 
 (function headerCustomProperties() {
   const { body } = document;
-  let numberRandom = Math.floor(
-    Math.random() * Object.keys(headerColors).length
-  );
+  let numberRandom = Math.floor(Math.random() * Object.keys(headerColors).length);
   const [color1, color2, color3, color4] = headerColors[numberRandom];
   body.style.setProperty('--color1', color1);
   body.style.setProperty('--color2', color2);
@@ -656,9 +650,7 @@ d.addEventListener('click', e => {
       return;
     }
 
-    let objectListNameCards = JSON.parse(
-      localStorage.getItem('listname-cards')
-    );
+    let objectListNameCards = JSON.parse(localStorage.getItem('listname-cards'));
     let newObjectListNameCards = JSON.stringify({
       ...objectListNameCards,
       [`${inputValor}`]: ''
@@ -724,14 +716,10 @@ d.addEventListener('click', e => {
 d.addEventListener('change', e => {
   if (e.target.matches(`input[type=checkbox]`)) {
     let currentNameSong = localStorage.getItem('lastCurrentNameSong');
-    let cardCorriente = [...$$('.card')][
-      localStorage.getItem('ultimoCardIndex')
-    ];
+    let cardCorriente = [...$$('.card')][localStorage.getItem('ultimoCardIndex')];
     let url = cardCorriente.dataset.url;
     let currentId = e.target.id;
-    let objectListNameCards = JSON.parse(
-      localStorage.getItem('listname-cards')
-    );
+    let objectListNameCards = JSON.parse(localStorage.getItem('listname-cards'));
     if (!objectListNameCards) return;
     let clase = e.target.getAttribute('data-clase');
     let $output = $(`.${clase}`);
@@ -760,10 +748,7 @@ d.addEventListener('change', e => {
       }
     }
 
-    let newArrray = objectListNameCards[`${currentId}`].toSpliced(
-      indiceReal,
-      1
-    );
+    let newArrray = objectListNameCards[`${currentId}`].toSpliced(indiceReal, 1);
 
     let newObject = {
       ...objectListNameCards,
@@ -829,9 +814,7 @@ d.addEventListener('keydown', e => {
       return;
     }
 
-    let objectListNameCards = JSON.parse(
-      localStorage.getItem('listname-cards')
-    );
+    let objectListNameCards = JSON.parse(localStorage.getItem('listname-cards'));
     let newObjectListNameCards = JSON.stringify({
       ...objectListNameCards,
       [`${inputValor}`]: ''
@@ -849,9 +832,7 @@ d.addEventListener('keydown', e => {
 function existThisSongInSomePlaylist(currentName) {
   let nameCurrent = currentName ?? '';
   if (localStorage.getItem('listname-cards')) {
-    let objetoNamePlaylists = JSON.parse(
-      localStorage.getItem('listname-cards')
-    );
+    let objetoNamePlaylists = JSON.parse(localStorage.getItem('listname-cards'));
     let playlistsWhereExistsCurrenName = [];
     let namesPlaylists = [];
 

@@ -138,8 +138,8 @@ const bands = [
   ['Fuego', `${path}/fuego-ost/`],
   ['Free Fire', `${path}/free-fire/`],
   ["Fool's Garden", `${path}/fools-garden/`],
-  ["Faithless", `${path}/faithless/`],
-  ["Florence + The Machine", `${path}/florence-more-machine/`],
+  ['Faithless', `${path}/faithless/`],
+  ['Florence + The Machine', `${path}/florence-more-machine/`],
 
   /* ======================= G ======================= */
   ['Green Day', `${path}/green-day-ost/`],
@@ -412,17 +412,20 @@ const bands = [
   ['System of a Down', `${path}/system-of-a-down-ost/`],
   ['Stone Template Pilots', `${path}/stone-template-pilots-ost/`],
   ['Stp', `${path}/stone-template-pilots-ost/`],
-  
 
   /* ======================= T ======================= */
   ['Twenty One Pilots', `${path}/twenty-one-pilots-ost/`],
   ['The Foundations', `${path}/the-foundations-ost/`],
-  ['Twisted Sister', `${path}/twisted-sister/`],
+  ['The Chemical Brothers', `${path}/the-chemical-brothers-ost/`],
+  ['The Knack', `${path}/the-knack-ost/`],
+  ['The Beatles', `${path}/the-beatles-ost`],
   ['The Score', `${path}/the-score/`],
+  ['The Heavy', `${path}/the-heavy-ost/`],
   ['The Rare Occasions', `${path}/the-rare-occasions/`],
   ['The Rolling Stones', `${path}/the-rolling-stones/`],
   ['Tomandandy', `${path}/tomandandy/`],
   ['The Beach Boys', `${path}/the-beach-boys/`],
+  ['Twisted Sister', `${path}/twisted-sister/`],
   ['The Black Eyed Peas', `${path}/the-black-eyed-peas/`],
   ['Torbellino', `${path}/torbellino/`],
   ['The Weeknd', `${path}/the-weeknd/`],
@@ -430,6 +433,7 @@ const bands = [
   ['Tony Igy', `${path}/tony-igy/`],
   ['The Smiths', `${path}/the-smiths-ost/`],
   ['Toto', `${path}/toto-ost/`],
+  ['The Kinks', `${path}/the-kinks-ost/`],
   ['Timbaland', `${path}/timbaland/`],
   ['The Rasmus', `${path}/the-rasmus/`],
   ['Two Door Cinema Club', `${path}/two-door-cinema-club/`],
@@ -442,6 +446,7 @@ const bands = [
   ['The Outfield', `${path}/the-outfield-ost/`],
   ['Tyler Bates', `${path}/tyler-bates/`],
   ['The Jackson 5', `${path}/jackson-5/`],
+  ['The Walters', `${path}/the-walters-ost/`],
 
   /* ======================= U ======================= */
   ['U2', `${path}/u2/`],
@@ -501,9 +506,12 @@ const bands = [
   ['Yellow Magic Orchestra', `${path}/yellow-magic-orchestra-ost/`],
   ['Yonderboi', `${path}/yonderboi-ost/`],
   ['Yatashigang', `${path}/yatashigang/`],
+  ['Yasuharu Takanashi', `${path}/yasuharu-takanashi/`],
 
   /* ======================= Z ======================= */
-  ['Zara Larsson', `${path}/zara-larsson/`],
+  ['Zz Top', `${path}/zz-top-ost/`],
+  ['Zwan', `${path}/zwan-ost/`],
+  ['Zeromancer', `${path}/zeromancer-ost/`],
   ['Zoé', `${path}/zoe/`],
   ['Zoids Chaotic Century', `${path}/zoids-chaotic-century/`],
   ['Zoids Guardian Force', `${path}/zoids-guardian-force/`],
@@ -512,6 +520,7 @@ const bands = [
   ['Zoot Woman', `${path}/zoot-woman/`],
   ['Zero 7', `${path}/zero-7/`],
   ['Zorken', `${path}/zorken/`],
+  ['Zara Larsson', `${path}/zara-larsson/`],
 
   /* ======================= 0 ======================= */
   /* ======================= 1 ======================= */
@@ -543,7 +552,6 @@ function updateMaxItems() {
   const isLessThan1000px = window.matchMedia('(max-width: 1000px)').matches;
 
   maxItemsInInput = isPortrait && isLessThan1000px ? 10 : 5;
-  console.log(`maxItemsInInput: ${maxItemsInInput}`);
 }
 
 updateMaxItems();
@@ -1721,18 +1729,43 @@ d.addEventListener('click', e => {
     $('.playlist-section').scrollTop = 0;
     return;
   }
+
+  function returnUrlFromBgProperty(img) {
+    let url = '';
+    let matchSrc = img.replace(
+      /.*url\((['"]?)(.*?)\1\).*/,
+      (m, _, capturedUrl) => (url = capturedUrl)
+    );
+    return `../${url}`;
+  }
+
   if (e.target.matches('.card-single-left a')) {
     let currenPlaylistName =
       e.target.parentElement.nextElementSibling.querySelector('h3').innerHTML;
     localStorage.setItem('lastNameCardClicked', currenPlaylistName);
+    let imgBgProperty = e.target.firstElementChild.getAttribute('style');
+    const url = returnUrlFromBgProperty(imgBgProperty);
+    localStorage.setItem('lastLogoPlaylistClicked', url);
   }
   if (e.target.matches('.card-single-right h3')) {
     let h3Title = e.target.textContent;
     localStorage.setItem('lastNameCardClicked', h3Title);
+    let imgBgProperty = e.target
+      .closest('.card-single')
+      .querySelector('.img')
+      .getAttribute('style');
+    const url = returnUrlFromBgProperty(imgBgProperty);
+    localStorage.setItem('lastLogoPlaylistClicked', url);
   }
   if (e.target.matches('.card-single-right p')) {
     let h3Title = e.target.previousElementSibling.textContent;
     localStorage.setItem('lastNameCardClicked', h3Title);
+    let imgBgProperty = e.target
+      .closest('.card-single')
+      .querySelector('.img')
+      .getAttribute('style');
+    const url = returnUrlFromBgProperty(imgBgProperty);
+    localStorage.setItem('lastLogoPlaylistClicked', url);
   }
   if (e.target.matches('.playlist-section')) {
     let firsForm = $('.playlist-container-form');
