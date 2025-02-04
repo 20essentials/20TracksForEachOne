@@ -15,10 +15,15 @@ if (localStorage.getItem('lastNameCardClicked')) {
       let name = el[0].replace(/\&amp\;/g, '&');
       return name;
     });
+
     arraySongs = currentArray.map(el => el[1]);
-    arrayPosters = arraySongs.map(linkPoster =>
-      linkPoster.replace(/\/songs\/n\d+\.mp3/, '/assets/n1.avif')
-    );
+    arrayPosters = arraySongs.map((linkPoster, i) => {
+      const numPhoto = (i % 4) + 1;
+      return linkPoster.replace(
+        /\/songs\/n\d+\.mp3/,
+        `/assets/n${numPhoto}.avif`
+      );
+    });
   }
 }
 
@@ -159,15 +164,38 @@ const headerColors = {
   15: ['#b429f9', '#e0a9bb', '#26c5f3', '#4169e1']
 };
 
+function firstPhotoUrl(urlParameter) {
+  const newUrl = urlParameter.replace(/n\d{1,2}\.avif/gi, 'n1.avif');
+  return newUrl;
+}
+
 /******************** FUNCTIONS ********************/
 (function generaCardImages() {
-  $$('.card').forEach((card, index) => {
-    card.style.setProperty(
-      `--image-bg`,
-      `url('${arrayPosters[index]}'), linear-gradient(90deg, #ffffff33, #ffffff80, #ffffff33)
-      `
-    );
-  });
+  const { length } = arrayPosters;
+  const $cards = $$('.card');
+  for (let index = 0; index < length; index++) {
+    const card = $cards[index];
+    const imageUrl = arrayPosters[index];
+    const fallbackImage = firstPhotoUrl(imageUrl);
+
+    const testImg = new Image();
+
+    testImg.onload = function () {
+      card.style.setProperty(
+        '--image-bg',
+        `url('${imageUrl}'), linear-gradient(90deg, #ffffff33, #ffffff80, #ffffff33)`
+      );
+    };
+
+    testImg.onerror = function () {
+      card.style.setProperty(
+        '--image-bg',
+        `url('${fallbackImage}'), linear-gradient(90deg, #ffffff33, #ffffff80, #ffffff33)`
+      );
+    };
+
+    testImg.src = imageUrl;
+  }
 })();
 
 const blockPlayPauseStopBUTTON = () => {

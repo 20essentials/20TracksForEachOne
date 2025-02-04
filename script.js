@@ -585,7 +585,7 @@ function autocomplete(inpt, elArray) {
 
   inpt.addEventListener('input', function (e) {
     let a,
-      b,
+      anchor,
       i,
       val = this.value;
 
@@ -611,22 +611,45 @@ function autocomplete(inpt, elArray) {
     this.parentNode.appendChild(a);
 
     for (i = 0; i < elArray.length && miContador < maxItemsInInput; i++) {
-      if (
-        elArray[i][0].substr(0, val.length).toUpperCase() === val.toUpperCase()
-      ) {
-        b = document.createElement('a');
-        b.setAttribute('href', elArray[i][1]);
-        b.translate = false;
-        b.innerHTML = `<strong>${elArray[i][0].substr(0, val.length)}</strong>`;
-        b.innerHTML += elArray[i][0].substr(val.length);
-        b.innerHTML += `<input type='hidden' value="${elArray[i][0]}"></input>`;
+      let bandName = elArray[i][0].substr(0, val.length).toUpperCase();
+      let fullNameBand = elArray[i][0].toUpperCase();
+      let inputValue = val.toUpperCase();
+      if (bandName === inputValue) {
+        anchor = document.createElement('a');
+        anchor.setAttribute('href', elArray[i][1]);
+        anchor.translate = false;
+        anchor.innerHTML = `<strong>${elArray[i][0].substr(
+          0,
+          val.length
+        )}</strong>`;
+        anchor.innerHTML += elArray[i][0].substr(val.length);
+        anchor.innerHTML += `<input type='hidden' value="${elArray[i][0]}"></input>`;
 
-        b.addEventListener('click', function (e) {
+        anchor.addEventListener('click', function (e) {
           inpt.value = this.querySelector('input').value;
           closeAllLists();
         });
 
-        a.appendChild(b);
+        a.appendChild(anchor);
+        miContador++;
+      } else if (fullNameBand.includes(inputValue)) {
+        const start = fullNameBand.indexOf(inputValue);
+        anchor = document.createElement('a');
+        anchor.setAttribute('href', elArray[i][1]);
+        anchor.translate = false;
+        anchor.innerHTML = `${elArray[i][0].slice(0, start)}<strong>${elArray[
+          i
+        ][0].substr(start, val.length)}</strong>${elArray[i][0].slice(
+          start + val.length
+        )}`;
+        anchor.innerHTML += `<input type='hidden' value="${elArray[i][0]}"></input>`;
+
+        anchor.addEventListener('click', function (e) {
+          inpt.value = this.querySelector('input').value;
+          closeAllLists();
+        });
+
+        a.appendChild(anchor);
         miContador++;
       }
     }
@@ -704,7 +727,6 @@ function addFotoStars() {
     });
   }, 5);
 }
-
 addFotoStars();
 
 autocomplete(document.getElementById('myInput'), bands);

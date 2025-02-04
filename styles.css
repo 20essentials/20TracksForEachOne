@@ -24,7 +24,7 @@ centrar {
 
 html {
   scrollbar-width: thin;
-  scrollbar-color: #c9c9c9 transparent;
+  scrollbar-color: transparent transparent;
   background-color: #000;
   display: flex;
   flex-wrap: wrap;
