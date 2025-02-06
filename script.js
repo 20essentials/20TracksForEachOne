@@ -53,14 +53,15 @@ const bands = [
   ['Bag Raiders', `${path}/bag-raiders/`],
 
   /* ======================= C ======================= */
-  ['Cage the Elephant', `${path}/cage-the-elephant-ost/`],
-  ['Culture Code', `${path}/culture-code-ost`],
+  ['Cher', `${path}/cher-ost/`],
   ['Cartoon', `${path}/cartoon-ost/`],
-  ['Clint Mansell', `${path}/clint-mansell/`],
-  ['Crim3s', `${path}/crim3s`],
-  ['Cadmium', `${path}/cadmium/`],
   ['Counting Crows', `${path}/counting-crows/`],
+  ['Cadmium', `${path}/cadmium/`],
+  ['Crim3s', `${path}/crim3s`],
+  ['Cage the Elephant', `${path}/cage-the-elephant-ost/`],
   ['Craspore', `${path}/craspore/`],
+  ['Clint Mansell', `${path}/clint-mansell/`],
+  ['Culture Code', `${path}/culture-code-ost`],
   ['Clovis Reyes', `${path}/clovis-reyes/`],
   ['Cigarettes After Sex', `${path}/cigarettes-after-sex/`],
   ['Calvin Harris', `${path}/calvin-harris/`],
@@ -79,6 +80,7 @@ const bands = [
 
   /* ======================= D ======================= */
   ['Deep Purple', `${path}/deep-purple-ost/`],
+  ['Dan Dan (オーロラ)', `${path}/dan-dan/`],
   ['Disfigure', `${path}/disfigure/`],
   ['Drake', `${path}/drake/`],
   ['Def Leppard', `${path}/def-leppard-ost/`],
@@ -90,11 +92,11 @@ const bands = [
   ['Dj Snake', `${path}/dj--snake/`],
   ['Dua Lipa', `${path}/dua-lipa/`],
   ['Dj Bobo', `${path}/dj-bobo-ost/`],
-  ['DLS 2016 - Soundtrack', `${path}/dream-league-soccer-2016/`],
+  ['DLS 2016', `${path}/dream-league-soccer-2016/`],
   ['Depeche Mode', `${path}/depeche-mode/`],
-  ['DLS 2020 - Soundtrack', `${path}/dream-league-soccer-2020/`],
-  ['Dream League Soccer 2016 - Soundtrack', `${path}/dream-league-soccer-2016/`],
-  ['Dream League Soccer 2020 - Soundtrack', `${path}/dream-league-soccer-2020/`],
+  ['DLS 2020', `${path}/dream-league-soccer-2020/`],
+  ['Dream League Soccer 2016', `${path}/dream-league-soccer-2016/`],
+  ['Dream League Soccer 2020', `${path}/dream-league-soccer-2020/`],
   ['Duncan Laurence', `${path}/duncan-laurence/`],
   ['Daughter', `${path}/daughter/`],
   ['Dire Straits', `${path}/dire-straits/`],
@@ -175,6 +177,7 @@ const bands = [
 
   /* ======================= I ======================= */
   ['Indochine', `${path}/indochine/`],
+  ['Ivan', `${path}/ivan-ost/`],
   ['Inner Circle', `${path}/inner--circle/`],
   ['Interpol', `${path}/interpol/`],
   ['Imagine Dragons', `${path}/imagine--dragons/`],
@@ -255,6 +258,7 @@ const bands = [
   /* ======================= M ======================= */
   ['M83', `${path}/m83/`],
   ['Modern Talking', `${path}/modern-talking-ost/`],
+  ['Mike Menna', `${path}/mike-menna-ost/`],
   ['Miguel Bosé', `${path}/miguel-bose/`],
   ['Mr Kitty', `${path}/mr-kitty/`],
   ['Mgmt', `${path}/mgmt/`],
@@ -397,7 +401,7 @@ const bands = [
   ['Shrek 2', `${path}/shrek-2/`],
   ['Serena', `${path}/serena/`],
   [
-    'Star vs. The Forces Of Evil - Soundtrack',
+    'Star vs. The Forces Of Evil',
     `${path}/star-vs-the-forces-of-evil-ost/`
   ],
   ['Shakira', `${path}/shakira-ost/`],
@@ -442,7 +446,7 @@ const bands = [
   ['Thirty Seconds To Mars', `${path}/30-seconds-to-mars/`],
   ['Tame Impala', `${path}/tame-impala/`],
   ['Tears For Fears', `${path}/tears-for-fears/`],
-  ['Tron - Soundtrack', `${path}/tron/`],
+  ['Tron', `${path}/tron/`],
   ['The Outfield', `${path}/the-outfield-ost/`],
   ['Tyler Bates', `${path}/tyler-bates/`],
   ['The Jackson 5', `${path}/jackson-5/`],
@@ -525,6 +529,9 @@ const bands = [
   /* ======================= 0 ======================= */
   /* ======================= 1 ======================= */
   /* ======================= 2 ======================= */
+  ['2 Unlimited', `${path}/2-unlimited-ost/`],
+  ['2 Raff', `${path}/2-raff-ost/`],
+  ['2 Brothers On The 4th Floor', `${path}/2-brothers-on-the-fourth-floor/`],
   /* ======================= 3 ======================= */
   ['30 Seconds To Mars', `${path}/30-seconds-to-mars/`],
   /* ======================= 4 ======================= */
