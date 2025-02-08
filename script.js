@@ -54,6 +54,10 @@ const bands = [
 
   /* ======================= C ======================= */
   ['Cher', `${path}/cher-ost/`],
+  ['Croixx', `${path}/croixx-ost/`],
+  ['Coez', `${path}/coez-ost/`],
+  ['Camilo Sesto', `${path}/camilo-sesto-ost/`],
+  ['Chuck Berry', `${path}/chuck-berry-ost/`],
   ['Cartoon', `${path}/cartoon-ost/`],
   ['Counting Crows', `${path}/counting-crows/`],
   ['Cadmium', `${path}/cadmium/`],
@@ -80,8 +84,11 @@ const bands = [
 
   /* ======================= D ======================= */
   ['Deep Purple', `${path}/deep-purple-ost/`],
+  ['Develop Frame', `${path}/develop-frame/`],
   ['Dan Dan (オーロラ)', `${path}/dan-dan/`],
   ['Disfigure', `${path}/disfigure/`],
+  ['Defqwop', `${path}/defqwop-ost/`],
+  ['Deorro', `${path}/deorro-ost/`],
   ['Drake', `${path}/drake/`],
   ['Def Leppard', `${path}/def-leppard-ost/`],
   ['Daft Punk', `${path}/daft-punk-ost/`],
@@ -104,6 +111,10 @@ const bands = [
   ['Duncan Dhu', `${path}/duncan-dhu/`],
   ['Dominic Fike', `${path}/dominic-fike/`],
   ['Danza Invisible', `${path}/danza-invisible/`],
+  ['Danny Ocean', `${path}/danny-ocean-ost/`],
+  ['Daddy Yankee', `${path}/daddy-yankee-ost/`],
+  ['David Kushner', `${path}/david-kushner-ost/`],
+  ['David Lyme', `${path}/david-lyme-ost/`],
 
   /* ======================= E ======================= */
   ['Eagles', `${path}/eagles-ost/`],
@@ -122,6 +133,7 @@ const bands = [
 
   /* ======================= F ======================= */
   ['Foo Fighters', `${path}/foo-fighters/`],
+  ['Five Finger Death Punch', `${path}/five-finger-death/`],
   ['Flow', `${path}/flow-ost/`],
   ['Folder 5', `${path}/folder-5/`],
   ['Foreigner', `${path}/foreigner/`],
@@ -174,6 +186,7 @@ const bands = [
   ['How To Train Your Dragon', `${path}/how-to-train-your-dragon/`],
   ['Home', `${path}/home/`],
   ['Hikaru Utada', `${path}/hikaru-utada-ost/`],
+  ['Ha-Ash', `${path}/ha-ash-ost/`],
 
   /* ======================= I ======================= */
   ['Indochine', `${path}/indochine/`],
@@ -189,6 +202,7 @@ const bands = [
 
   /* ======================= J ======================= */
   ['Jack Black', `${path}/jack-black/`],
+  ['Johnny Steele', `${path}/johnny-steele/`],
   ['Jet', `${path}/jet/`],
   ['JJD', `${path}/jjd-ost/`],
   ['Joy Division', `${path}/joy-division/`],
@@ -318,6 +332,7 @@ const bands = [
   ['Outlaws', `${path}/outlaws-ost/`],
   ['Opeth', `${path}/opeth/`],
   ['Ocean Colour Scene', `${path}/ocean-colour-scene/`],
+  ['Of Monsters and Men', `${path}/of-monsters-and-men-ost/`],
 
   /* ======================= P ======================= */
   ['Penguin Research', `${path}/penguin-research/`],
@@ -419,12 +434,14 @@ const bands = [
 
   /* ======================= T ======================= */
   ['Twenty One Pilots', `${path}/twenty-one-pilots-ost/`],
+  ['The Dark Knight', `${path}/the-dark-knight/`],
   ['The Foundations', `${path}/the-foundations-ost/`],
   ['The Chemical Brothers', `${path}/the-chemical-brothers-ost/`],
   ['The Knack', `${path}/the-knack-ost/`],
   ['The Beatles', `${path}/the-beatles-ost`],
   ['The Score', `${path}/the-score/`],
   ['The Heavy', `${path}/the-heavy-ost/`],
+  ['Terrence Mann', `${path}/terrence-mann-ost/`],
   ['The Rare Occasions', `${path}/the-rare-occasions/`],
   ['The Rolling Stones', `${path}/the-rolling-stones/`],
   ['Tomandandy', `${path}/tomandandy/`],
@@ -451,6 +468,7 @@ const bands = [
   ['Tyler Bates', `${path}/tyler-bates/`],
   ['The Jackson 5', `${path}/jackson-5/`],
   ['The Walters', `${path}/the-walters-ost/`],
+  
 
   /* ======================= U ======================= */
   ['U2', `${path}/u2/`],
@@ -502,6 +520,7 @@ const bands = [
   ['Yoshiki', `${path}/yoshiki/`],
   ['Yamamoto Kohta', `${path}/kohta-yamamoto/`],
   ["Yousou N'dour", `${path}/youssou-ndour/`],
+  ["Your Lie In April", `${path}/your-lie-in-april-ost/`],
   ['Yazoo', `${path}/yazoo/`],
   ['Yardbirds', `${path}/yardbirds/`],
   ['Your Favorite Enemies', `${path}/your-favorite-enemies/`],
