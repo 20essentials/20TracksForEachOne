@@ -3,6 +3,7 @@ const path = 'https://20essentials.github.io';
 const bands = [
   /* ======================= A ======================= */
   ['Asian Kung Fu Generation', `${path}/akfg`],
+  ['Ana Gabriel', `${path}/ana-gabriel-ost/`],
   ['Ahrix', `${path}/ahrix-ost/`],
   ['Axol', `${path}/axol`],
   ['Adam Goldman', `${path}/adam-goldman-ost/`],
@@ -118,6 +119,7 @@ const bands = [
 
   /* ======================= E ======================= */
   ['Eagles', `${path}/eagles-ost/`],
+  ['Earth', `${path}/earth-ost/`],
   ['Eurythmics', `${path}/eurythmics/`],
   ['Elton John', `${path}/elton-john-ost/`],
   ['Evanescence', `${path}/evanescence/`],
@@ -133,6 +135,7 @@ const bands = [
 
   /* ======================= F ======================= */
   ['Foo Fighters', `${path}/foo-fighters/`],
+  ['Foals', `${path}/foals/`],
   ['Five Finger Death Punch', `${path}/five-finger-death/`],
   ['Flow', `${path}/flow-ost/`],
   ['Folder 5', `${path}/folder-5/`],
@@ -174,6 +177,7 @@ const bands = [
 
   /* ======================= H ======================= */
   ['Hippie Sabotage', `${path}/hippie-sabotage/`],
+  ['Hello Fiasco', `${path}/hello-fiasco/`],
   ['Hibou', `${path}/hibou-ost/`],
   ['Harry Styles', `${path}/harry-styles-ost/`],
   ['Hoodie Forester', `${path}/hoodie-forester/`],
@@ -201,14 +205,16 @@ const bands = [
   ['Iced Earth', `${path}/iced-earth`],
 
   /* ======================= J ======================= */
-  ['Jack Black', `${path}/jack-black/`],
+  ['Juan Gabriel', `${path}/juan-gabriel-ost/`],
   ['Johnny Steele', `${path}/johnny-steele/`],
+  ['James Young', `${path}/james-young-ost/`],
   ['Jet', `${path}/jet/`],
   ['JJD', `${path}/jjd-ost/`],
   ['Joy Division', `${path}/joy-division/`],
   ['Justice', `${path}/justice-ost/`],
   ['Jim Yosef', `${path}/jim-yosef/`],
   ['JCole', `${path}/j-cole/`],
+  ['Jack Black', `${path}/jack-black/`],
   ['Jo Cohen', `${path}/jo-cohen`],
   ['Janji', `${path}/janji`],
   ['Jutty Ranx', `${path}/jutty-ranx/`],
@@ -223,6 +229,8 @@ const bands = [
 
   /* ======================= K ======================= */
   ['Kanye West', `${path}/kanye-west-ost`],
+  ['Kina', `${path}/kina-ost/`],
+  ['Kavinsky', `${path}/kavinsky-ost/`],
   ['Keane', `${path}/keane`],
   ['Kid cudi', `${path}/kid-cudi`],
   ['Kamatte', `${path}/kamatte`],
@@ -239,8 +247,11 @@ const bands = [
 
   /* ======================= L ======================= */
   ['Lisa', `${path}/lisa/`],
+  ['Lady Gaga', `${path}/lady-gaga-ost/`],
+  ['Lenny Kravitz', `${path}/lenny-kravitz-ost/`],
   ['LazerPunk', `${path}/lazerpunk`],
   ['Linkin Park', `${path}/linkin-park-ost/`],
+  ['Laura Branigan', `${path}/laura-branigan-ost/`],
   ['La Roux', `${path}/la-roux/`],
   ['Lynyrd Skynyrd', `${path}/lynyrd-skynyrd-ost/`],
   ['Luis Enrique', `${path}/luis-enrique//`],
@@ -304,6 +315,7 @@ const bands = [
 
   /* ======================= N ======================= */
   ['Nirvana', `${path}/nirvana-ost/`],
+  ['Noisestorm', `${path}/noisestorm-ost/`],
   ['New Found Glory', `${path}/new-found-glory/`],
   ['Neon Genesis Evangelion', `${path}/neon-genesis-evangelion/`],
   ['New Order', `${path}/new-order-ost/`],
@@ -439,6 +451,7 @@ const bands = [
   ['The Chemical Brothers', `${path}/the-chemical-brothers-ost/`],
   ['The Knack', `${path}/the-knack-ost/`],
   ['The Beatles', `${path}/the-beatles-ost`],
+  ['Transtic Nerve', `${path}/transtic-nerve/`],
   ['The Score', `${path}/the-score/`],
   ['The Heavy', `${path}/the-heavy-ost/`],
   ['Terrence Mann', `${path}/terrence-mann-ost/`],
