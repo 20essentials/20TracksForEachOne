@@ -3259,6 +3259,12 @@ html {
       border: none;
       background-color: #fff4;
 
+      @media (width <= 1111px) {
+        white-space: nowrap; 
+        overflow: hidden;
+        text-overflow: ellipsis; 
+      }
+
       &::placeholder {
         color: black;
         padding: 0;

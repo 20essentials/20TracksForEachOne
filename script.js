@@ -3,8 +3,12 @@ const path = 'https://20essentials.github.io';
 const bands = [
   /* ======================= A ======================= */
   ['Asian Kung Fu Generation', `${path}/akfg`],
+  ['Al Bano e Romina Power', `${path}/al-bano-e-romina-power/`],
+  ['Avenida Larco', `${path}/avenida-larco/`],
+  ['Alphex Twin', `${path}/alphex-twin-ost/`],
   ['Ana Gabriel', `${path}/ana-gabriel-ost/`],
   ['Ahrix', `${path}/ahrix-ost/`],
+  ['Arcángel', `${path}/arcangel-ost/`],
   ['Axol', `${path}/axol`],
   ['Adam Goldman', `${path}/adam-goldman-ost/`],
   ['Akassuna', `${path}/akassuna/`],
@@ -30,6 +34,8 @@ const bands = [
   /* ======================= B ======================= */
   ['Beyonce', `${path}/beyonce/`],
   ['Barbie', `${path}/barbie-soundtrack/`],
+  ['Breaking Bad', `${path}/breaking-bad/`],
+  ['Barren Gates', `${path}/barren-gates-ost/`],
   ['Børns', `${path}/borns-ost/`],
   ['Boston', `${path}/boston/`],
   ['Blur', `${path}/blur-ost/`],
@@ -160,6 +166,7 @@ const bands = [
 
   /* ======================= G ======================= */
   ['Green Day', `${path}/green-day-ost/`],
+  ['Grizzly', `${path}/grizzly-bear-ost/`],
   ['Good Charlotte', `${path}/good-charlotte/`],
   ['Grouplove', `${path}/grouplove/`],
   [`Guns N' Roses`, `${path}/guns-n-roses-ost/`],
@@ -206,6 +213,7 @@ const bands = [
 
   /* ======================= J ======================= */
   ['Juan Gabriel', `${path}/juan-gabriel-ost/`],
+  ['John Williams', `${path}/john-williams-ost/`],
   ['Johnny Steele', `${path}/johnny-steele/`],
   ['James Young', `${path}/james-young-ost/`],
   ['Jet', `${path}/jet/`],
@@ -244,9 +252,11 @@ const bands = [
   ['Katy Perry', `${path}/katy-perry/`],
   ['Kaleo', `${path}/kaleo/`],
   ['Kmfdm', `${path}/kmfdm/`],
+  ['Kaiser Chiefs', `${path}/kaiser-chiefs-ost/`],
 
   /* ======================= L ======================= */
   ['Lisa', `${path}/lisa/`],
+  ['Le Castlevania', `${path}/le-castle-vania-ost-/`],
   ['Lady Gaga', `${path}/lady-gaga-ost/`],
   ['Lenny Kravitz', `${path}/lenny-kravitz-ost/`],
   ['LazerPunk', `${path}/lazerpunk`],
@@ -348,6 +358,10 @@ const bands = [
 
   /* ======================= P ======================= */
   ['Penguin Research', `${path}/penguin-research/`],
+  ['Prince Royce', `${path}/prince-royce-ost/`],
+  ['Pearl Jam', `${path}/pearl-jam-ost/`],
+  ['Pat Benatar', `${path}/pat-benatar-ost/`],
+  ['Paul Mccartney', `${path}/paul-mccartney-ost/`],
   ['Pedro Capo', `${path}/pedro-capo`],
   ['Prismo', `${path}/prismo/`],
   ['Project X', `${path}/project-x/`],
@@ -368,6 +382,7 @@ const bands = [
   ['Pepe Vasquez', `${path}/pepe-vasquez/`],
   ['Placebo', `${path}/placebo/`],
   ['Pantera', `${path}/pantera/`],
+  ['Pedro Suárez-Vértiz', `${path}/pedro-suarez-vertiz-ost/`],
 
   /* ======================= Q ======================= */
   ['Queen Latifah', `${path}/queen-latifah/`],
