@@ -3260,9 +3260,9 @@ html {
       background-color: #fff4;
 
       @media (width <= 1111px) {
-        white-space: nowrap; 
+        white-space: nowrap;
         overflow: hidden;
-        text-overflow: ellipsis; 
+        text-overflow: ellipsis;
       }
 
       &::placeholder {

@@ -184,6 +184,7 @@ const bands = [
 
   /* ======================= H ======================= */
   ['Hippie Sabotage', `${path}/hippie-sabotage/`],
+  ['Hollow Coves', `${path}/hollow-coves/`],
   ['Hello Fiasco', `${path}/hello-fiasco/`],
   ['Hibou', `${path}/hibou-ost/`],
   ['Harry Styles', `${path}/harry-styles-ost/`],
@@ -383,6 +384,8 @@ const bands = [
   ['Placebo', `${path}/placebo/`],
   ['Pantera', `${path}/pantera/`],
   ['Pedro Suárez-Vértiz', `${path}/pedro-suarez-vertiz-ost/`],
+  ['Power Rangers Wild Force', `${path}/power-rangers-wild-force-ost/`],
+  ['Power Rangers Jungle Fury', `${path}/power-rangers-jungle-fury-ost/`],
 
   /* ======================= Q ======================= */
   ['Queen Latifah', `${path}/queen-latifah/`],
@@ -394,6 +397,11 @@ const bands = [
 
   /* ======================= R ======================= */
   ['Resident Evil', `${path}/resident-evil/`],
+  ['Rancid', `${path}/rancid-ost/`],
+  ['Rocio jurado', `${path}/rocio-jurado-ost/`],
+  ['Rude', `${path}/rude-ost/`],
+  ['Ray Sepulveda', `${path}/ray-sepulveda-ost/`],
+  ['Romeo Santos', `${path}/romeo-santos-ost/`],
   ['Red Swam', `${path}/red-swam//`],
   ['Roxette (version English)', `${path}/roxette-ost/`],
   ['Red Hot Chilli Peppers', `${path}/red-hot-chilli-peppers/`],
@@ -421,6 +429,7 @@ const bands = [
 
   /* ======================= S ======================= */
   ['Spandau Ballet', `${path}/spandau-ballet/`],
+  ['Studio Killers', `${path}/studio-killers-ost`],
   ['Surf Curse', `${path}/surf-curse/`],
   ['Sia', `${path}/sia/`],
   ['Sawano Hiroyuki', `${path}/sawano-hiroyuki-ost/`],
@@ -442,10 +451,7 @@ const bands = [
   ['Ship Wrek', `${path}/ship-wrek-ost/`],
   ['Shrek 2', `${path}/shrek-2/`],
   ['Serena', `${path}/serena/`],
-  [
-    'Star vs. The Forces Of Evil',
-    `${path}/star-vs-the-forces-of-evil-ost/`
-  ],
+  ['Star vs. The Forces Of Evil', `${path}/star-vs-the-forces-of-evil-ost/`],
   ['Shakira', `${path}/shakira-ost/`],
   ['Selena Gomez', `${path}/selena-gomez/`],
   ['Soda Stereo', `${path}/soda-stereo/`],
@@ -496,7 +502,6 @@ const bands = [
   ['Tyler Bates', `${path}/tyler-bates/`],
   ['The Jackson 5', `${path}/jackson-5/`],
   ['The Walters', `${path}/the-walters-ost/`],
-  
 
   /* ======================= U ======================= */
   ['U2', `${path}/u2/`],
@@ -548,7 +553,7 @@ const bands = [
   ['Yoshiki', `${path}/yoshiki/`],
   ['Yamamoto Kohta', `${path}/kohta-yamamoto/`],
   ["Yousou N'dour", `${path}/youssou-ndour/`],
-  ["Your Lie In April", `${path}/your-lie-in-april-ost/`],
+  ['Your Lie In April', `${path}/your-lie-in-april-ost/`],
   ['Yazoo', `${path}/yazoo/`],
   ['Yardbirds', `${path}/yardbirds/`],
   ['Your Favorite Enemies', `${path}/your-favorite-enemies/`],
