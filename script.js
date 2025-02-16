@@ -141,6 +141,7 @@ const bands = [
 
   /* ======================= F ======================= */
   ['Foo Fighters', `${path}/foo-fighters/`],
+  ['Fleet Foxes', `${path}/fleet-foxes/`],
   ['Foals', `${path}/foals/`],
   ['Five Finger Death Punch', `${path}/five-finger-death/`],
   ['Flow', `${path}/flow-ost/`],
@@ -397,6 +398,7 @@ const bands = [
 
   /* ======================= R ======================= */
   ['Resident Evil', `${path}/resident-evil/`],
+  ['Rush', `${path}/rush-ost/`],
   ['Rancid', `${path}/rancid-ost/`],
   ['Rocio jurado', `${path}/rocio-jurado-ost/`],
   ['Rude', `${path}/rude-ost/`],
@@ -429,6 +431,9 @@ const bands = [
 
   /* ======================= S ======================= */
   ['Spandau Ballet', `${path}/spandau-ballet/`],
+  ['Spider Man', `${path}/spider-man-soundtrack/`],
+  ['Steve Lacy', `${path}/steve-lacy-ost/`],
+  ['Sigur Rós', `${path}/sigur-ros-os/`],
   ['Studio Killers', `${path}/studio-killers-ost`],
   ['Surf Curse', `${path}/surf-curse/`],
   ['Sia', `${path}/sia/`],
