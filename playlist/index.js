@@ -635,13 +635,18 @@ d.addEventListener('click', e => {
     localStorage.setItem('ultimoCardIndex', index);
     RenderPlaylistItems();
     $('.am-modal').showModal();
+    let $tituloModal = $('.tituto-modal');
+    $tituloModal.innerHTML = `Save ${currentNameSong} in..`;
+    return;
   }
 
   if (e.target.matches('.cerrar')) {
     e.target.parentElement.close();
-    $('.am-modal')
+    setTimeout(() => {
+      $('.am-modal')
       .querySelector('.container-add-playlist')
       .classList.remove('mode-active');
+    }, 500)
     d.getElementById('agregarPlaylistInput').value = '';
   }
 

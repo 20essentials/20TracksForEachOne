@@ -363,6 +363,14 @@ html {
     position: relative;
     z-index: 1100;
 
+    
+    &:hover {
+        
+      .img {
+        transform: rotate(361deg);
+      }
+    }
+
     .card-single-left {
       background-color: transparent;
       display: flex;
@@ -390,6 +398,7 @@ html {
           drop-shadow(-1px 0px 0px var(--black))
           drop-shadow(0px 1px 0px var(--black))
           drop-shadow(0px -1px 0px var(--black));
+        transition: transform .5s ease-in-out;
       }
     }
 
