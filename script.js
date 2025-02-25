@@ -13,10 +13,10 @@ const bands = [
   ['Adam Goldman', `${path}/adam-goldman-ost/`],
   ['Akassuna', `${path}/akassuna/`],
   ['Ac/Dc', `${path}/ac--dc`],
-  ['Alessia Cara', `${path}/alessia-cara`],
-  ['Ariana Grande', `${path}/ariana-grande`],
+  ['Alessia Cara', `${path}/alessia-cara-ost/`],
+  ['Ariana Grande', `${path}/ariana-grande-ost/`],
   ['Akiaura', `${path}/akiaura-ost`],
-  ['A-ha', `${path}/a-ha`],
+  ['A-ha', `${path}/a-ha/`],
   ['Adieu Aru', `${path}/adieu-4ru`],
   ['Artic Monkeys', `${path}/artic-monkeys`],
   ['Alphaville', `${path}/alphaville`],
@@ -49,7 +49,7 @@ const bands = [
   ['Blueberry', `${path}/blueberry-ost/`],
   ['Blackbear', `${path}/blackbear/`],
   ['Bastille', `${path}/bastille/`],
-  ['Bruce Springsteen', `${path}/bruce-springsteen/`],
+  ['Bruce Springsteen', `${path}/bruce-springsteen-ost/`],
   ['Blondie', `${path}/blondie-ost/`],
   ['Black Sabbath', `${path}/black-sabbath/`],
   ['Bad Bunny', `${path}/bad-bunny/`],
@@ -102,10 +102,10 @@ const bands = [
   ['Don Omar', `${path}/don-omar/`],
   ['Different Heaven', `${path}/different-heaven-ost/`],
   ['Diviners', `${path}/diviners-ost/`],
-  ['David Guetta', `${path}/david-guetta/`],
+  ['David Guetta', `${path}/david-guetta-ost/`],
   ['Dj Snake', `${path}/dj--snake/`],
   ['Dua Lipa', `${path}/dua-lipa/`],
-  ['Dj Bobo', `${path}/dj-bobo-ost/`],
+  ['Dj Bobo', `${path}/dj-bobo/`],
   ['Depeche Mode', `${path}/depeche-mode/`],
   ['DLS 2016', `${path}/dls-2016/`],
   ['DLS 2020', `${path}/dls-2020/`],
@@ -180,6 +180,7 @@ const bands = [
   ['Glass Animals', `${path}/glass-animals-ost/`],
   ['Glwzbll', `${path}/glwzbll/`],
   ['Glude', `${path}/glude-ost/`],
+  ['Guru Josh', `${path}/guru-josh/`],
   ['Geolier', `${path}/geolier/`],
   ['Gaitán Castro', `${path}/gaitan-castro/`],
   ['Grimes', `${path}/grimes-ost/`],
@@ -252,13 +253,15 @@ const bands = [
   ['K-391', `${path}/k-391/`],
   ['Kings of Leon', `${path}/kings-of--leon/`],
   ['Kasabian', `${path}/kasabian-ost/`],
-  ['Katy Perry', `${path}/katy-perry/`],
-  ['Kaleo', `${path}/kaleo/`],
+  ['Katy Perry', `${path}/katy-perry-ost/`],
+  ['Kaleo', `${path}/kaleo-ost/`],
   ['Kmfdm', `${path}/kmfdm/`],
   ['Kaiser Chiefs', `${path}/kaiser-chiefs-ost/`],
+  ['Kanye West', `${path}/kanye-west/`],
 
   /* ======================= L ======================= */
   ['Lisa', `${path}/lisa/`],
+  ['Loreen', `${path}/loreen/`],
   ['Le Castlevania', `${path}/le-castle-vania-ost-/`],
   ['Lady Gaga', `${path}/lady-gaga-ost/`],
   ['Lenny Kravitz', `${path}/lenny-kravitz-ost/`],
@@ -296,6 +299,7 @@ const bands = [
 
   /* ======================= M ======================= */
   ['M83', `${path}/m83/`],
+  ['Mon Laferte', `${path}/mon-laferte/`],
   ['Modern Talking', `${path}/modern-talking-ost/`],
   ['Mike Menna', `${path}/mike-menna-ost/`],
   ['Miguel Bosé', `${path}/miguel-bose/`],
@@ -862,7 +866,6 @@ const LOADER_CLASSNAME = [
   'pyramid',
   'star',
   'tetraPyramid',
-  'multiFaces',
   'triangPre',
   'rombo3d',
   'sticks8',
@@ -987,53 +990,6 @@ const LOADER_HTML = {
         <div class="side bottom"></div>
       </aside>
     </div>`,
-  multiFaces: `<article class="container-multi">
-    <div class="lado" style="--d:1"></div>
-    <div class="lado" style="--d:2"></div>
-    <div class="lado" style="--d:3"></div>
-    <div class="lado" style="--d:4"></div>
-    <div class="lado" style="--d:5"></div>
-    <div class="lado" style="--d:6"></div>
-    <div class="lado" style="--d:7"></div>
-    <div class="lado" style="--d:8"></div>
-    <div class="lado" style="--d:9"></div>
-    <div class="lado" style="--d:10"></div>
-    <div class="lado" style="--d:11"></div>
-    <div class="lado" style="--d:12"></div>
-    <div class="lado" style="--d:13"></div>
-    <div class="lado" style="--d:14"></div>
-    <div class="lado" style="--d:15"></div>
-    <div class="lado" style="--d:16"></div>
-    <div class="lado" style="--d:17"></div>
-    <div class="lado" style="--d:18"></div>
-    <div class="lado" style="--d:19"></div>
-    <div class="lado" style="--d:20"></div>
-    <div class="lado" style="--d:21"></div>
-    <div class="lado" style="--d:22"></div>
-    <div class="lado" style="--d:23"></div>
-    <div class="lado" style="--d:24"></div>
-    <div class="lado" style="--d:25"></div>
-    <div class="lado" style="--d:26"></div>
-    <div class="lado" style="--d:27"></div>
-    <div class="lado" style="--d:28"></div>
-    <div class="lado" style="--d:29"></div>
-    <div class="lado" style="--d:30"></div>
-    <div class="lado" style="--d:31"></div>
-    <div class="lado" style="--d:32"></div>
-    <div class="lado" style="--d:33"></div>
-    <div class="lado" style="--d:34"></div>
-    <div class="lado" style="--d:35"></div>
-    <div class="lado" style="--d:36"></div>
-    <div class="lado" style="--d:37"></div>
-    <div class="lado" style="--d:38"></div>
-    <div class="lado" style="--d:39"></div>
-    <div class="lado" style="--d:40"></div>
-    <div class="lado" style="--d:41"></div>
-    <div class="lado" style="--d:42"></div>
-    <div class="lado" style="--d:43"></div>
-    <div class="lado" style="--d:44"></div>
-    <div class="lado" style="--d:45"></div>
-  </article>`,
   triangPre: `<aside class="container-pretriang">
     <main class="container-cube">
       <div class="side front"></div>

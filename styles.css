@@ -1052,42 +1052,6 @@ html {
   }
 }
 
-.centrar.multiFaces {
-  .container-multi {
-    position: relative;
-    top: -220px;
-    width: 150px;
-    height: 300px;
-    transform-style: preserve-3d;
-    transition: transform 3s linear;
-    animation: multi 6s linear infinite alternate;
-    zoom: 0.3;
-    pointer-events: none;
-
-    @media (width <= 1000px) {
-      width: 200px;
-      height: 300px;
-    }
-
-    .lado {
-      position: absolute;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      transform: rotateX(calc(360deg / 45 * var(--d))) translateZ(5vw);
-    }
-
-    .lado:nth-child(even) {
-      background-color: var(--color1);
-    }
-
-    .lado:nth-child(odd) {
-      background-color: var(--color3);
-    }
-  }
-}
-
 .centrar.triangPre {
   .container-pretriang {
     position: relative;
@@ -2113,7 +2077,7 @@ html {
     top: -120px;
 
     @media (width <= 1111px) {
-      zoom: 0.7;
+      zoom: 0.65;
     }
 
     &.container-bottom {
@@ -2745,17 +2709,6 @@ html {
   }
 }
 
-/* multi */
-@keyframes multi {
-  0% {
-    transform: rotateY(0deg);
-  }
-
-  100% {
-    transform: rotateY(359deg);
-  }
-}
-
 /* Triang Pre */
 @keyframes rotarTriang {
   0% {
@@ -2876,10 +2829,10 @@ html {
 /* rotarfrut */
 @keyframes rotarFrut {
   0% {
-    transform: scale(0.55) rotateX(-738deg) rotateY(-738deg);
+    transform: scale(0.43) rotateX(-738deg) rotateY(-738deg);
   }
   100% {
-    transform: scale(0.55) rotateX(738deg) rotateY(738deg);
+    transform: scale(0.43) rotateX(738deg) rotateY(738deg);
   }
 }
 
