@@ -20,7 +20,7 @@ const bands = [
   ['Adieu Aru', `${path}/adieu-4ru`],
   ['Artic Monkeys', `${path}/artic-monkeys-ost`],
   ['Alphaville', `${path}/alphaville`],
-  ['Arena Hash', `${path}/arena-hash`],
+  ['Arena Hash', `${path}/arena-hash-band/`],
   ['Aerosmith', `${path}/aerosmith-ost/`],
   ['Alabama 3', `${path}/alabama3-ost/`],
   ['Audioslave', `${path}/audioslave-ost`],
@@ -33,6 +33,7 @@ const bands = [
 
   /* ======================= B ======================= */
   ['Beyonce', `${path}/beyonce/`],
+  ['Blackpink', `${path}/blackpink/`],
   ['Barbie', `${path}/barbie-soundtrack/`],
   ['Breaking Bad', `${path}/breaking-bad/`],
   ['Barren Gates', `${path}/barren-gates-ost/`],
@@ -52,7 +53,7 @@ const bands = [
   ['Bruce Springsteen', `${path}/bruce-springsteen-ost/`],
   ['Blondie', `${path}/blondie-ost/`],
   ['Black Sabbath', `${path}/black-sabbath/`],
-  ['Bad Bunny', `${path}/bad-bunny/`],
+  ['Bad Bunny', `${path}/bad-bunny-ost/`],
   ['Billy Idol', `${path}/billy-idol/`],
   ['Blink 182', `${path}/blink-182-ost/`],
   ['Bonobo', `${path}/bonobo/`],
@@ -224,7 +225,7 @@ const bands = [
   ['JJD', `${path}/jjd-ost/`],
   ['Joy Division', `${path}/joy-division/`],
   ['Justice', `${path}/justice-ost/`],
-  ['Jim Yosef', `${path}/jim-yosef/`],
+  ['Jim Yosef', `${path}/jim-yosef-ost/`],
   ['JCole', `${path}/j-cole/`],
   ['Jack Black', `${path}/jack-black/`],
   ['Jo Cohen', `${path}/jo-cohen`],
@@ -280,7 +281,7 @@ const bands = [
   ['Left 4 Dead 2', `${path}/left-4-dead/`],
   ['Led Zepellin', `${path}/led-zepellin//`],
   ['Lost Frequencies', `${path}/lost-frequencies-ost/`],
-  ['La Unión', `${path}/la-union/`],
+  ['La Unión', `${path}/la-union-band/`],
   ['La Ley', `${path}/la-ley/`],
   ['Los Prisioneros', `${path}/los-prisioneros/`],
   ['Luis Fonsi', `${path}/luis-fonsi/`],
@@ -299,6 +300,7 @@ const bands = [
 
   /* ======================= M ======================= */
   ['M83', `${path}/m83/`],
+  ['Marracash', `${path}/marracash/`],
   ['Mon Laferte', `${path}/mon-laferte/`],
   ['Modern Talking', `${path}/modern-talking-ost/`],
   ['Mike Menna', `${path}/mike-menna-ost/`],
@@ -509,7 +511,7 @@ const bands = [
   ['The Neighbourhood', `${path}/the-neighbourhood-ost/`],
   ['The Killers', `${path}/the-killers-ost/`],
   ['Thirty Seconds To Mars', `${path}/30-seconds-to-mars/`],
-  ['Tame Impala', `${path}/tame-impala/`],
+  ['Tame Impala', `${path}/tame-impala-ost/`],
   ['Tears For Fears', `${path}/tears-for-fears/`],
   ['Tron', `${path}/tron/`],
   ['The Outfield', `${path}/the-outfield-ost/`],
@@ -518,7 +520,7 @@ const bands = [
   ['The Walters', `${path}/the-walters-ost/`],
 
   /* ======================= U ======================= */
-  ['U2', `${path}/u2/`],
+  ['U2', `${path}/u2-band/`],
   ['Unknown Brain', `${path}/unknown-brain-ost/`],
   ['Undertale', `${path}/undertale/`],
   ['Underworld', `${path}/underworld-ost/`],
