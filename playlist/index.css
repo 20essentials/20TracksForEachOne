@@ -396,7 +396,7 @@ body::-webkit-scrollbar-thumb {
   .nav-list-momentary {
     position: relative;
 
-    .uiverse {
+    .btn-tooltip {
       --duration: 7s;
       --easing: linear;
       --c-color-1: rgba(26, 163, 255, 0.7);
@@ -475,7 +475,7 @@ body::-webkit-scrollbar-thumb {
       }
     }
 
-    .uiverse:before {
+    .btn-tooltip:before {
       content: '';
       pointer-events: none;
       position: absolute;
@@ -489,7 +489,7 @@ body::-webkit-scrollbar-thumb {
         inset 0 -3px 4px var(--c-shadow-inset-bottom);
     }
 
-    .uiverse .wrapper {
+    .btn-tooltip .wrapper {
       mask-image: radial-gradient(white, black);
       overflow: hidden;
       border-radius: 24px;
@@ -501,13 +501,13 @@ body::-webkit-scrollbar-thumb {
       width: 100%;
     }
 
-    .uiverse .wrapper span {
+    .btn-tooltip .wrapper span {
       display: inline-block;
       position: relative;
       z-index: 200;
     }
 
-    .uiverse .wrapper .circle {
+    .btn-tooltip .wrapper .circle {
       position: absolute;
       left: 0;
       top: 0;
@@ -521,100 +521,100 @@ body::-webkit-scrollbar-thumb {
         infinite;
     }
 
-    .uiverse .wrapper .circle.circle-1,
-    .uiverse .wrapper .circle.circle-9,
-    .uiverse .wrapper .circle.circle-10 {
+    .btn-tooltip .wrapper .circle.circle-1,
+    .btn-tooltip .wrapper .circle.circle-9,
+    .btn-tooltip .wrapper .circle.circle-10 {
       --background: var(--c-color-4);
     }
 
-    .uiverse .wrapper .circle.circle-3,
-    .uiverse .wrapper .circle.circle-4 {
+    .btn-tooltip .wrapper .circle.circle-3,
+    .btn-tooltip .wrapper .circle.circle-4 {
       --background: var(--c-color-2);
       --blur: 14px;
     }
 
-    .uiverse .wrapper .circle.circle-5,
-    .uiverse .wrapper .circle.circle-6 {
+    .btn-tooltip .wrapper .circle.circle-5,
+    .btn-tooltip .wrapper .circle.circle-6 {
       --background: var(--c-color-3);
       --blur: 16px;
     }
 
-    .uiverse .wrapper .circle.circle-2,
-    .uiverse .wrapper .circle.circle-7,
-    .uiverse .wrapper .circle.circle-8,
-    .uiverse .wrapper .circle.circle-11,
-    .uiverse .wrapper .circle.circle-12 {
+    .btn-tooltip .wrapper .circle.circle-2,
+    .btn-tooltip .wrapper .circle.circle-7,
+    .btn-tooltip .wrapper .circle.circle-8,
+    .btn-tooltip .wrapper .circle.circle-11,
+    .btn-tooltip .wrapper .circle.circle-12 {
       --background: var(--c-color-1);
       --blur: 12px;
     }
 
-    .uiverse .wrapper .circle.circle-1 {
+    .btn-tooltip .wrapper .circle.circle-1 {
       --x: 50px;
       --y: -40px;
       --animation: circle-1;
     }
 
-    .uiverse .wrapper .circle.circle-2 {
+    .btn-tooltip .wrapper .circle.circle-2 {
       --x: 180px;
       --y: 8px;
       --animation: circle-2;
     }
 
-    .uiverse .wrapper .circle.circle-3 {
+    .btn-tooltip .wrapper .circle.circle-3 {
       --x: 200px;
       --y: -12px;
       --animation: circle-3;
     }
 
-    .uiverse .wrapper .circle.circle-4 {
+    .btn-tooltip .wrapper .circle.circle-4 {
       --x: 80px;
       --y: -12px;
       --animation: circle-4;
     }
 
-    .uiverse .wrapper .circle.circle-5 {
+    .btn-tooltip .wrapper .circle.circle-5 {
       --x: 12px;
       --y: -4px;
       --animation: circle-5;
     }
 
-    .uiverse .wrapper .circle.circle-6 {
+    .btn-tooltip .wrapper .circle.circle-6 {
       --x: 120px;
       --y: 16px;
       --animation: circle-6;
     }
 
-    .uiverse .wrapper .circle.circle-7 {
+    .btn-tooltip .wrapper .circle.circle-7 {
       --x: 180px;
       --y: 28px;
       --animation: circle-7;
     }
 
-    .uiverse .wrapper .circle.circle-8 {
+    .btn-tooltip .wrapper .circle.circle-8 {
       --x: 200px;
       --y: -4px;
       --animation: circle-8;
     }
 
-    .uiverse .wrapper .circle.circle-9 {
+    .btn-tooltip .wrapper .circle.circle-9 {
       --x: 100px;
       --y: -12px;
       --animation: circle-9;
     }
 
-    .uiverse .wrapper .circle.circle-10 {
+    .btn-tooltip .wrapper .circle.circle-10 {
       --x: 150px;
       --y: 16px;
       --animation: circle-10;
     }
 
-    .uiverse .wrapper .circle.circle-11 {
+    .btn-tooltip .wrapper .circle.circle-11 {
       --x: 200px;
       --y: 4px;
       --animation: circle-11;
     }
 
-    .uiverse .wrapper .circle.circle-12 {
+    .btn-tooltip .wrapper .circle.circle-12 {
       --blur: 190px;
       --x: 52px;
       --y: 4px;

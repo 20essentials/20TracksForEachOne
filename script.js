@@ -2,7 +2,7 @@ const path = 'https://20essentials.github.io';
 
 const bands = [
   /* ======================= A ======================= */
-  ['Asian Kung Fu Generation', `${path}/akfg`],
+  ['Asian Kung Fu Generation', `${path}/akfg-band/`],
   ['Al Bano e Romina Power', `${path}/al-bano-e-romina-power/`],
   ['Avenida Larco', `${path}/avenida-larco/`],
   ['Alphex Twin', `${path}/alphex-twin-ost/`],
@@ -12,20 +12,20 @@ const bands = [
   ['Axol', `${path}/axol`],
   ['Adam Goldman', `${path}/adam-goldman-ost/`],
   ['Akassuna', `${path}/akassuna/`],
-  ['Ac/Dc', `${path}/ac--dc`],
+  ['Ac/Dc', `${path}/ac-dc-band/`],
   ['Alessia Cara', `${path}/alessia-cara-ost/`],
   ['Ariana Grande', `${path}/ariana-grande-ost/`],
-  ['Akiaura', `${path}/akiaura-ost`],
+  ['Akiaura', `${path}/akiaura-ost/`],
   ['A-ha', `${path}/a-ha/`],
   ['Adieu Aru', `${path}/adieu-aru/`],
   ['Artic Monkeys', `${path}/artic-monkeys-ost`],
-  ['Alphaville', `${path}/alphaville`],
+  ['Alphaville', `${path}/alphaville-ost/`],
   ['Arena Hash', `${path}/arena-hash-band/`],
   ['Aerosmith', `${path}/aerosmith-ost/`],
-  ['Alabama 3', `${path}/alabama3-ost/`],
-  ['Audioslave', `${path}/audioslave-ost`],
+  ['Alabama 3', `${path}/alabama-3-soundtrack/`],
+  ['Audioslave', `${path}/audioslave-band/`],
   ['Alan Walker', `${path}/alan-walker-ost/`],
-  ['AKFG', `${path}/akfg`],
+  ['AKFG', `${path}/akfg-band/`],
   ['Agnes Obel', `${path}/agnes-obel`],
   ['Autechre', `${path}/autechre`],
   ['Alex Bueno', `${path}/alex-bueno/`],
@@ -142,6 +142,7 @@ const bands = [
 
   /* ======================= F ======================= */
   ['Fatboy Slim', `${path}/fatboy-slim/`],
+  ['Fiona Apple', `${path}/fiona-apple/`],
   ['Foo Fighters', `${path}/foo-fighters/`],
   ['Flora Cash', `${path}/flora-cash/`],
   ['Fleet Foxes', `${path}/fleet-foxes/`],
@@ -150,7 +151,7 @@ const bands = [
   ['Flow', `${path}/flow/`],
   ['Folder 5', `${path}/folder-5/`],
   ['Foreigner', `${path}/foreigner/`],
-  ['Flume', `${path}/flume-ost/`],
+  ['Flume', `${path}/flume/`],
   ['Foster The People', `${path}/foster-the-people/`],
   ['Forhill', `${path}/forhill/`],
   ['Franz Ferdinand', `${path}/franz-ferdinand-ost/`],
@@ -203,6 +204,8 @@ const bands = [
   ['Home', `${path}/home/`],
   ['Hikaru Utada', `${path}/hikaru-utada-ost/`],
   ['Ha-Ash', `${path}/ha-ash-ost/`],
+  ['Hilary Cousins/', `${path}/hilary-cousins/`],
+  
 
   /* ======================= I ======================= */
   ['Indochine', `${path}/indochine/`],
@@ -222,7 +225,7 @@ const bands = [
   ['Johnny Steele', `${path}/johnny-steele/`],
   ['James Young', `${path}/james-young-ost/`],
   ['Jet', `${path}/jet-ost/`],
-  ['JJD', `${path}/jjd-ost/`],
+  ['JJD', `${path}/jjd/`],
   ['Joy Division', `${path}/joy-division/`],
   ['Justice', `${path}/justice-ost/`],
   ['Jim Yosef', `${path}/jim-yosef-ost/`],
@@ -461,6 +464,7 @@ const bands = [
   ['Sidewalks and Skeletons', `${path}/sidewalks-and-skeletons-ost/`],
   ['Sas', `${path}/sidewalks-and-skeletons-ost/`],
   ['Sandra', `${path}/sandra/`],
+  ['Sandro', `${path}/sandro/`],
   ['Skrillex', `${path}/skrillex/`],
   ['Stevie Wonder', `${path}/stevie-wonder//`],
   ['Skyrim', `${path}/skyrim/`],
