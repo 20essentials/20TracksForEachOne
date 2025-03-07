@@ -62,6 +62,7 @@ const bands = [
 
   /* ======================= C ======================= */
   ['Cher', `${path}/cher-ost/`],
+  ['Cnco', `${path}/cnco-band/`],
   ['Croixx', `${path}/croixx-ost/`],
   ['Coez', `${path}/coez-ost/`],
   ['Camilo Sesto', `${path}/camilo-sesto-ost/`],
@@ -78,10 +79,10 @@ const bands = [
   ['Cigarettes After Sex', `${path}/cigarettes-after-sex/`],
   ['Calvin Harris', `${path}/calvin-harris-ost/`],
   ['Crystal Castles', `${path}/crystal-castles-ost`],
-  ['Carl Duglas', `${path}/carl-douglas/`],
+  ['Carl Duglas', `${path}/carl-douglas-ost/`],
   ['Cindy Lauper', `${path}/cindy-lauper/`],
   ['Coldplay', `${path}/coldplay/`],
-  ['Charly Black', `${path}/charly-black/`],
+  ['Charly Black', `${path}/charly-black-ost/`],
   ['Cnco', `${path}/cnco/`],
   ['Carpenter Brut', `${path}/carpenter-brut/`],
   ['Chino y Nacho', `${path}/chino-y-nacho/`],
@@ -112,10 +113,10 @@ const bands = [
   ['DLS 2020', `${path}/dls-2020/`],
   ['Dream League Soccer 2016', `${path}/dls-2016/`],
   ['Dream League Soccer 2020', `${path}/dls-2020/`],
-  ['Duncan Laurence', `${path}/duncan-laurence/`],
-  ['Daughter', `${path}/daughter/`],
+  ['Duncan Laurence', `${path}/duncan-laurence-ost/`],
+  ['Daughter', `${path}/daughter-ost/`],
   ['Dire Straits', `${path}/dire-straits-ost/`],
-  ['Dead or Alive', `${path}/dead-or-alive/`],
+  ['Dead or Alive', `${path}/dead-or-alive-band/`],
   ['Duncan Dhu', `${path}/duncan-dhu-ost/`],
   ['Dominic Fike', `${path}/dominic-fike-ost/`],
   ['Danza Invisible', `${path}/danza-invisible/`],
@@ -265,6 +266,7 @@ const bands = [
 
   /* ======================= L ======================= */
   ['Lisa', `${path}/lisa/`],
+  ['La India', `${path}/la-india/`],
   ['Loreen', `${path}/loreen/`],
   ['Le Castlevania', `${path}/le-castle-vania-ost-/`],
   ['Lady Gaga', `${path}/lady-gaga-ost/`],
@@ -338,6 +340,7 @@ const bands = [
 
   /* ======================= N ======================= */
   ['Nirvana', `${path}/nirvana-ost/`],
+  ['Nino Bravo', `${path}/nino-bravo/`],
   ['Noemi', `${path}/noemi/`],
   ['Noisestorm', `${path}/noisestorm-ost/`],
   ['New Found Glory', `${path}/new-found-glory/`],
