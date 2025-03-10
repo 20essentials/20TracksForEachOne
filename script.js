@@ -67,7 +67,7 @@ const bands = [
   ['Coez', `${path}/coez-ost/`],
   ['Camilo Sesto', `${path}/camilo-sesto-ost/`],
   ['Chuck Berry', `${path}/chuck-berry-ost/`],
-  ['Cartoon', `${path}/cartoon-ost/`],
+  ['Cartoon', `${path}/cartoon-soundtrack/`],
   ['Counting Crows', `${path}/counting-crows/`],
   ['Cadmium', `${path}/cadmium/`],
   ['Crim3s', `${path}/crim3s`],
@@ -85,7 +85,7 @@ const bands = [
   ['Charly Black', `${path}/charly-black-ost/`],
   ['Cnco', `${path}/cnco/`],
   ['Carpenter Brut', `${path}/carpenter-brut/`],
-  ['Chino y Nacho', `${path}/chino-y-nacho/`],
+  ['Chino y Nacho', `${path}/chino-y-nacho-duo/`],
   ['Chromeo', `${path}/chromeo-soundrack/`],
   ['Culture Beat', `${path}/culture-beat-ost/`],
   ['Chvrches', `${path}/chvrches-ost/`],
@@ -205,8 +205,7 @@ const bands = [
   ['Home', `${path}/home/`],
   ['Hikaru Utada', `${path}/hikaru-utada-ost/`],
   ['Ha-Ash', `${path}/ha-ash-ost/`],
-  ['Hilary Cousins/', `${path}/hilary-cousins/`],
-  
+  ['Hilary Cousins', `${path}/hilary-cousins/`],
 
   /* ======================= I ======================= */
   ['Indochine', `${path}/indochine/`],
@@ -252,7 +251,6 @@ const bands = [
   ['Kid cudi', `${path}/kid-cudi`],
   ['Kamatte', `${path}/kamatte`],
   ['Ksb Studio', `${path}/ksb-studio/`],
-  ['Kohta Yamamoto', `${path}/kohta-yamamoto/`],
   ['Kike Jiménez', `${path}/kike-jimenez/`],
   ['Kana-Boon', `${path}/kana-boon-ost/`],
   ['K-391', `${path}/k-391/`],
@@ -305,6 +303,8 @@ const bands = [
 
   /* ======================= M ======================= */
   ['M83', `${path}/m83/`],
+  ['Manz', `${path}/manz/`],
+  ['Mazzy Star', `${path}/mazzy-star/`],
   ['Marracash', `${path}/marracash/`],
   ['Mon Laferte', `${path}/mon-laferte/`],
   ['Modern Talking', `${path}/modern-talking-ost/`],
@@ -321,7 +321,7 @@ const bands = [
   ['Miki González', `${path}/miki-gonzales/`],
   ['Madonna', `${path}/madonna/`],
   ['Masterboy', `${path}/masterboy/`],
-  ['Martin Garrix', `${path}/martin-garrix/`],
+  ['Martin Garrix', `${path}/martin-garrix-soundtrack/`],
   ['Memorex Memories', `${path}/memorex-memories/`],
   ['Marwa Loud', `${path}/marwa-loud//`],
   ['Myke Towers', `${path}/myke-towers/`],
@@ -329,7 +329,7 @@ const bands = [
   ['Mutiny On The Bounty', `${path}/mutiny-on-the-bounty/`],
   ['Matrix', `${path}/matrix/`],
   ['Maná', `${path}/mana/`],
-  ['Michel Teló', `${path}/michel-telo/`],
+  ['Michel Teló', `${path}/michel-telo-album/`],
   ['Major Lazer', `${path}/major-lazer-ost/`],
   ['Maroon 5', `${path}/maroon5/`],
   ['Mecano', `${path}/mecano-ost/`],

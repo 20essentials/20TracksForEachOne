@@ -622,7 +622,6 @@ body::-webkit-scrollbar-thumb {
     }
   }
 
-
   svg {
     fill: #999;
     width: 18px;
@@ -658,6 +657,15 @@ body::-webkit-scrollbar-thumb {
   }
 }
 
+@keyframes moveLuz {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
 main {
   width: 100%;
   max-width: 1600px;
@@ -681,13 +689,14 @@ main {
     .img {
       width: 90%;
       height: 90%;
-      border-radius: 1rem;
-      background-position: top;
+      border-radius: 16px;
+      background-position: center;
       background-size: cover;
       aspect-ratio: 1;
-      position: relative;
-      box-shadow: 0 0 10px 0 #0005, inset 0 0 20px 5px #0003;
       background-image: var(--image-bg);
+      position: relative;
+      overflow: hidden;
+      box-shadow: 0 0 10px 0 #0005, inset 0 0 20px 5px #0003;
 
       .input-range {
         width: 100%;
@@ -697,6 +706,22 @@ main {
         bottom: 3px;
         accent-color: chartreuse;
         display: none;
+      }
+
+      &:hover {
+        &::after {
+          animation: moveLuz 0.5s linear forwards;
+        }
+      }
+
+      &::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: -100%;
+        top: 0;
+        background: linear-gradient(90deg, transparent, #fff2, transparent);
       }
     }
 
