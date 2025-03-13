@@ -102,6 +102,7 @@ const bands = [
   ['Def Leppard', `${path}/def-leppard-ost/`],
   ['Daft Punk', `${path}/daft-punk-ost/`],
   ['Don Omar', `${path}/don-omar/`],
+  ['Dinosaur Jr', `${path}/dinosaur-jr/`],
   ['Different Heaven', `${path}/different-heaven-ost/`],
   ['Diviners', `${path}/diviners-ost/`],
   ['David Guetta', `${path}/david-guetta-ost/`],
@@ -127,6 +128,7 @@ const bands = [
 
   /* ======================= E ======================= */
   ['Eagles', `${path}/eagles-ost/`],
+  ['Elvis Presley', `${path}/elvis-presley/`],
   ['Earth', `${path}/earth-ost/`],
   ['Eurythmics', `${path}/eurythmics/`],
   ['Elton John', `${path}/elton-john-ost/`],
@@ -189,12 +191,12 @@ const bands = [
   ['Grimes', `${path}/grimes-ost/`],
 
   /* ======================= H ======================= */
-  ['Hippie Sabotage', `${path}/hippie-sabotage/`],
+  ['Hippie Sabotage', `${path}/hippie-sabotage-ost/`],
   ['Hollow Coves', `${path}/hollow-coves/`],
   ['Hello Fiasco', `${path}/hello-fiasco/`],
   ['Hibou', `${path}/hibou-ost/`],
   ['Harry Styles', `${path}/harry-styles-ost/`],
-  ['Hoodie Forester', `${path}/hoodie-forester/`],
+  ['Hoodie Forester', `${path}/hoodie-forester-ost/`],
   ['Hiroyuki Sawano', `${path}/hiroyuki-sawano/`],
   ['Hardwell', `${path}/hardwell-ost/`],
   ['Him', `${path}/him/`],
@@ -208,9 +210,9 @@ const bands = [
   ['Hilary Cousins', `${path}/hilary-cousins/`],
 
   /* ======================= I ======================= */
-  ['Indochine', `${path}/indochine/`],
+  ['Indochine', `${path}/indochine-band/`],
   ['Ivan', `${path}/ivan-ost/`],
-  ['Inner Circle', `${path}/inner--circle/`],
+  ['Inner Circle', `${path}/inner-circle-band/`],
   ['Interpol', `${path}/interpol/`],
   ['Imagine Dragons', `${path}/imagine--dragons/`],
   ['Izecold', `${path}/izecold/`],
@@ -804,7 +806,7 @@ function addFotoStars() {
     $images.forEach((img, i) => {
       img.style.setProperty(
         '--bg-img-playlist',
-        `url('stars/star-${(i % 50) + 1}.webp')`
+        `url('assets/stars/star-${(i % 50) + 1}.webp')`
       );
     });
   }, 5);
