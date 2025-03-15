@@ -266,6 +266,7 @@ const bands = [
 
   /* ======================= L ======================= */
   ['Lisa', `${path}/lisa/`],
+  ['Ludwig Van Beethoven', `${path}/beethoven/`],
   ['La India', `${path}/la-india/`],
   ['Loreen', `${path}/loreen/`],
   ['Le Castlevania', `${path}/le-castle-vania-ost-/`],
@@ -514,9 +515,9 @@ const bands = [
   ['The Smiths', `${path}/the-smiths-ost/`],
   ['Toto', `${path}/toto-ost/`],
   ['The Kinks', `${path}/the-kinks-ost/`],
-  ['Timbaland', `${path}/timbaland/`],
-  ['The Rasmus', `${path}/the-rasmus/`],
-  ['Two Door Cinema Club', `${path}/two-door-cinema-club/`],
+  ['Timbaland', `${path}/timbaland-album/`],
+  ['The Rasmus', `${path}/the-rasmus-band/`],
+  ['Two Door Cinema Club', `${path}/two-door-cinema-club-band/`],
   ['The Neighbourhood', `${path}/the-neighbourhood-ost/`],
   ['The Killers', `${path}/the-killers-ost/`],
   ['Thirty Seconds To Mars', `${path}/30-seconds-to-mars/`],
