@@ -33,6 +33,7 @@ const bands = [
 
   /* ======================= B ======================= */
   ['Beyonce', `${path}/beyonce/`],
+  ['Bob Marley', `${path}/bob-marley-album/`],
   ['Blackpink', `${path}/blackpink/`],
   ['Barbie', `${path}/barbie-soundtrack/`],
   ['Breaking Bad', `${path}/breaking-bad/`],
@@ -247,6 +248,7 @@ const bands = [
 
   /* ======================= K ======================= */
   ['Kanye West', `${path}/kanye-west-ost`],
+  ['Kung Fu Panda', `${path}/kung-fu-panda/`],
   ['Kina', `${path}/kina-ost/`],
   ['Kavinsky', `${path}/kavinsky-ost/`],
   ['Keane', `${path}/keane`],
@@ -291,11 +293,11 @@ const bands = [
   ['La Ley', `${path}/la-ley-band/`],
   ['Los Prisioneros', `${path}/los-prisioneros/`],
   ['Luis Fonsi', `${path}/luis-fonsi-album/`],
-  ['Leeandlie', `${path}/leeandlie/`],
+  ['Leeandlie', `${path}/leeandlie-album/`],
   ['La Bouche', `${path}/la-bouche-ost/`],
   ['Legend of Zelda', `${path}/legend-of-zelda/`],
   ['Lost Sky', `${path}/lost-sky-album/`],
-  ['Los Enanitos Verdes', `${path}/los-enanitos-verdes/`],
+  ['Los Enanitos Verdes', `${path}/los-enanitos-verdes-band/`],
   ['Little Dragon', `${path}/little-dragon/`],
   ['Libido', `${path}/libido/`],
   ['Los Iracundos', `${path}/los-iracundos/`],
