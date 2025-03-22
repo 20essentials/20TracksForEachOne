@@ -43,7 +43,7 @@ const bands = [
   ['Blur', `${path}/blur-ost/`],
   ['Benson Boone', `${path}/benson-boone/`],
   ['Bojack Horseman', `${path}/bojack-horseman/`],
-  ['Beach Weather', `${path}/beach-weather-ost/`],
+  ['Beach Weather', `${path}/beach-weather-soundtrack/`],
   ['Butterfly Boucher', `${path}/butterfly-boucher-ost/`],
   ['Bob Dylan', `${path}/bob-dylan/`],
   ['Ben 10', `${path}/ben-10/`],
@@ -53,7 +53,7 @@ const bands = [
   ['Bastille', `${path}/bastille-ost/`],
   ['Bruce Springsteen', `${path}/bruce-springsteen-ost/`],
   ['Blondie', `${path}/blondie-ost/`],
-  ['Black Sabbath', `${path}/black-sabbath/`],
+  ['Black Sabbath', `${path}/black-sabbath-band/`],
   ['Bad Bunny', `${path}/bad-bunny-ost/`],
   ['Billy Idol', `${path}/billy-idol-soundtrack/`],
   ['Blink 182', `${path}/blink-182-ost/`],
@@ -247,7 +247,6 @@ const bands = [
   ['Jungle', `${path}/jungle-ost/`],
 
   /* ======================= K ======================= */
-  ['Kanye West', `${path}/kanye-west-ost`],
   ['Kung Fu Panda', `${path}/kung-fu-panda/`],
   ['Kina', `${path}/kina-ost/`],
   ['Kavinsky', `${path}/kavinsky-ost/`],
@@ -411,8 +410,8 @@ const bands = [
   ['Power Rangers Jungle Fury', `${path}/power-rangers-jungle-fury-ost/`],
 
   /* ======================= Q ======================= */
-  ['Queen Latifah', `${path}/queen-latifah/`],
-  ['Queensrÿche', `${path}/queensryche/`],
+  ['Queen Latifah', `${path}/queen-latifah-band/`],
+  ['Queensrÿche', `${path}/queensryche-band/`],
   ['Queen', `${path}/queen-ost/`],
   ['Quiet Riot', `${path}/quiet-riot-ost/`],
   ['Quicksilver', `${path}/quicksilver-ost/`],
