@@ -92,14 +92,14 @@ const bands = [
   ['Can', `${path}/can/`],
 
   /* ======================= D ======================= */
-  ['Deep Purple', `${path}/deep-purple-ost/`],
+  ['Deep Purple', `${path}/deep-purple-band/`],
   ['Develop Frame', `${path}/develop-frame-band/`],
-  ['Dan Dan (オーロラ)', `${path}/dan-dan/`],
+  ['Dan Dan (オーロラ)', `${path}/dan-dan-album/`],
   ['Disfigure', `${path}/disfigure-band/`],
-  ['Defqwop', `${path}/defqwop-ost/`],
+  ['Defqwop', `${path}/defqwop-album/`],
   ['Deorro', `${path}/deorro-ost/`],
   ['Drake', `${path}/drake-album/`],
-  ['Def Leppard', `${path}/def-leppard-ost/`],
+  ['Def Leppard', `${path}/def-leppard-band/`],
   ['Daft Punk', `${path}/daft-punk-band/`],
   ['Don Omar', `${path}/don-omar-album/`],
   ['Dinosaur Jr', `${path}/dinosaur-jr/`],
@@ -270,6 +270,7 @@ const bands = [
 
   /* ======================= L ======================= */
   ['Lisa', `${path}/lisa/`],
+  ['Liue', `${path}/liue/`],
   ['Ludwig Van Beethoven', `${path}/beethoven/`],
   ['La India', `${path}/la-india/`],
   ['Loreen', `${path}/loreen/`],
@@ -368,16 +369,16 @@ const bands = [
   ['Noisettes', `${path}/noisettes-ost/`],
 
   /* ======================= O ======================= */
-  ["Oscar D'león", `${path}/oscar-d-leon/`],
+  ["Oscar D'león", `${path}/oscar-d-leon-album/`],
   ['Oasis', `${path}/oasis-ost/`],
   ['Outkast', `${path}/outkast/`],
   ['Omar Cabán', `${path}/omar-caban-ost/`],
   ['Ofdream', `${path}/ofdream/`],
   ['Oneheart', `${path}/oneheart-album/`],
-  ['Orbital', `${path}/orbital/`],
+  ['Orbital', `${path}/orbital-band/`],
   ['One Republic', `${path}/one-republic-band/`],
   ['Outlaws', `${path}/outlaws-band/`],
-  ['Opeth', `${path}/opeth/`],
+  ['Opeth', `${path}/opeth-album/`],
   ['Ocean Colour Scene', `${path}/ocean-colour-scene/`],
   ['Of Monsters and Men', `${path}/of-monsters-and-men-ost/`],
 
