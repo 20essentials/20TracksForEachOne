@@ -11,7 +11,7 @@ const bands = [
   ['Arcángel', `${path}/arcangel-ost/`],
   ['Axol', `${path}/axol-soundtrack/`],
   ['Adam Goldman', `${path}/adam-goldman-ost/`],
-  ['Akassuna', `${path}/akassuna/`],
+  ['Akassuna', `${path}/akassuna-album/`],
   ['Ac/Dc', `${path}/ac-dc-band/`],
   ['Alessia Cara', `${path}/alessia-cara-ost/`],
   ['Ariana Grande', `${path}/ariana-grande-ost/`],
@@ -26,10 +26,10 @@ const bands = [
   ['Audioslave', `${path}/audioslave-band/`],
   ['Alan Walker', `${path}/alan-walker-ost/`],
   ['AKFG', `${path}/akfg-band/`],
-  ['Agnes Obel', `${path}/agnes-obel`],
+  ['Agnes Obel', `${path}/agnes-obel-album/`],
   ['Autechre', `${path}/autechre`],
   ['Alex Bueno', `${path}/alex-bueno/`],
-  ['Alexander Rybak', `${path}/alexander-rybak/`],
+  ['Alexander Rybak', `${path}/alexander-rybak-album/`],
 
   /* ======================= B ======================= */
   ['Beyonce', `${path}/beyonce/`],
@@ -38,7 +38,7 @@ const bands = [
   ['Barbie', `${path}/barbie-soundtrack/`],
   ['Breaking Bad', `${path}/breaking-bad/`],
   ['Barren Gates', `${path}/barren-gates-ost/`],
-  ['Børns', `${path}/borns-ost/`],
+  ['Børns', `${path}/borns-band/`],
   ['Boston', `${path}/boston/`],
   ['Blur', `${path}/blur-ost/`],
   ['Benson Boone', `${path}/benson-boone/`],
@@ -503,6 +503,8 @@ const bands = [
 
   /* ======================= T ======================= */
   ['Twenty One Pilots', `${path}/twenty-one-pilots-ost/`],
+  ['The Oral Cigarretes', `${path}/the-oral-cigarretes/`],
+  ['The Black Keys', `${path}/the-black-keys-band/`],
   ['The Dark Knight', `${path}/the-dark-knight/`],
   ['The Foundations', `${path}/the-foundations-ost/`],
   ['The Chemical Brothers', `${path}/the-chemical-brothers-ost/`],
