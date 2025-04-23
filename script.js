@@ -768,6 +768,8 @@ function autocomplete(inpt, elArray) {
 
       if (currentFocus > -1) {
         if (x) x[currentFocus].click();
+      } else {
+        x[0].click()
       }
     }
   });

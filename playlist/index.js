@@ -564,9 +564,10 @@ d.addEventListener('click', e => {
       arrayCards.forEach((card, i) => (card.style.color = arrayColors[i]));
       listNumbersSongs = [];
     }
+    const arrayPlayButtons = [...$$(cardPlayButtonClass)];
 
     blockPlayPauseStopBUTTON();
-    const index = [...$$(cardPlayButtonClass)].indexOf(e.target);
+    let index = arrayPlayButtons.indexOf(e.target);
     _removeClassBlockedButtonNextSiblings(index);
 
     let audioActual = d.createElement('audio');
@@ -595,6 +596,12 @@ d.addEventListener('click', e => {
       );
       return;
     }
+
+    $audio.onended = () => {
+      index = index = (index + 1) % playlist.length;
+      const btnPlayNew = arrayPlayButtons[index];
+      btnPlayNew.click();
+    };
 
     return;
   }
