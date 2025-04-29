@@ -600,6 +600,7 @@ d.addEventListener('click', e => {
     $audio.onended = () => {
       index = index = (index + 1) % playlist.length;
       const btnPlayNew = arrayPlayButtons[index];
+      if (index === 0) return;
       btnPlayNew.click();
     };
 
