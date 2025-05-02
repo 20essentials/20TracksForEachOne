@@ -61,6 +61,7 @@ const bands = [
   ['Bonobo', `${path}/bonobo-band/`],
   ['Bruno Mars', `${path}/bruno-mars-album`],
   ['Bag Raiders', `${path}/bag-raiders-band/`],
+  ['Bonnie Tyler', `${path}/bonnie-tyler/`],
 
   /* ======================= C ======================= */
   ['Cher', `${path}/cher-album/`],
@@ -128,20 +129,20 @@ const bands = [
   ['David Lyme', `${path}/david-lyme-band/`],
 
   /* ======================= E ======================= */
-  ['Eagles', `${path}/eagles-ost/`],
+  ['Eagles', `${path}/eagles-album/`],
   ['Elvis Presley', `${path}/elvis-presley/`],
-  ['Earth', `${path}/earth-ost/`],
-  ['Eurythmics', `${path}/eurythmics/`],
+  ['Earth', `${path}/earth-album/`],
+  ['Eurythmics', `${path}/eurythmics-album/`],
   ['Elton John', `${path}/elton-john-album/`],
-  ['Evanescence', `${path}/evanescence/`],
-  ['Erasure', `${path}/erasure-ost/`],
+  ['Evanescence', `${path}/evanescence-album/`],
+  ['Erasure', `${path}/erasure-album/`],
   ['Ed Sheeran', `${path}/ed-sheeran-album`],
   ['Eva Ayllón', `${path}/eva-ayllon-album/`],
   ['Enrique Iglesias', `${path}/enrique-iglesias-album/`],
-  ['Enigma', `${path}/enigma-ost/`],
+  ['Enigma', `${path}/enigma-band/`],
   ['Electric Light Orchestra', `${path}/elo-album/`],
   ['El Último De La Fila', `${path}/el-ultimo-de-la-fila-band/`],
-  ['Earth Wind and Fire', `${path}/earth-wind-and-fire/`],
+  ['Earth Wind and Fire', `${path}/earth-wind-and-fire-band/`],
 
   /* ======================= F ======================= */
   ['Fatboy Slim', `${path}/fatboy-slim/`],
@@ -259,10 +260,10 @@ const bands = [
   ['Kamatte', `${path}/kamatte`],
   ['Ksb Studio', `${path}/ksb-studio/`],
   ['Kike Jiménez', `${path}/kike-jimenez-album/`],
-  ['Kana-Boon', `${path}/kana-boon-ost/`],
+  ['Kana-Boon', `${path}/kana-boon-band/`],
   ['K-391', `${path}/k391-album/`],
   ['Kings of Leon', `${path}/kings-of-leon-band/`],
-  ['Kasabian', `${path}/kasabian-ost/`],
+  ['Kasabian', `${path}/kasabian-band/`],
   ['Katy Perry', `${path}/katy-perry-ost/`],
   ['Kaleo', `${path}/kaleo-ost/`],
   ['Kimbra', `${path}/kimbra`],
