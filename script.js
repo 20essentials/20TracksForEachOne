@@ -131,7 +131,7 @@ const bands = [
   /* ======================= E ======================= */
   ['Eagles', `${path}/eagles-album/`],
   ['Elvis Presley', `${path}/elvis-presley/`],
-  ['Earth', `${path}/earth-album/`],
+  ['Earth', `${path}/earth-band/`],
   ['Eurythmics', `${path}/eurythmics-album/`],
   ['Elton John', `${path}/elton-john-album/`],
   ['Evanescence', `${path}/evanescence-album/`],
@@ -161,15 +161,15 @@ const bands = [
   ['Forhill', `${path}/forhill/`],
   ['Franz Ferdinand', `${path}/franz-ferdinand-ost/`],
   ['Fitz and the Tantrums', `${path}/fitz-and-the-tantrums-ost/`],
-  ['Frágil', `${path}/fragil/`],
-  ['FleetWood Mac', `${path}/fleetwood/`],
-  ['Fantom 87', `${path}/fantom-87-ost/`],
-  ['French Montana', `${path}/french-montana-ost/`],
-  ['Final Fantasy VII', `${path}/final-fantasy-7/`],
+  ['Frágil', `${path}/fragil-band/`],
+  ['FleetWood Mac', `${path}/fleetwood-mac-album/`],
+  ['Fantom 87', `${path}/fantom-87-album/`],
+  ['French Montana', `${path}/french-montana-album/`],
+  ['Final Fantasy 7', `${path}/final-fantasy-7-album/`],
   ['Fkj', `${path}/fkj/`],
   ['Fuego', `${path}/fuego-ost/`],
   ['Free Fire', `${path}/free-fire/`],
-  ["Fool's Garden", `${path}/fools-garden/`],
+  ["Fool's Garden", `${path}/fools-garden-album/`],
   ['Faithless', `${path}/faithless/`],
   ['Florence + The Machine', `${path}/florence-more-machine/`],
 
@@ -240,6 +240,8 @@ const bands = [
   ['Jack Black', `${path}/jack-black/`],
   ['Jo Cohen', `${path}/jo-cohen`],
   ['Janji', `${path}/janji`],
+  ['Johan Sebastian Bach', `${path}/johan-sebastian-bach/`],
+  ['Bach', `${path}/johan-sebastian-bach/`],
   ['Janelle Monae', `${path}/janelle-monae/`],
   ['Jutty Ranx', `${path}/jutty-ranx/`],
   ['Jimi Hendrix', `${path}/jimi-hendrix/`],
@@ -610,6 +612,7 @@ const bands = [
   ['Zwan', `${path}/zwan-ost/`],
   ['Zeromancer', `${path}/zeromancer-ost/`],
   ['Zoé', `${path}/zoe-ost/`],
+  ['Zoe', `${path}/zoe-ost/`],
   ['Zoids Chaotic Century', `${path}/zoids-chaotic-century-ost/`],
   ['Zoids Guardian Force', `${path}/zoids-guardian-force-ost/`],
   ['Zaza', `${path}/zaza/`],
@@ -771,7 +774,7 @@ function autocomplete(inpt, elArray) {
       if (currentFocus > -1) {
         if (x) x[currentFocus].click();
       } else {
-        x[0].click()
+        x[0].click();
       }
     }
   });
