@@ -155,10 +155,10 @@ const bands = [
   ['Foals', `${path}/foals/`],
   ['Five Finger Death Punch', `${path}/five-finger-death-band/`],
   ['Flow', `${path}/flow/`],
-  ['Folder 5', `${path}/folder-5/`],
-  ['Foreigner', `${path}/foreigner/`],
+  ['Folder 5', `${path}/folder-5-band/`],
+  ['Foreigner', `${path}/foreigner-band/`],
   ['Flume', `${path}/flume/`],
-  ['Foster The People', `${path}/foster-the-people/`],
+  ['Foster The People', `${path}/foster-the-people-band/`],
   ['Forhill', `${path}/forhill-band/`],
   ['Franz Ferdinand', `${path}/franz-ferdinand-ost/`],
   ['Fitz and the Tantrums', `${path}/fitz-and-the-tantrums-ost/`],
@@ -171,8 +171,8 @@ const bands = [
   ['Fuego', `${path}/fuego-ost/`],
   ['Free Fire', `${path}/free-fire-album/`],
   ["Fool's Garden", `${path}/fools-garden-album/`],
-  ['Faithless', `${path}/faithless/`],
-  ['Florence + The Machine', `${path}/florence-more-machine/`],
+  ['Faithless', `${path}/faithless-band/`],
+  ['Florence + The Machine', `${path}/florence-and-the-machine/`],
 
   /* ======================= G ======================= */
   ['Green Day', `${path}/green-day-ost/`],
@@ -189,7 +189,7 @@ const bands = [
   ['Glwzbll', `${path}/glwzbll/`],
   ['Glude', `${path}/glude-ost/`],
   ['Guru Josh', `${path}/guru-josh/`],
-  ['Geolier', `${path}/geolier/`],
+  ['Geolier', `${path}/geolier-band/`],
   ['Gaitán Castro', `${path}/gaitan-castro/`],
   ['Grimes', `${path}/grimes-ost/`],
 
