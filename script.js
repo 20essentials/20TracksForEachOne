@@ -217,7 +217,7 @@ const bands = [
   /* ======================= I ======================= */
   ['Indochine', `${path}/indochine-band/`],
   ['Ivan', `${path}/ivan-ost/`],
-  ['Inner Circle', `${path}/inner-circle-band/`],
+  ['Inner Circle ', `${path}/inner-circle-band/`],
   ['Interpol', `${path}/interpol/`],
   ['Imagine Dragons', `${path}/imagine--dragons/`],
   ['Izecold', `${path}/izecold-band/`],
