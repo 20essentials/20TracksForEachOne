@@ -61,6 +61,7 @@ const bands = [
   ['Billy Idol', `${path}/billy-idol-soundtrack/`],
   ['Blink 182', `${path}/blink-182-band/`],
   ['Bonobo', `${path}/bonobo-band/`],
+  ['Bon Iver', `${path}/bon-iver/`],
   ['Bruno Mars', `${path}/bruno-mars-album`],
   ['Bag Raiders', `${path}/bag-raiders-band/`],
   ['Bonnie Tyler', `${path}/bonnie-tyler/`],
@@ -216,15 +217,15 @@ const bands = [
 
   /* ======================= I ======================= */
   ['Indochine', `${path}/indochine-band/`],
-  ['Ivan', `${path}/ivan-ost/`],
+  ['Ivan', `${path}/ivan-album/`],
   ['Inner Circle ', `${path}/inner-circle-band/`],
-  ['Interpol', `${path}/interpol/`],
+  ['Interpol', `${path}/interpol-band/`],
   ['Imagine Dragons', `${path}/imagine--dragons/`],
   ['Izecold', `${path}/izecold-band/`],
   ['Incubus', `${path}/incubus-band/`],
-  ['Iracundos', `${path}/los-iracundos/`],
+  ['Iracundos', `${path}/iracundos-album/`],
   ['Icona Pop', `${path}/icona-pop/`],
-  ['Iced Earth', `${path}/iced-earth`],
+  ['Iced Earth', `${path}/iced-earth-band/`],
 
   /* ======================= J ======================= */
   ['Juan Gabriel', `${path}/juan-gabriel-ost/`],
@@ -379,7 +380,7 @@ const bands = [
   /* ======================= O ======================= */
   ["Oscar D'león", `${path}/oscar-d-leon-album/`],
   ['Oasis', `${path}/oasis-ost/`],
-  ['Outkast', `${path}/outkast/`],
+  ['Outkast', `${path}/outkast-band/`],
   ['Omar Cabán', `${path}/omar-caban-ost/`],
   ['Ofdream', `${path}/ofdream/`],
   ['Oneheart', `${path}/oneheart-album/`],
@@ -479,7 +480,7 @@ const bands = [
   ['Spin Doctors', `${path}/spin-doctors-ost/`],
   ['September 87', `${path}/september-87-ost/`],
   ['Succession', `${path}/succession-soundtrack/`],
-  ['St. Vincent', `${path}/st-vincent/`],
+  ['St. Vincent', `${path}/st-vincent-band/`],
   ['Swedish House Mafia', `${path}/swedish-house-mafia-ost/`],
   ['Soundgarden', `${path}/soundgarden-ost/`],
   ['Snap!', `${path}/snap-ost/`],
