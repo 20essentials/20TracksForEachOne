@@ -147,6 +147,7 @@ const bands = [
   ['Enigma', `${path}/enigma-band/`],
   ['Electric Light Orchestra', `${path}/elo-album/`],
   ['El Último De La Fila', `${path}/el-ultimo-de-la-fila-band/`],
+  ['El Ultimo De La Fila', `${path}/el-ultimo-de-la-fila-band/`],
   ['Earth Wind and Fire', `${path}/earth-wind-and-fire-band/`],
 
   /* ======================= F ======================= */
@@ -167,6 +168,7 @@ const bands = [
   ['Franz Ferdinand', `${path}/franz-ferdinand-ost/`],
   ['Fitz and the Tantrums', `${path}/fitz-and-the-tantrums-ost/`],
   ['Frágil', `${path}/fragil-band/`],
+  ['Fragil', `${path}/fragil-band/`],
   ['FleetWood Mac', `${path}/fleetwood-mac-album/`],
   ['Fantom 87', `${path}/fantom-87-album/`],
   ['French Montana', `${path}/french-montana-album/`],
