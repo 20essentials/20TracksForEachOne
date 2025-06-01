@@ -361,10 +361,10 @@ const bands = [
   ['Muse', `${path}/muse-band/`],
 
   /* ======================= N ======================= */
-  ['Nirvana', `${path}/nirvana-ost/`],
+  ['Nirvana', `${path}/nirvana-band/`],
   ['Nino Bravo', `${path}/nino-bravo/`],
   ['Noemi', `${path}/noemi/`],
-  ['Noisestorm', `${path}/noisestorm-ost/`],
+  ['Noisestorm', `${path}/noisestorm-band/`],
   ['New Found Glory', `${path}/new-found-glory-band/`],
   ['Neon Genesis Evangelion', `${path}/neon-genesis-evangelion-album/`],
   ['New Order', `${path}/new-order-ost/`],
@@ -378,7 +378,7 @@ const bands = [
   ['Nuages', `${path}/nuages-album/`],
   ['Nickelback', `${path}/nickelback-hits/`],
   ['Nxcre', `${path}/nxcre-band/`],
-  ['Nostalghia', `${path}/nostalghia-ost/`],
+  ['Nostalghia', `${path}/nostalghia-band/`],
   ['Noisettes', `${path}/noisettes-ost/`],
 
   /* ======================= O ======================= */
@@ -393,7 +393,7 @@ const bands = [
   ['Outlaws', `${path}/outlaws-band/`],
   ['Opeth', `${path}/opeth-album/`],
   ['Ocean Colour Scene', `${path}/ocean-colour-scene/`],
-  ['Of Monsters and Men', `${path}/of-monsters-and-men-ost/`],
+  ['Of Monsters and Men', `${path}/of-monsters-and-men-album/`],
 
   /* ======================= P ======================= */
   ['Penguin Research', `${path}/penguin-research/`],
@@ -412,7 +412,7 @@ const bands = [
   ['Phantogram', `${path}/phantogram/`],
   ['Piano Deuss', `${path}/piano-deuss/`],
   ['Panic at the Disco', `${path}/panic-at-the-disco-ost/`],
-  ['Pitbull', `${path}/pitbull/`],
+  ['Pitbull', `${path}/pitbull-album/`],
   ['Pink Floyd', `${path}/pink-floyd-band/`],
   ['Pet Shop Boys', `${path}/pet-shop-boys-band/`],
   ['Pimpinela', `${path}/pimpinela-band/`],

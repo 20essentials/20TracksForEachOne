@@ -13,7 +13,7 @@ if (localStorage.getItem('lastNameCardClicked')) {
   if (currentArray.length > 0) {
     nameSongs = currentArray.map(el => {
       let name = el[0].replace(/\&amp\;/g, '&');
-      return name;
+      return name?.trim();
     });
 
     arraySongs = currentArray.map(el => el[1]);
