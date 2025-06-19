@@ -475,7 +475,7 @@ const bands = [
   ['Radiohead', `${path}/radiohead-album/`],
 
   /* ======================= S ======================= */
-  ['Spandau Ballet', `${path}/spandau-ballet/`],
+  ['Spandau Ballet', `${path}/spandau-ballet-album/`],
   ['Sarah Cothran', `${path}/sarah-cothran/`],
   ['Spider Man', `${path}/spider-man-soundtrack/`],
   ['The Amazing Spider-Man', `${path}/the-amazing-spiderman/`],
@@ -499,7 +499,7 @@ const bands = [
   ['Sandra', `${path}/sandra-album/`],
   ['Sandro', `${path}/sandro/`],
   ['Snoop Dogg', `${path}/sn00p-dogg/`],
-  ['Skrillex', `${path}/skrillex/`],
+  ['Skrillex', `${path}/skrillex-album/`],
   ['Stevie Wonder', `${path}/stevie-wonder-album/`],
   ['Skyrim', `${path}/skyrim-album/`],
   ['Ship Wrek', `${path}/ship-wrek-soundtrack/`],
