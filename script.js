@@ -1594,7 +1594,6 @@ $elementerCentrar.querySelector('.container-loader').innerHTML =
 /* ======================= MEDIA  ======================= */
 
 let w = window;
-
 let currentOrientation = screen.orientation.type;
 
 function handleOrientationChange() {
