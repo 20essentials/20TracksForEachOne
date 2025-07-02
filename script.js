@@ -383,6 +383,7 @@ const bands = [
   ['Neon Rox', `${path}/neon-rox-album/`],
   ['Nicky Jam', `${path}/nicky-jam-soundtrack/`],
   ['Neffex', `${path}/neffex-soundtrack/`],
+  ['Nick Cave', `${path}/nick-cave/`],
   ['New Radicals', `${path}/new-radicals-band/`],
   ['Nuages', `${path}/nuages-album/`],
   ['Nickelback', `${path}/nickelback-hits/`],
@@ -574,7 +575,7 @@ const bands = [
   ['Underworld', `${path}/underworld-album/`],
   ['Ulver', `${path}/ulver-album/`],
   ['UB40', `${path}/ub40-album/`],
-  ['Urge Overkill', `${path}/urge-overkill-ost/`],
+  ['Urge Overkill', `${path}/urge-overkill-album/`],
 
   /* ======================= V ======================= */
   ['Vicetone', `${path}/vicetone-band/`],
@@ -591,22 +592,22 @@ const bands = [
   ['Viti Ruiz', `${path}/viti-ruiz-album/`],
 
   /* ======================= W ======================= */
-  ['Will I Am', `${path}/william-james/`],
+  ['Will I Am', `${path}/will-i-am-album/`],
   ['Westworld', `${path}/westworld/`],
   ['WWE Opening Themes', `${path}/wwe-opening-themes/`],
   ['Wasted Time', `${path}/wasted-time/`],
   ['The Who', `${path}/the-who-album/`],
   ['Weezer', `${path}/weezer-band/`],
   ['Wasted Time', `${path}/ted-time-album/`],
-  ['Wilco', `${path}/wilco-ost/`],
+  ['Wilco', `${path}/wilco-album/`],
   ['Warpaint', `${path}/warpaint-band/`],
   ['Wolfmother', `${path}/wolfmother-band/`],
   ['War', `${path}/war-album/`],
   ['Warriyo', `${path}/warriyo-ost/`],
   ['Wiguez & Vizzen', `${path}/wiguez-and-vizzen/`],
   ['Wafia', `${path}/wafia`],
-  ['Wutang Clan', `${path}/wutang-ost/`],
-  ['Woodkid', `${path}/woodkid-ost/`],
+  ['Wutang Clan', `${path}/wutang-album/`],
+  ['Woodkid', `${path}/woodkid-album/`],
 
   /* ======================= X ======================= */
   ['Xerath', `${path}/xerath-band/`],
