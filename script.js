@@ -425,6 +425,7 @@ const bands = [
   ['Panic at the Disco', `${path}/panic-at-the-disco-album/`],
   ['Pitbull', `${path}/pitbull-album/`],
   ['Pink Floyd', `${path}/pink-floyd-band/`],
+  ['Pxlish Beatz', `${path}/pxlish-beatz/`],
   ['Pet Shop Boys', `${path}/pet-shop-boys-band/`],
   ['Pimpinela', `${path}/pimpinela-band/`],
   ['Pantaleo', `${path}/pantaleo/`],
@@ -638,9 +639,9 @@ const bands = [
   ['Yasuharu Takanashi', `${path}/yasuharu-takanashi-album/`],
 
   /* ======================= Z ======================= */
-  ['Zz Top', `${path}/zz-top-ost/`],
-  ['Zwan', `${path}/zwan-ost/`],
-  ['Zeromancer', `${path}/zeromancer-ost/`],
+  ['Zz Top', `${path}/zz-top-album/`],
+  ['Zwan', `${path}/zw4n-album/`],
+  ['Zeromancer', `${path}/zerom4ncer-album/`],
   ['Zoé', `${path}/zoe-album/`],
   ['Zoe', `${path}/zoe-album/`],
   ['Zoids Chaotic Century', `${path}/zoids-chaotic-century-ost/`],
@@ -655,14 +656,14 @@ const bands = [
   /* ======================= 0 ======================= */
   /* ======================= 1 ======================= */
   /* ======================= 2 ======================= */
-  ['2 Unlimited', `${path}/2-unlimited-ost/`],
-  ['2 Raff', `${path}/2-raff-ost/`],
-  ['2 Brothers On The 4th Floor', `${path}/2-brothers-on-the-fourth-floor/`],
+  ['2 Unlimited', `${path}/2-unlimited-album/`],
+  ['2 Raff', `${path}/2-raff-album/`],
+  ['2 Brothers On The 4th Floor', `${path}/2-brothers-on-the-fourth-floor-album/`],
   /* ======================= 3 ======================= */
   ['30 Seconds To Mars', `${path}/thirty-seconds-to-mars-band/`],
   /* ======================= 4 ======================= */
   /* ======================= 4 ======================= */
-  ['4 Non Blondes', `${path}/4-non-blondes`]
+  ['4 Non Blondes', `${path}/4-non-blond3s/`]
   /* ======================= 5 ======================= */
   /* ======================= 6 ======================= */
   /* ======================= 7 ======================= */
