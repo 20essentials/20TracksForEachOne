@@ -353,6 +353,7 @@ const bands = [
   ['Madonna', `${path}/madonna-album/`],
   ['Masterboy', `${path}/masterboy-soundtrack/`],
   ['Martin Garrix', `${path}/martin-garrix-soundtrack/`],
+  ['Maki Otsuki', `${path}/m4ki-otsuki/`],
   ['MacDemarco', `${path}/macdemarco/`],
   ['Memorex Memories', `${path}/memorex-memories/`],
   ['Marwa Loud', `${path}/marwa-loud-soundtrack/`],
