@@ -108,6 +108,7 @@ const bands = [
   ['Disfigure', `${path}/disfigure-band/`],
   ['Defqwop', `${path}/defqwop-album/`],
   ['Deorro', `${path}/deorro-band/`],
+  ['Deaft Keav', `${path}/de4ft-keav-album/`],
   ['Drake', `${path}/drake-album/`],
   ['Def Leppard', `${path}/def-leppard-band/`],
   ['Daft Punk', `${path}/daft-punk-band/`],
