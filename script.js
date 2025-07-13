@@ -660,7 +660,10 @@ const bands = [
   /* ======================= 2 ======================= */
   ['2 Unlimited', `${path}/2-unlimited-album/`],
   ['2 Raff', `${path}/2-raff-album/`],
-  ['2 Brothers On The 4th Floor', `${path}/2-brothers-on-the-fourth-floor-album/`],
+  [
+    '2 Brothers On The 4th Floor',
+    `${path}/2-brothers-on-the-fourth-floor-album/`
+  ],
   /* ======================= 3 ======================= */
   ['30 Seconds To Mars', `${path}/thirty-seconds-to-mars-band/`],
   /* ======================= 4 ======================= */
@@ -2188,10 +2191,11 @@ function renderPlaylistCards() {
 renderPlaylistCards();
 
 $inputPlaylist.addEventListener('input', e => {
+  const inputLength = e.target.value.length;
   e.target.parentElement.querySelector('.max-length-input output').textContent =
-    e.target.value.length;
+    inputLength;
 
-  if (e.target.value.length === 0) {
+  if (inputLength.length === 0) {
     e.target.classList.remove('valid', 'invalid');
     return;
   }
