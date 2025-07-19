@@ -561,6 +561,7 @@ const bands = [
   ['Toto', `${path}/toto-band/`],
   ['The Kinks', `${path}/the-kinks-album/`],
   ['Timbaland', `${path}/timbaland-album/`],
+  ['Tobu', `${path}/tobu`],
   ['The Rasmus', `${path}/the-rasmus-band/`],
   ['Two Door Cinema Club', `${path}/two-door-cinema-club-band/`],
   ['The Neighbourhood', `${path}/the-neighbourhood-ost/`],
