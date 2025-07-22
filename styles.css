@@ -3467,6 +3467,10 @@ html {
   transform: translateX(-50%);
   bottom: 26px;
   height: 30px;
+
+  @media (width <= 800px) and (orientation:  portrait) {
+    left: 66%;
+  }
 }
 
 .modal-all-artist {
