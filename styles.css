@@ -23,12 +23,28 @@ centrar {
 }
 
 html {
-  scrollbar-width: thin;
-  scrollbar-color: transparent transparent;
   background-color: #000;
   display: flex;
   flex-wrap: wrap;
   place-content: center;
+}
+
+body {
+  --sb-track-color: transparent;
+  --sb-thumb-color: #6baf8d;
+  --sb-size: 0.5vmax  ;
+}
+
+body::-webkit-scrollbar {
+  width: var(--sb-size);
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
 }
 
 .html-scheme {
@@ -362,7 +378,7 @@ html {
     column-gap: 0.5rem;
     position: relative;
     z-index: 1100;
-    transition: mix-blend-mode .3s ease-in-out;
+    transition: mix-blend-mode 0.3s ease-in-out;
 
     @media (width >= 1111px) {
       &:hover {
@@ -3434,5 +3450,72 @@ html {
   }
   100% {
     clip-path: circle(100% at 50% 50%);
+  }
+}
+
+/* ===========================MODAL ALL ARTISTS========================= */
+
+.open-all-artists {
+  display: flex;
+  position: absolute;
+  width: 30px;
+  height: 1px;
+  z-index: 20000;
+  border-bottom: 3px dashed white;
+  border-radius: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 26px;
+  height: 30px;
+}
+
+.modal-all-artist {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #0004;
+  z-index: 100000;
+  backdrop-filter: blur(20vmax);
+  overflow-y: auto;
+  display: flex;
+  flex-wrap: wrap;
+  place-content: start;
+  scale: 0;
+  transform: scale 0.4s ease-in-out;
+  transform-origin: 50% 90%;
+
+  &.modal-all-artist-open {
+    scale: 1;
+  }
+
+  &::-webkit-scrollbar {
+    width: var(--sb-size);
+  }
+
+  &::-webkit-scrollbar-track {
+    background: var(--sb-track-color);
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: var(--sb-thumb-color);
+  }
+
+  .artist-link {
+    padding: 0.9vmax 1.3vmax;
+    flex-grow: 1;
+    text-align: center;
+    text-decoration: none;
+    color: #e9e9e9;
+    box-shadow: inset 0 0 8px 2px var(--colorin, #00f8);
+    display: inline-flex;
+    flex-wrap: wrap;
+    place-content: center;
+    font-size: 1.2vmax;
+
+    &:hover {
+      box-shadow: inset 0 0 24px 4px var(--colorin, #00f8);
+    }
   }
 }

@@ -2261,3 +2261,31 @@ document.addEventListener('contextmenu', function (e) {
     localStorage.setItem('lastNameCardClicked', h3Title);
   }
 });
+
+/* ===========================MODAL ALL ARTISTS========================= */
+const $modalAllArtists = $('.modal-all-artist');
+const $buttonShowAllArtists = $('.open-all-artists');
+const amFragment = document.createDocumentFragment();
+
+function generarColorHex() {
+  const hex = Math.floor(Math.random() * 0xffffff).toString(16);
+  return "#" + hex.padStart(6, "0");
+}
+
+document.addEventListener('click', e => {
+  if (e.target.matches('.open-all-artists')) {
+    $modalAllArtists.classList.add('modal-all-artist-open');
+  }
+})
+
+bands.forEach((band) => {
+  const [nameBand, hrefBand] = band;
+  const anchor = document.createElement('a');
+  anchor.href = hrefBand;
+  anchor.textContent = nameBand;
+  anchor.classList.add('artist-link'); 
+  anchor.style.setProperty('--colorin', `${generarColorHex()}88`)
+  amFragment.appendChild(anchor);
+});
+
+$modalAllArtists.append(amFragment);
