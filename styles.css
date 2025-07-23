@@ -82,8 +82,8 @@ body::-webkit-scrollbar-thumb {
   &.button-playlist-active {
     box-shadow: inset 0 0 10px 20px #0f05;
 
-    & + .playlist-section {
-      left: 0;
+    & ~ .playlist-section {
+    left: 0;
       opacity: 1;
     }
   }
