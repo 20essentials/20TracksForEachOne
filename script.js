@@ -300,6 +300,7 @@ const bands = [
   ['Lenny Kravitz', `${path}/lenny-kravitz-album/`],
   ['LazerPunk', `${path}/lazerpunk-band/`],
   ['Linkin Park', `${path}/linkin-park-band/`],
+  ['Lensko', `${path}/lensko-album/`],
   ['Lykke Li', `${path}/lykke-li-album/`],
   ['Lord Huron', `${path}/lord-huron/`],
   ['Laura Branigan', `${path}/laura-branigan-ost/`],
