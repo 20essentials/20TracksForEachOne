@@ -334,7 +334,7 @@ body::-webkit-scrollbar-thumb {
   content-visibility: auto;
   transition: left 1s ease;
   position: absolute;
-  z-index: 1111;
+  z-index: 2222;
   left: -200%;
   opacity: 0;
   top: 0;
@@ -3460,12 +3460,12 @@ html {
   position: absolute;
   width: 30px;
   height: 1px;
-  z-index: 20000;
+  z-index: 2000;
   border-bottom: 3px dashed white;
   border-radius: 0;
   left: 50%;
   transform: translateX(-50%);
-  bottom: 26px;
+  top: 0.7vmax;
   height: 30px;
 
   @media (width <= 800px) and (orientation:  portrait) {
@@ -3487,8 +3487,8 @@ html {
   flex-wrap: wrap;
   place-content: start;
   scale: 0;
-  transform: scale 0.4s ease-in-out;
-  transform-origin: 50% 90%;
+  transition: scale 0.4s ease-in-out;
+  transform-origin: 50% 8%;
 
   &.modal-all-artist-open {
     scale: 1;
