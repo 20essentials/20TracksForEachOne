@@ -3469,7 +3469,7 @@ html {
   height: 30px;
 
   @media (width <= 800px) and (orientation:  portrait) {
-    left: 66%;
+    left: 30%;
   }
 }
 
