@@ -6,6 +6,14 @@ let lastNameCard = null;
 let listNumbersSongs = [];
 let arrayPosters = [];
 
+const MAXIMUM_LENGTH_OF_PLAYLIST = 20;
+function updateRowsModalAndButtonActive() {
+  setTimeout(() => {
+    updateButtonNavActive($('.am-button-nav-modal.order'), 'button-nav-selected');
+    scrollToBottomContainerModal();
+  }, 50);
+}
+
 if (localStorage.getItem('lastNameCardClicked')) {
   lastNameCard = localStorage.getItem('lastNameCardClicked');
   let listNameCards = JSON.parse(localStorage.getItem('listname-cards'));
@@ -652,10 +660,12 @@ d.addEventListener('click', e => {
     e.target.parentElement.close();
     setTimeout(() => {
       $('.am-modal')
-      .querySelector('.container-add-playlist')
-      .classList.remove('mode-active');
-    }, 500)
-    d.getElementById('agregarPlaylistInput').value = '';
+        .querySelector('.container-add-playlist')
+        .classList.remove('mode-active');
+    }, 500);
+    $('#agregarPlaylistInput').value = '';
+    updateButtonNavActive($('.am-button-nav-modal.order'), 'button-nav-selected');
+    return;
   }
 
   if (e.target.matches('.container-add-playlist')) {
@@ -687,6 +697,7 @@ d.addEventListener('click', e => {
         })
       );
       RenderPlaylistItems();
+      updateRowsModalAndButtonActive();
       input.value = '';
       return;
     }
@@ -699,7 +710,7 @@ d.addEventListener('click', e => {
 
     localStorage.setItem('listname-cards', newObjectListNameCards);
     RenderPlaylistItems();
-    $('.container-modal').scrollTop = $('.container-modal').scrollHeight;
+    updateRowsModalAndButtonActive();
     input.value = '';
   }
 
@@ -777,7 +788,7 @@ d.addEventListener('change', e => {
       localStorage.setItem('listname-cards', JSON.stringify(newObject));
 
       $output.innerHTML = Number($output.innerHTML) + 1;
-      RenderPlaylistItems();
+      /* RenderPlaylistItems(); */
       return;
     }
 
@@ -851,6 +862,7 @@ d.addEventListener('keydown', e => {
         })
       );
       RenderPlaylistItems();
+      updateRowsModalAndButtonActive();
       input.value = '';
       return;
     }
@@ -863,7 +875,7 @@ d.addEventListener('keydown', e => {
 
     localStorage.setItem('listname-cards', newObjectListNameCards);
     RenderPlaylistItems();
-    $('.container-modal').scrollTop = $('.container-modal').scrollHeight;
+    updateRowsModalAndButtonActive();
     input.value = '';
   }
 });
@@ -918,7 +930,7 @@ function RenderPlaylistItems() {
       clon.querySelector('label').innerHTML = key;
       clon.querySelector('output').setAttribute('class', toKebabCase(key));
       clon.querySelector('output').innerHTML = objectNames[key].length;
-      if (objectNames[key].length === 20) {
+      if (objectNames[key].length === MAXIMUM_LENGTH_OF_PLAYLIST) {
         clon.querySelector('input[type=checkbox]').disabled = 'true';
         guardarKey = key;
       }
@@ -1021,3 +1033,157 @@ const observer = new IntersectionObserver(
 );
 
 cards.forEach(card => observer.observe(card));
+
+/******************** BUTTON NAV MODAL ********************/
+
+let containerModal = document.querySelector('.container-modal');
+
+function RenderPlaylistItemsOfTheContainerBottom(objectOfCards) {
+  const currentName = localStorage.getItem('lastCurrentNameSong');
+
+  if (!currentName) return;
+
+  const objectNames =
+    objectOfCards ?? JSON.parse(localStorage.getItem('listname-cards'));
+  const template = $('.template-modal-fila').content;
+  const tituloModal = $('.tituto-modal');
+  const containerModal = $('.container-modal');
+
+  tituloModal.textContent = `Save ${currentName} in..`;
+  containerModal.innerHTML = '';
+
+  const fragment = d.createDocumentFragment();
+  const currentPlaylists = existThisSongInSomePlaylist(currentName);
+
+  for (const name in objectNames) {
+    const kebabName = toKebabCase(name);
+    const playlist = objectNames[name];
+    const clone = template.cloneNode(true);
+
+    const input = clone.querySelector('input');
+    const label = clone.querySelector('label');
+    const output = clone.querySelector('output');
+
+    input.id = name;
+    input.dataset.clase = kebabName;
+    input.disabled = playlist.length === MAXIMUM_LENGTH_OF_PLAYLIST;
+
+    label.htmlFor = name;
+    label.textContent = name;
+
+    output.className = kebabName;
+    output.textContent = playlist.length;
+
+    fragment.appendChild(clone);
+  }
+
+  containerModal.appendChild(fragment);
+
+  currentPlaylists.forEach(name => {
+    const checkbox = containerModal.querySelector(
+      `[data-clase="${toKebabCase(name)}"]`
+    );
+    if (checkbox) {
+      checkbox.checked = true;
+      checkbox.disabled = false;
+    }
+  });
+}
+
+function updateButtonNavActive(target, classNameToAdd) {
+  if (!target.classList.contains(classNameToAdd)) {
+    $(`.${classNameToAdd}`).classList.remove(classNameToAdd);
+    let timer = setTimeout(() => {
+      target.classList.add(classNameToAdd);
+      clearTimeout(timer);
+    }, 20);
+  }
+}
+
+function scrollToTopContainerModal() {
+  $('.container-modal').scrollTop = 0;
+}
+
+function scrollToBottomContainerModal() {
+  $('.container-modal').scrollTop = $('.container-modal').scrollHeight;
+}
+
+document.addEventListener('click', e => {
+  const target = e.target;
+  if (target.matches('.am-button-nav-modal')) {
+    if (target.matches('.order')) {
+      containerModal.innerHTML = '';
+
+      updateButtonNavActive(target, 'button-nav-selected');
+      scrollToTopContainerModal();
+      RenderPlaylistItemsOfTheContainerBottom();
+      return;
+    }
+
+    if (target.matches('.unorder')) {
+      containerModal.innerHTML = '';
+      updateButtonNavActive(target, 'button-nav-selected');
+      scrollToTopContainerModal();
+
+      const objectNames = JSON.parse(localStorage.getItem('listname-cards'));
+      if (!objectNames) return;
+      const reversedObj = Object.entries(objectNames)
+        .reverse()
+        .reduce((acc, [key, value]) => {
+          acc[key] = value;
+          return acc;
+        }, {});
+
+      RenderPlaylistItemsOfTheContainerBottom(reversedObj);
+      return;
+    }
+
+    if (target.matches('.random')) {
+      containerModal.innerHTML = '';
+      updateButtonNavActive(target, 'button-nav-selected');
+      scrollToTopContainerModal();
+
+      const objectNames = JSON.parse(localStorage.getItem('listname-cards'));
+      if (!objectNames) return;
+      const shuffledEntries = Object.entries(objectNames).sort(
+        () => Math.random() - 0.5
+      );
+
+      const shuffledObj = Object.fromEntries(shuffledEntries);
+      RenderPlaylistItemsOfTheContainerBottom(shuffledObj);
+      return;
+    }
+
+    if (target.matches('.a-to-z')) {
+      containerModal.innerHTML = '';
+      updateButtonNavActive(target, 'button-nav-selected');
+      scrollToTopContainerModal();
+
+      const objectNames = JSON.parse(localStorage.getItem('listname-cards'));
+      if (!objectNames) return;
+      const sortedEntries = Object.entries(objectNames).sort((a, b) =>
+        a[0].localeCompare(b[0])
+      );
+
+      const sortedObj = Object.fromEntries(sortedEntries);
+      RenderPlaylistItemsOfTheContainerBottom(sortedObj);
+      return;
+    }
+
+    if (target.matches('.z-to-a')) {
+      containerModal.innerHTML = '';
+      updateButtonNavActive(target, 'button-nav-selected');
+      scrollToTopContainerModal();
+
+      const objectNames = JSON.parse(localStorage.getItem('listname-cards'));
+      if (!objectNames) return;
+      const sortedEntries = Object.entries(objectNames).sort((a, b) =>
+        b[0].localeCompare(a[0])
+      );
+
+      const sortedObj = Object.fromEntries(sortedEntries);
+      RenderPlaylistItemsOfTheContainerBottom(sortedObj);
+      return;
+    }
+  }
+});
