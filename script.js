@@ -466,6 +466,7 @@ const bands = [
   ['Roxette', `${path}/roxette-in-english/`],
   ['Roxette (in Spanish)', `${path}/roxette-in-spanish-album/`],
   ['Red Hot Chilli Peppers', `${path}/rhcp-album/`],
+  ['Robin Hustin', `${path}/robin-hustin/`],
   ['Rupert Holmes', `${path}/rupert-holmes-album/`],
   ['Rage Against The Machine', `${path}/rage-against-the-machine-album/`],
   ['Royal Blood', `${path}/royal-blood-album/`],
