@@ -32,7 +32,7 @@ html {
 body {
   --sb-track-color: transparent;
   --sb-thumb-color: #6baf8d;
-  --sb-size: 0.5vmax  ;
+  --sb-size: 0.5vmax;
 }
 
 body::-webkit-scrollbar {
@@ -83,7 +83,7 @@ body::-webkit-scrollbar-thumb {
     box-shadow: inset 0 0 10px 20px #0f05;
 
     & ~ .playlist-section {
-    left: 0;
+      left: 0;
       opacity: 1;
     }
   }
@@ -346,6 +346,8 @@ body::-webkit-scrollbar-thumb {
   transition: opacity 0.5s ease, left 0.3s ease;
   scrollbar-width: thin;
   scrollbar-color: var(--color1, 'gray') black;
+  --nav-of-options-top: 83px;
+  --nav-of-options-height: 32px;
 
   .settings-backup {
     position: absolute;
@@ -369,7 +371,49 @@ body::-webkit-scrollbar-thumb {
   }
 
   .padding-top-card {
-    height: 78px;
+    height: calc(var(--nav-of-options-height) + var(--nav-of-options-top));
+  }
+
+  .nav-of-options-of-the-playlist-list {
+    position: absolute;
+    z-index: 500;
+    width: 100%;
+    height: var(--nav-of-options-height);
+    top: var(--nav-of-options-top);
+    display: flex;
+
+    button {
+      background-color: transparent;
+      width: 20%;
+      display: flex;
+      flex-wrap: wrap;
+      border: none;
+      outline: none;
+      place-content: center;
+      border-right: 2px solid #000;
+      border-bottom: 2px solid #000;
+
+      &:nth-child(even) {
+        background: var(--color2);
+      }
+      &:nth-child(odd) {
+        background: var(--color1);
+      }
+
+      &:last-child {
+        border-right: none;
+      }
+
+      &:active {
+        opacity: 0.8;
+      }
+
+      svg {
+        width: 80%;
+        height: 80%;
+        pointer-events: none;
+      }
+    }
   }
 
   .card-single {
@@ -703,10 +747,11 @@ body::-webkit-scrollbar-thumb {
       }
 
       .shadow {
-        width: 60px;
+        width: var(--nav-of-options-height);
         height: 60px;
         background: gray;
         position: absolute;
+        width: 60px;
         top: 0;
         left: 0;
         right: 0;
@@ -911,6 +956,7 @@ body::-webkit-scrollbar-thumb {
 .centrar.tetraPyramid {
   transform-style: preserve-3d;
   perspective: 10000px;
+
   .container-tetra {
     width: 120px;
     height: 120px;
@@ -931,7 +977,6 @@ body::-webkit-scrollbar-thumb {
         width: 100%;
         height: 100%;
         position: absolute;
-        background-color: #0002;
         background-color: #000;
         transform-style: preserve-3d;
         perspective: 10000px;
@@ -966,14 +1011,17 @@ body::-webkit-scrollbar-thumb {
         &.left {
           transform-origin: 0% 0%;
           transform: rotateY(90deg);
+          background-color: mediumturquoise;
         }
 
         &.top {
           transform-origin: 50% 0%;
           transform: rotateX(-90deg);
         }
+
         &.bottom {
           transform-origin: 50% 100%;
+          background-color: red;
           transform: rotateX(90deg);
         }
       }
@@ -994,7 +1042,7 @@ body::-webkit-scrollbar-thumb {
 
       &.triangle-top {
         bottom: -118px;
-        transform: scaleY(-1);
+        transform: scale3d(-1, -1, -1) translateZ(118px);
       }
 
       &.triangle-right {
@@ -1023,7 +1071,7 @@ body::-webkit-scrollbar-thumb {
         left: 194px;
       }
 
-      & .side {
+      .side {
         width: 100%;
         height: 100%;
         clip-path: polygon(50% 0, 100% 100%, 0 100%);
@@ -1521,7 +1569,7 @@ body::-webkit-scrollbar-thumb {
 
       &.triangle-top {
         bottom: -118px;
-        transform: scaleY(-1);
+        transform: scale3d(-1, -1, -1) translateZ(118px);
       }
 
       &.triangle-right {
@@ -3468,7 +3516,7 @@ html {
   top: 0.7vmax;
   height: 30px;
 
-  @media (width <= 800px) and (orientation:  portrait) {
+  @media (width <= 800px) and (orientation: portrait) {
     left: 30%;
   }
 }
