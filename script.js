@@ -252,6 +252,7 @@ const bands = [
   ['Jack Black', `${path}/jack-black-album/`],
   ['Jo Cohen', `${path}/jo-cohen-band/`],
   ['Janji', `${path}/janji-band/`],
+  ['JPB', `${path}/jpb/`],
   ['Joji', `${path}/joji`],
   ['Johan Sebastian Bach', `${path}/johan-sebastian-bach/`],
   ['Bach', `${path}/johan-sebastian-bach/`],
