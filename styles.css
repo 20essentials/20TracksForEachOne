@@ -347,7 +347,7 @@ body::-webkit-scrollbar-thumb {
   scrollbar-width: thin;
   scrollbar-color: var(--color1, 'gray') black;
   --nav-of-options-top: 83px;
-  --nav-of-options-height: 32px;
+  --nav-of-options-height: 26px;
 
   .settings-backup {
     position: absolute;
@@ -393,6 +393,14 @@ body::-webkit-scrollbar-thumb {
       border-right: 2px solid #000;
       border-bottom: 2px solid #000;
 
+      &.button-nav-selected {
+        box-shadow: inset 0 0 26px #0008;
+
+        svg {
+          color: #fff;
+        }
+      }
+
       &:nth-child(even) {
         background: var(--color2);
       }
@@ -409,8 +417,8 @@ body::-webkit-scrollbar-thumb {
       }
 
       svg {
-        width: 80%;
-        height: 80%;
+        width: 75%;
+        height: 75%;
         pointer-events: none;
       }
     }

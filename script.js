@@ -2193,9 +2193,9 @@ function renderPlaylistCards() {
     playListSection.append(fragmento);
   }
 
-  let playListSection = d.querySelector(".playlist-section-articles");
-  playlistCards = [...playListSection.querySelectorAll(".card-single")];
-  playlistCardsOriginal = [...playlistCards]; 
+  let playListSection = d.querySelector('.playlist-section-articles');
+  playlistCards = [...playListSection.querySelectorAll('.card-single')];
+  playlistCardsOriginal = [...playlistCards];
   addFotoStars();
 }
 
@@ -2299,43 +2299,60 @@ bands.forEach(band => {
 });
 
 $modalAllArtists.append(amFragment);
+let lastbuttonNavActive = $('.am-button-nav-modal');
 
 /* ===========================Navbar of Buttons Playlist========================= */
-document.addEventListener("click", (e) => {
-  if (!e.target.matches(".am-button-nav-modal")) return;
+document.addEventListener('click', e => {
+  if (!e.target.matches('.am-button-nav-modal')) return;
   if (!playlistCards || playlistCards.length === 0) return;
+  if (lastbuttonNavActive) {
+    lastbuttonNavActive.classList.remove('button-nav-selected');
+    lastbuttonNavActive = null;
+  }
+  if (!lastbuttonNavActive) {
+    e.target.classList.add('button-nav-selected');
+    lastbuttonNavActive = e.target;
+  }
 
-  let playListSection = d.querySelector(".playlist-section-articles");
+  let playListSection = d.querySelector('.playlist-section-articles');
 
-  if (e.target.matches(".order")) {
+  if (e.target.matches('.order')) {
     playlistCards = [...playlistCardsOriginal];
   }
 
-  if (e.target.matches(".unorder")) {
+  if (e.target.matches('.unorder')) {
     playlistCards = [...playlistCardsOriginal];
     playlistCards.reverse();
   }
 
-  if (e.target.matches(".random")) {
+  if (e.target.matches('.random')) {
     playlistCards.sort(() => Math.random() - 0.5);
   }
 
-  if (e.target.matches(".a-to-z")) {
+  if (e.target.matches('.a-to-z')) {
     playlistCards.sort((a, b) => {
-      let nameA = a.querySelector(".card-single-right h3").textContent.toLowerCase();
-      let nameB = b.querySelector(".card-single-right h3").textContent.toLowerCase();
+      let nameA = a
+        .querySelector('.card-single-right h3')
+        .textContent.toLowerCase();
+      let nameB = b
+        .querySelector('.card-single-right h3')
+        .textContent.toLowerCase();
       return nameA.localeCompare(nameB);
     });
   }
 
-  if (e.target.matches(".z-to-a")) {
+  if (e.target.matches('.z-to-a')) {
     playlistCards.sort((a, b) => {
-      let nameA = a.querySelector(".card-single-right h3").textContent.toLowerCase();
-      let nameB = b.querySelector(".card-single-right h3").textContent.toLowerCase();
+      let nameA = a
+        .querySelector('.card-single-right h3')
+        .textContent.toLowerCase();
+      let nameB = b
+        .querySelector('.card-single-right h3')
+        .textContent.toLowerCase();
       return nameB.localeCompare(nameA);
     });
   }
 
-  playListSection.innerHTML = "";
-  playlistCards.forEach((card) => playListSection.append(card));
+  playListSection.innerHTML = '';
+  playlistCards.forEach(card => playListSection.append(card));
 });
