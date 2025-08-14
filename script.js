@@ -38,6 +38,7 @@ const bands = [
   ['Bob Marley', `${path}/bob-marley-album/`],
   ['Blackpink', `${path}/blackpink/`],
   ['Barbie', `${path}/barbie-album/`],
+  ['Barnard', `${path}/barnard/`],
   ['Belle and Sebastian', `${path}/belle-and-sebastian/`],
   ['Breaking Bad', `${path}/breaking-bad/`],
   ['Barren Gates', `${path}/barren-gates-ost/`],
