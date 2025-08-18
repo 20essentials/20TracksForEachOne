@@ -115,6 +115,7 @@ const bands = [
   ['Daft Punk', `${path}/daft-punk-band/`],
   ['Don Omar', `${path}/don-omar-album/`],
   ['Dinosaur Jr', `${path}/dinosaur-jr/`],
+  ['Diamond Eyes', `${path}/di4mond-ey3s//`],
   ['Different Heaven', `${path}/different-heaven-album/`],
   ['Diviners', `${path}/diviners-band/`],
   ['David Guetta', `${path}/david-guetta-ost/`],
