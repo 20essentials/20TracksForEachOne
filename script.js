@@ -350,6 +350,7 @@ const bands = [
   ['Mr Kitty', `${path}/mr-kitty-ost/`],
   ['Mgmt', `${path}/mgmt-band/`],
   ['Marlon Roudette', `${path}/marlon-roudette-band/`],
+  ['Max Bhron', `${path}/max-bhron/`],
   ['Modest Mouse', `${path}/modest-mouse-soundtrack/`],
   ['Mazemirror', `${path}/mazemirror-band/`],
   ['Magneto', `${path}/magneto-band/`],
