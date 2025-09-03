@@ -3,6 +3,7 @@ const path = 'https://20essentials.github.io';
 const bands = [
   /* ======================= A ======================= */
   ['Asian Kung Fu Generation', `${path}/akfg-band/`],
+  ['Anna Carina', `${path}/ann4-c4rina/`],
   ['Alice Deejay', `${path}/alice-deejay/`],
   ['Al Bano e Romina Power', `${path}/al-bano-e-romina-power/`],
   ['Avenida Larco', `${path}/avenida-larco/`],
