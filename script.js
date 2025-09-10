@@ -290,6 +290,7 @@ const bands = [
   ['Kasabian', `${path}/kasabian-band/`],
   ['Katy Perry', `${path}/katy-perry-ost/`],
   ['Kaleo', `${path}/kaleo-ost/`],
+  ['Kendrick Lamar', `${path}/k3ndrick-lamar/`],
   ['Kimbra', `${path}/kimbra`],
   ['Kmfdm', `${path}/kmfdm-band/`],
   ['Kaiser Chiefs', `${path}/kaiser-chiefs-ost/`],
