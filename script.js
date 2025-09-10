@@ -531,6 +531,7 @@ const bands = [
   ['Shakira', `${path}/shakira-album/`],
   ['Selena Gomez', `${path}/selena-gomez-ost/`],
   ['Soda Stereo', `${path}/soda-stereo-album/`],
+  ['Sebastian Ingrosso', `${path}/sebastian-ingrosso/`],
   ['Syn Cole', `${path}/syn-cole-album`],
   ['Sebastian Palma', `${path}/sebastian-palma-ost/`],
   ['Sad Puppy', `${path}/sad-puppy-band/`],
