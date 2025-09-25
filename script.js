@@ -225,6 +225,7 @@ const bands = [
   ['Hot Chip', `${path}/hot-chip-ost/`],
   ['How To Train Your Dragon', `${path}/how-to-train-your-dragon-soundtrack/`],
   ['Home', `${path}/home-band/`],
+  ['House of the Dragon', `${path}/house-of-the-dragon/`],
   ['Hikaru Utada', `${path}/hikaru-utada-album/`],
   ['Ha-Ash', `${path}/ha-ash-band/`],
   ['Hilary Cousins', `${path}/hilary-cousins/`],
