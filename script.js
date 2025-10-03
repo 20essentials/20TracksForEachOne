@@ -102,6 +102,7 @@ const bands = [
   ['Culture Beat', `${path}/culture-beat-band/`],
   ['Chvrches', `${path}/chvrches-band/`],
   ['Can', `${path}/can-band/`],
+  ['Chris Linton', `${path}/chris-linton`],
 
   /* ======================= D ======================= */
   ['Deep Purple', `${path}/deep-purple-band/`],
