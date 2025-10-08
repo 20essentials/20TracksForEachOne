@@ -372,6 +372,7 @@ const bands = [
   ['Marwa Loud', `${path}/marwa-loud-soundtrack/`],
   ['Myke Towers', `${path}/myke-towers-soundtrack/`],
   ['Marilyn Manson', `${path}/marilyn-manson-soundtrack/`],
+  ['Madcon', `${path}/madcon/`],
   ['Mutiny On The Bounty', `${path}/mutiny-on-the-bounty-band/`],
   ['Matrix', `${path}/matrix-soundtrack/`],
   ['Mana', `${path}/mana-band/`],
