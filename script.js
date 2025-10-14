@@ -145,6 +145,7 @@ const bands = [
   ['Eagles', `${path}/eagles-album/`],
   ['Elvis Presley', `${path}/elvis-presley/`],
   ['Earth', `${path}/earth-band/`],
+  ['Emdi', `${path}/emdi/`],
   ['Electro Light', `${path}/electro-light-album/`],
   ['Eurythmics', `${path}/eurythmics-album/`],
   ['Elton John', `${path}/elton-john-album/`],
