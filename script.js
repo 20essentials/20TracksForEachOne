@@ -221,6 +221,7 @@ const bands = [
   ['Hiroyuki Sawano', `${path}/sawano-hiro/`],
   ['Hardwell', `${path}/hardwell-band/`],
   ['Him', `${path}/him/`],
+  ['Hiroshi Kitadani', `${path}/hiroshi-kitadani/`],
   ['Heuse and Zeus', `${path}/heuse-and-zeus/`],
   ['Hombres G', `${path}/hombres-g/`],
   ['Hans Zimmer', `${path}/hans-zimmer-ost/`],
