@@ -415,6 +415,7 @@ const bands = [
   ["Oscar D'león", `${path}/oscar-d-leon-album/`],
   ['Oasis', `${path}/oasis-ost/`],
   ['Outkast', `${path}/outkast-band/`],
+  ['Olivia Rodrigo', `${path}/ol1via-rodr1go`],
   ['Omar Cabán', `${path}/omar-caban-ost/`],
   ['Ofdream', `${path}/ofdream/`],
   ['Oneheart', `${path}/oneheart-album/`],
