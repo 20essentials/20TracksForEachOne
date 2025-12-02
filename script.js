@@ -438,6 +438,7 @@ const bands = [
   ['Project X', `${path}/proyecto-x/`],
   ['Pixies', `${path}/pixies-band/`],
   ['Portwave', `${path}/portwave-album/`],
+  ['Prokyon', `${path}/prokyon/`],
   ['Phillip Phillips', `${path}/phillip-phillips-album/`],
   ['Pastel Ghost', `${path}/pastel-ghost-album/`],
   ['Phantogram', `${path}/phantogram-band/`],
