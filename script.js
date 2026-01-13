@@ -584,6 +584,7 @@ const bands = [
   ['Tony Igy', `${path}/tony-igy-soundtrack/`],
   ['The Smiths', `${path}/the-smiths-album/`],
   ['Toto', `${path}/toto-band/`],
+  ['Tremolo', `${path}/tremolo`],
   ['The Cure', `${path}/the-cure/`],
   ['The Kinks', `${path}/the-kinks-album/`],
   ['Timbaland', `${path}/timbaland-album/`],
