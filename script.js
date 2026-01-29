@@ -394,6 +394,7 @@ const bands = [
   /* ======================= N ======================= */
   ['Nirvana', `${path}/nirvana-band/`],
   ['Nino Bravo', `${path}/nino-bravo/`],
+  ['Nazareth', `${path}/nazareth/`],
   ['Noemi', `${path}/noemi/`],
   ['Noisestorm', `${path}/noisestorm-band/`],
   ['New Found Glory', `${path}/new-found-glory-band/`],
