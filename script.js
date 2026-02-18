@@ -132,6 +132,7 @@ const bands = [
   ['Dream League Soccer 2016', `${path}/dls-2016/`],
   ['Dream League Soccer 2020', `${path}/dls-2020/`],
   ['Duncan Laurence', `${path}/duncan-laurence-ost/`],
+  ['Desmeon', `${path}/desmeon/`],
   ['Daughter', `${path}/daughter-ost/`],
   ['Dire Straits', `${path}/dire-straits-ost/`],
   ['Dead or Alive', `${path}/dead-or-alive-band/`],
