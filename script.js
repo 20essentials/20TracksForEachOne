@@ -310,6 +310,7 @@ const bands = [
   ['Ludwig Van Beethoven', `${path}/beethoven/`],
   ['La India', `${path}/la-india/`],
   ['Loreen', `${path}/loreen/`],
+  ['Lorde', `${path}/lorde/`],
   ['Le Castlevania', `${path}/le-castle-vania-ost-/`],
   ['Lady Gaga', `${path}/lady-gaga-ost/`],
   ['Lenny Kravitz', `${path}/lenny-kravitz-album/`],
