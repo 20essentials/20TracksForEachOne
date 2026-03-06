@@ -419,6 +419,7 @@ const bands = [
   /* ======================= O ======================= */
   ["Oscar D'león", `${path}/oscar-d-leon-album/`],
   ['Oasis', `${path}/oasis-ost/`],
+  ['One Piece Openings 1 To 20', `${path}/one-piece-openings-1-to-20/`],
   ['Outkast', `${path}/outkast-band/`],
   ['Olivia Rodrigo', `${path}/ol1via-rodr1go`],
   ['Omar Cabán', `${path}/omar-caban-ost/`],
