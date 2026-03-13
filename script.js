@@ -420,6 +420,7 @@ const bands = [
   ["Oscar D'león", `${path}/oscar-d-leon-album/`],
   ['Oasis', `${path}/oasis-ost/`],
   ['One Piece Soundtrack', `${path}/one-piece-soundtrack/`],
+  ['One Piece Soundtrack Part 2', `${path}/one-piece-soundtrack-part-2/`],
   ['Outkast', `${path}/outkast-band/`],
   ['Olivia Rodrigo', `${path}/ol1via-rodr1go`],
   ['Omar Cabán', `${path}/omar-caban-ost/`],
