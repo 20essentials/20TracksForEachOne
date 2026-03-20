@@ -421,6 +421,7 @@ const bands = [
   ['Oasis', `${path}/oasis-ost/`],
   ['One Piece Soundtrack', `${path}/one-piece-soundtrack/`],
   ['One Piece Soundtrack Part 2', `${path}/one-piece-soundtrack-part-2/`],
+  ['One Piece Soundtrack Part 3', `${path}/one-piece-soundtrack-part-3/`],
   ['Outkast', `${path}/outkast-band/`],
   ['Olivia Rodrigo', `${path}/ol1via-rodr1go`],
   ['Omar Cabán', `${path}/omar-caban-ost/`],
