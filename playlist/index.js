@@ -308,6 +308,7 @@ const playAllSongs = (songs, selector) => {
         $audio.currentTime = 0;
       }
       $audio.src = songs[index];
+      $audio.loop = false;
       removeClassBlockedButtonNextSiblings($btnsPlay[index]);
       showTitle(index);
 
