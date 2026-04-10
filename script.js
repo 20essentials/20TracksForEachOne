@@ -534,7 +534,6 @@ const bands = [
   ['Sandra', `${path}/sandra-album/`],
   ['Sandro', `${path}/sandro/`],
   ['Snoop Dogg', `${path}/sn00p-dogg/`],
-  ['Skrillex', `${path}/skrillex-album/`],
   ['Stevie Wonder', `${path}/stevie-wonder-album/`],
   ['Skyrim', `${path}/skyrim-album/`],
   ['Ship Wrek', `${path}/ship-wrek-soundtrack/`],
