@@ -550,7 +550,6 @@ const bands = [
   ['Sebastian Palma', `${path}/sebastian-palma-ost/`],
   ['Sad Puppy', `${path}/sad-puppy-band/`],
   ['Savage Garden', `${path}/savage-garden-album/`],
-  ['Skyfall Beats', `${path}/skyfall-beats-album/`],
   ['Sur Andino', `${path}/sur-andino-album/`],
   ['Saint Motel', `${path}/saint-motel-band/`],
   ['Sangiovanni', `${path}/sangiovanni-album/`],
