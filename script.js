@@ -548,7 +548,6 @@ const bands = [
   ['Sebastian Ingrosso', `${path}/sebastian-ingrosso/`],
   ['Syn Cole', `${path}/syn-cole-album`],
   ['Sebastian Palma', `${path}/sebastian-palma-ost/`],
-  ['Sad Puppy', `${path}/sad-puppy-band/`],
   ['Savage Garden', `${path}/savage-garden-album/`],
   ['Sur Andino', `${path}/sur-andino-album/`],
   ['Saint Motel', `${path}/saint-motel-band/`],
