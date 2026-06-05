@@ -1,5 +1,4 @@
 const path = 'https://20essentials.github.io';
-
 const bands = [
   /* ======================= A ======================= */
   ['Asian Kung Fu Generation', `${path}/akfg-band/`],
